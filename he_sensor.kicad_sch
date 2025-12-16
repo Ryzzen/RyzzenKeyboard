@@ -1,0 +1,622 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "c02fd49f-1e8d-4f92-ad39-3806156ff344")
+	(paper "A4")
+	(lib_symbols
+		(symbol "A1324:A1324LLHLT-T"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 20.32 10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "A1324LLHLT-T"
+				(at 20.32 7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "DIO_A1324LLHLT-T_ALM"
+				(at -6.35 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "A1324LLHLT-T"
+				(at -6.35 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "A1324LLHLT-T"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DIO_A1324LLHLT-T_ALM DIO_A1324LLHLT-T_ALM-M DIO_A1324LLHLT-T_ALM-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "A1324LLHLT-T_0_1"
+				(polyline
+					(pts
+						(xy 15.24 6.35) (xy 15.24 1.27)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 1.27) (xy 26.67 1.27)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 26.67 6.35) (xy 15.24 6.35)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 26.67 1.27) (xy 26.67 6.35)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 7.62 3.81 0)
+					(length 7.62)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 34.29 5.08 180)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 34.29 2.54 180)
+					(length 7.62)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 168.91 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "37f0925c-8f2e-40e9-b207-06d5d190fd9d")
+	)
+	(junction
+		(at 203.2 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e5afc733-2416-45aa-9e3d-c75b63858809")
+	)
+	(wire
+		(pts
+			(xy 161.29 77.47) (xy 168.91 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26950ead-17bc-4750-91a5-2a6c721d7f24")
+	)
+	(wire
+		(pts
+			(xy 203.2 85.09) (xy 203.2 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1d351cb-7aab-4dd1-bd5d-a61a9da0bd70")
+	)
+	(wire
+		(pts
+			(xy 203.2 76.2) (xy 203.2 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2cb5454-287f-497a-8e61-3489dcb1b40f")
+	)
+	(wire
+		(pts
+			(xy 195.58 76.2) (xy 203.2 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "debe32ad-1ea1-455d-a5d0-32a7b51baad5")
+	)
+	(wire
+		(pts
+			(xy 203.2 85.09) (xy 168.91 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e956794a-ce96-465a-86c7-6d06b6f049c5")
+	)
+	(hierarchical_label "Vout"
+		(shape output)
+		(at 195.58 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1eac23c9-156b-4363-92af-3edf006b11aa")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 203.2 86.36 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7b2b20c1-2db8-4020-ac6d-03efce784e10")
+	)
+	(hierarchical_label "Vcc"
+		(shape input)
+		(at 161.29 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "91905d76-0c4a-45cb-9a9d-866251713e1f")
+	)
+	(symbol
+		(lib_id "A1324:A1324LLHLT-T")
+		(at 161.29 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6432a193-a484-4d65-8afe-7382948133c7")
+		(property "Reference" "U1"
+			(at 181.61 71.12 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "A1324LLHLT-T"
+			(at 181.61 73.66 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "DIO_A1324LLHLT-T_ALM"
+			(at 161.29 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "A1324LLHLT-T"
+			(at 161.29 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 161.29 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f133571-b3d3-42df-a2aa-2d1ccf11edfc")
+		)
+		(pin "2"
+			(uuid "2d3d27fb-42e2-4e28-96ac-2c569e74380d")
+		)
+		(pin "3"
+			(uuid "61fcc524-6920-47c9-a0ac-27d133c21b2f")
+		)
+		(instances
+			(project "RyzzenKeyboard"
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/4063dd65-ea14-4c8c-b4af-6e2593c21bb8/01a6b865-280b-4c8a-8f6c-9f77f1015a35"
+					(reference "U1")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/4063dd65-ea14-4c8c-b4af-6e2593c21bb8/29e6dd4a-8c97-4b07-9c78-e5799c50f233"
+					(reference "U5")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/4063dd65-ea14-4c8c-b4af-6e2593c21bb8/3ae092e9-74bc-40e8-9a5a-835387bd1b6f"
+					(reference "U8")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/4063dd65-ea14-4c8c-b4af-6e2593c21bb8/4b6df280-2992-4f31-be29-fdf2fdb4611c"
+					(reference "U3")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/4063dd65-ea14-4c8c-b4af-6e2593c21bb8/b5c1f05c-36ad-4245-9fcd-833e5f4494d6"
+					(reference "U2")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/4063dd65-ea14-4c8c-b4af-6e2593c21bb8/cde89e47-fdc1-44e5-a2fa-b31d46034349"
+					(reference "U9")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/4063dd65-ea14-4c8c-b4af-6e2593c21bb8/d059d6dc-b18e-40ca-9dd8-315a6215fce0"
+					(reference "U7")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/4063dd65-ea14-4c8c-b4af-6e2593c21bb8/e06d952e-6d32-4ee5-8bc3-cc27d7363526"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 168.91 81.28 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e35b9445-c418-4fc4-a999-10f11c2dd6a5")
+		(property "Reference" "C"
+			(at 172.72 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.1µF"
+			(at 172.72 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.9448 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 168.91 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7e262f9b-57e1-4748-8f34-bac1e6b6d1a6")
+		)
+		(pin "1"
+			(uuid "9676f838-5bf7-4120-b1fa-9f697b3aec14")
+		)
+		(instances
+			(project "RyzzenKeyboard"
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/4063dd65-ea14-4c8c-b4af-6e2593c21bb8/29e6dd4a-8c97-4b07-9c78-e5799c50f233"
+					(reference "C4")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/4063dd65-ea14-4c8c-b4af-6e2593c21bb8/3ae092e9-74bc-40e8-9a5a-835387bd1b6f"
+					(reference "C7")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/4063dd65-ea14-4c8c-b4af-6e2593c21bb8/4b6df280-2992-4f31-be29-fdf2fdb4611c"
+					(reference "C3")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/4063dd65-ea14-4c8c-b4af-6e2593c21bb8/b5c1f05c-36ad-4245-9fcd-833e5f4494d6"
+					(reference "C2")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/4063dd65-ea14-4c8c-b4af-6e2593c21bb8/cde89e47-fdc1-44e5-a2fa-b31d46034349"
+					(reference "C8")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/4063dd65-ea14-4c8c-b4af-6e2593c21bb8/d059d6dc-b18e-40ca-9dd8-315a6215fce0"
+					(reference "C6")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/4063dd65-ea14-4c8c-b4af-6e2593c21bb8/e06d952e-6d32-4ee5-8bc3-cc27d7363526"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

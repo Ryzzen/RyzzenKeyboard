@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "A1324")(type "KiCad")(uri "${KIPRJMOD}/librairies/A1324LLHLT_T/2025-12-16_09-57-00.kicad_sym")(options "")(descr ""))
+  (lib (name "MCP3208")(type "KiCad")(uri "${KIPRJMOD}/librairies/MCP3208/2025-12-16_11-02-05.kicad_sym")(options "")(descr ""))
+)

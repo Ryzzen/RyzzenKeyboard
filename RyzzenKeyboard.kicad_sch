@@ -2,9 +2,51 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid 5d44d704-6136-40a8-98a4-93f001ea8743)
+	(uuid "5d44d704-6136-40a8-98a4-93f001ea8743")
 	(paper "A4")
 	(lib_symbols)
+	(sheet
+		(at 101.6 80.01)
+		(size 41.91 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4063dd65-ea14-4c8c-b4af-6e2593c21bb8")
+		(property "Sheetname" "key_bank"
+			(at 101.6 79.2984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "key_bank.kicad_sch"
+			(at 101.6 108.5346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RyzzenKeyboard"
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
