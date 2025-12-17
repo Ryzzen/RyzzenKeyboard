@@ -6,8 +6,8 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 101.6 80.01)
-		(size 41.91 27.94)
+		(at 119.38 119.38)
+		(size 43.18 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -20,9 +20,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "4063dd65-ea14-4c8c-b4af-6e2593c21bb8")
-		(property "Sheetname" "key_bank"
-			(at 101.6 79.2984 0)
+		(uuid "c5dd3d76-8c7d-4253-bbc0-6b560edbfa92")
+		(property "Sheetname" "keys"
+			(at 118.6684 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30,8 +30,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_bank.kicad_sch"
-			(at 101.6 108.5346 0)
+		(property "Sheetfile" "keys.kicad_sch"
+			(at 163.1446 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39,10 +39,190 @@
 				(justify left top)
 			)
 		)
+		(pin "CLK" input
+			(at 123.19 119.38 90)
+			(uuid "7d3fc7e9-edb4-4623-854e-115c2549882e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Din" input
+			(at 125.73 119.38 90)
+			(uuid "8129d1be-910d-4abb-b7fb-0c61fd966244")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Dout" output
+			(at 128.27 119.38 90)
+			(uuid "6835531c-716f-4518-9a24-af5fa10e0f1c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CS1" input
+			(at 133.35 119.38 90)
+			(uuid "f77beae1-6fb7-4c73-a4be-1e759db7f67c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CS2" input
+			(at 135.89 119.38 90)
+			(uuid "4f125fa0-7b78-4406-86c5-5add10e83c4c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CS3" input
+			(at 138.43 119.38 90)
+			(uuid "b971a814-6058-47ac-af44-c66abb37318f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CS4" input
+			(at 140.97 119.38 90)
+			(uuid "0d994fa3-bf3b-421b-83e2-af0d1a829ce4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CS5" input
+			(at 143.51 119.38 90)
+			(uuid "ed2d4584-7e1b-4cf9-b2df-507cba952f43")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CS6" input
+			(at 146.05 119.38 90)
+			(uuid "bc60b709-c89c-421a-8dbc-7e2fead099d1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CS7" input
+			(at 148.59 119.38 90)
+			(uuid "211392b1-0672-45a1-b9ab-4d3d773d0c14")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CS8" input
+			(at 151.13 119.38 90)
+			(uuid "ea8b2380-53a5-4775-9f3c-a6863dd0a1f0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CS9" input
+			(at 153.67 119.38 90)
+			(uuid "f5a585c3-041d-499f-a593-ed90e74d8bd2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CS10" input
+			(at 156.21 119.38 90)
+			(uuid "7de8f823-4281-415f-8906-b31038d1c9b8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CS11" input
+			(at 158.75 119.38 90)
+			(uuid "0040ce9b-4f71-4956-9651-17f5a76c5425")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Vref" input
+			(at 135.89 135.89 270)
+			(uuid "87fcda44-bd42-4e57-b666-439a445bd8c9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vdd" input
+			(at 138.43 135.89 270)
+			(uuid "6d8b0e78-06e5-4d49-aff4-4a81f4d25932")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AGND" input
+			(at 140.97 135.89 270)
+			(uuid "838b890a-2157-47f3-912c-b7a88b50b530")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DGND" input
+			(at 143.51 135.89 270)
+			(uuid "40ac3439-d6fc-42ca-83f7-1a10141ddb4b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743"
-					(page "2")
+					(page "101")
 				)
 			)
 		)
