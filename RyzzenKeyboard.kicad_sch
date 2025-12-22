@@ -3728,7 +3728,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "6pF"
 			(at 46.99 81.2799 0)
 			(effects
 				(font
@@ -4684,7 +4684,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "6pF"
 			(at 62.23 81.2799 0)
 			(effects
 				(font
