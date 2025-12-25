@@ -1,0 +1,27 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model CT100LW-IS6
+#/19556164/1770554/2.50/6/3/Integrated Circuit
+DEF CT100LW-IS6 IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "CT100LW-IS6" 1050 200 50 H V L CNN
+F2 "SOT95P280X135-6N" 1050 100 50 H I L CNN
+F3 "" 1050 0 50 H I L CNN
+F4 "Board Mount Hall Effect / Magnetic Sensors Differential TMR High Sensitivity Magnetic 1D Linear  Sensor ,SOT23 - 6 pin Package, I-Temp" 1050 -100 50 H I L CNN "Description"
+F5 "1.35" 1050 -200 50 H I L CNN "Height"
+F6 "462-CT100LW-IS6" 1050 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Allegro-MicroSystems/CT100LW-IS6?qs=h6V4JsTaLXdVOvhloa7DxQ%3D%3D" 1050 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Allegro Microsystems" 1050 -500 50 H I L CNN "Manufacturer_Name"
+F9 "CT100LW-IS6" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X X2 1 0 0 200 R 50 50 0 0 P
+X N/C_1 2 0 -100 200 R 50 50 0 0 P
+X X1 3 0 -200 200 R 50 50 0 0 P
+X VDD 6 1200 0 200 L 50 50 0 0 P
+X N/C_2 5 1200 -100 200 L 50 50 0 0 P
+X GND 4 1200 -200 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -2,4 +2,8 @@
   (version 7)
   (lib (name "A1324")(type "KiCad")(uri "${KIPRJMOD}/librairies/A1324LLHLT_T/2025-12-16_09-57-00.kicad_sym")(options "")(descr ""))
   (lib (name "MCP3208")(type "KiCad")(uri "${KIPRJMOD}/librairies/MCP3208/2025-12-16_11-02-05.kicad_sym")(options "")(descr ""))
+  (lib (name "ECS-250-8-30B-CKM")(type "KiCad")(uri "${KIPRJMOD}/librairies/ECS-250-8-30B-CKM/ECS-250-8-30B-CKM.kicad_sym")(options "")(descr ""))
+  (lib (name "CT100LW-IS6")(type "KiCad")(uri "${KIPRJMOD}/librairies/CT100LW-IS6/CT100LW-IS6.kicad_sym")(options "")(descr ""))
+  (lib (name "ADG726BSUZ")(type "KiCad")(uri "${KIPRJMOD}/librairies/ADG726BSUZ/ADG726BSUZ.kicad_sym")(options "")(descr ""))
+  (lib (name "LD39100PU33RY")(type "KiCad")(uri "${KIPRJMOD}/librairies/LD39100PU33RY/LD39100PU33RY.kicad_sym")(options "")(descr ""))
 )
