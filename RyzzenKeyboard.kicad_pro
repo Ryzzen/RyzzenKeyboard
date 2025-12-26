@@ -824,6 +824,10 @@
     [
       "a8317dab-46d7-4786-8a28-88bb5b7edb32",
       "TMR_sensor13"
+    ],
+    [
+      "0036604f-0404-4489-ae96-63f6d5cdfcc2",
+      "HID_SPI_bridge"
     ]
   ],
   "text_variables": {}
