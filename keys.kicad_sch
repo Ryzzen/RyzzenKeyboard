@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "0d97975b-b89a-4f33-a111-4caa74c2de68")
 	(paper "A4")
+	(title_block
+		(title "TMR based triple USB Keyboard")
+		(date "2025-12-28")
+		(rev "v1")
+		(company "Ryzzen")
+	)
 	(lib_symbols)
 	(junction
 		(at 194.31 82.55)
@@ -2511,7 +2517,7 @@
 		(instances
 			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/c5dd3d76-8c7d-4253-bbc0-6b560edbfa92"
-					(page "4")
+					(page "108")
 				)
 			)
 		)
@@ -2940,7 +2946,7 @@
 		(instances
 			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/c5dd3d76-8c7d-4253-bbc0-6b560edbfa92"
-					(page "2")
+					(page "4")
 				)
 			)
 		)

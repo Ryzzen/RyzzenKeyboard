@@ -378,7 +378,7 @@
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
-      "intersheets_ref_show": false,
+      "intersheets_ref_show": true,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
       "label_size_ratio": 0.375,
@@ -397,7 +397,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "/home/ryzzen/Documents/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -414,16 +414,20 @@
       "Root"
     ],
     [
+      "0036604f-0404-4489-ae96-63f6d5cdfcc2",
+      "HID_SPI_bridge"
+    ],
+    [
+      "c5dd3d76-8c7d-4253-bbc0-6b560edbfa92",
+      "keys"
+    ],
+    [
       "a1b59adb-224c-4a31-865b-1e7950bd0f40",
       "key_bank"
     ],
     [
       "1f668741-8401-4293-80f3-47e36091ffaa",
       "TMR_sensor1"
-    ],
-    [
-      "3892192a-9e74-4718-aa5a-d4dfa6dc670f",
-      "key_bank1"
     ],
     [
       "22f52eda-6e0b-4a59-b9b1-9e3a4c9f6f43",
@@ -464,10 +468,6 @@
     [
       "7d692c4d-1e42-481b-b7f6-872664c92db2",
       "TMR_sensor"
-    ],
-    [
-      "720b83aa-4d32-4780-b9a7-4edb2f45e362",
-      "TMR_sensor2"
     ],
     [
       "2fd9471e-29c5-4e6b-a997-a8e07abf334e",
@@ -810,8 +810,8 @@
       "TMR_sensor14"
     ],
     [
-      "c5dd3d76-8c7d-4253-bbc0-6b560edbfa92",
-      "keys"
+      "720b83aa-4d32-4780-b9a7-4edb2f45e362",
+      "TMR_sensor2"
     ],
     [
       "7d692c4d-1e42-481b-b7f6-872664c92db2",
@@ -826,8 +826,16 @@
       "TMR_sensor13"
     ],
     [
-      "0036604f-0404-4489-ae96-63f6d5cdfcc2",
-      "HID_SPI_bridge"
+      "9fd53b65-5f61-4bcf-b815-5987103f089e",
+      "HID_SPI_bridge1"
+    ],
+    [
+      "5ad453cb-3dcf-48d6-b202-ee59077c2cfd",
+      "HID_SPI_bridge2"
+    ],
+    [
+      "3892192a-9e74-4718-aa5a-d4dfa6dc670f",
+      "key_bank1"
     ]
   ],
   "text_variables": {}

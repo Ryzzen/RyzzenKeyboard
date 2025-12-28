@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "a1cd76d8-f4ac-42bf-9aee-ef603be8b2aa")
 	(paper "A4")
+	(title_block
+		(title "TMR based triple USB Keyboard")
+		(date "2025-12-28")
+		(rev "v1")
+		(company "Ryzzen")
+	)
 	(lib_symbols
 		(symbol "ADG726BSUZ:ADG726BSUZ"
 			(exclude_from_sim no)
@@ -1248,6 +1254,54 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 59.69 15.24)
+		(end 100.33 193.04)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4f3b96c0-a96d-4127-95b4-ca0d3afa92ba)
+	)
+	(rectangle
+		(start 123.19 72.39)
+		(end 237.49 138.43)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid fa204d7c-22c6-4683-a36c-62a993868d5f)
+	)
+	(text "TMR sensors"
+		(exclude_from_sim no)
+		(at 110.998 17.018 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+			)
+		)
+		(uuid "53ee6908-134e-464a-bfc8-8e81f4e84694")
+	)
+	(text "Analog multiplexer"
+		(exclude_from_sim no)
+		(at 136.652 70.104 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+			)
+		)
+		(uuid "89a2cbd3-ec4f-4213-bbc9-9d71de15ff46")
 	)
 	(junction
 		(at 66.04 115.57)
@@ -3107,7 +3161,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a66fb5e-08e7-47ab-9b36-660397418472")
-		(property "Reference" "IC1"
+		(property "Reference" "IC2"
 			(at 199.39 85.9946 90)
 			(effects
 				(font
@@ -3353,23 +3407,23 @@
 					(unit 1)
 				)
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/c5dd3d76-8c7d-4253-bbc0-6b560edbfa92/3892192a-9e74-4718-aa5a-d4dfa6dc670f"
-					(reference "IC2")
+					(reference "IC4")
 					(unit 1)
 				)
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/c5dd3d76-8c7d-4253-bbc0-6b560edbfa92/735f3a62-f16a-407d-b596-d90350aa3066"
-					(reference "IC21")
+					(reference "IC23")
 					(unit 1)
 				)
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/c5dd3d76-8c7d-4253-bbc0-6b560edbfa92/7ffe2115-dd72-444b-89b3-b9005c9fe688"
-					(reference "IC22")
+					(reference "IC44")
 					(unit 1)
 				)
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/c5dd3d76-8c7d-4253-bbc0-6b560edbfa92/a1b59adb-224c-4a31-865b-1e7950bd0f40"
-					(reference "IC1")
+					(reference "IC2")
 					(unit 1)
 				)
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/c5dd3d76-8c7d-4253-bbc0-6b560edbfa92/cc77bec8-d3cc-43bb-b7a5-b3b6cadba114"
-					(reference "IC62")
+					(reference "IC78")
 					(unit 1)
 				)
 			)
@@ -3384,7 +3438,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "679669a2-79a9-4aa0-bcc9-cf3bfa2bc208")
-		(property "Reference" "R2"
+		(property "Reference" "R4"
 			(at 205.74 101.854 90)
 			(effects
 				(font
@@ -3436,27 +3490,27 @@
 		(instances
 			(project ""
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/c5dd3d76-8c7d-4253-bbc0-6b560edbfa92/13b615a6-6b6e-4376-a5a5-45c5057b142a"
-					(reference "R6")
+					(reference "R8")
 					(unit 1)
 				)
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/c5dd3d76-8c7d-4253-bbc0-6b560edbfa92/3892192a-9e74-4718-aa5a-d4dfa6dc670f"
-					(reference "R3")
-					(unit 1)
-				)
-				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/c5dd3d76-8c7d-4253-bbc0-6b560edbfa92/735f3a62-f16a-407d-b596-d90350aa3066"
-					(reference "R4")
-					(unit 1)
-				)
-				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/c5dd3d76-8c7d-4253-bbc0-6b560edbfa92/7ffe2115-dd72-444b-89b3-b9005c9fe688"
 					(reference "R5")
 					(unit 1)
 				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/c5dd3d76-8c7d-4253-bbc0-6b560edbfa92/735f3a62-f16a-407d-b596-d90350aa3066"
+					(reference "R6")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/c5dd3d76-8c7d-4253-bbc0-6b560edbfa92/7ffe2115-dd72-444b-89b3-b9005c9fe688"
+					(reference "R7")
+					(unit 1)
+				)
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/c5dd3d76-8c7d-4253-bbc0-6b560edbfa92/a1b59adb-224c-4a31-865b-1e7950bd0f40"
-					(reference "R2")
+					(reference "R4")
 					(unit 1)
 				)
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/c5dd3d76-8c7d-4253-bbc0-6b560edbfa92/cc77bec8-d3cc-43bb-b7a5-b3b6cadba114"
-					(reference "R7")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -3472,7 +3526,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d60a6477-5348-459b-a645-3688378392a5")
-		(property "Reference" "C124"
+		(property "Reference" "C15"
 			(at 222.25 114.2999 0)
 			(effects
 				(font
@@ -3526,27 +3580,27 @@
 		(instances
 			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/c5dd3d76-8c7d-4253-bbc0-6b560edbfa92/13b615a6-6b6e-4376-a5a5-45c5057b142a"
-					(reference "C128")
+					(reference "C78")
 					(unit 1)
 				)
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/c5dd3d76-8c7d-4253-bbc0-6b560edbfa92/3892192a-9e74-4718-aa5a-d4dfa6dc670f"
-					(reference "C125")
+					(reference "C18")
 					(unit 1)
 				)
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/c5dd3d76-8c7d-4253-bbc0-6b560edbfa92/735f3a62-f16a-407d-b596-d90350aa3066"
-					(reference "C126")
+					(reference "C38")
 					(unit 1)
 				)
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/c5dd3d76-8c7d-4253-bbc0-6b560edbfa92/7ffe2115-dd72-444b-89b3-b9005c9fe688"
-					(reference "C127")
+					(reference "C60")
 					(unit 1)
 				)
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/c5dd3d76-8c7d-4253-bbc0-6b560edbfa92/a1b59adb-224c-4a31-865b-1e7950bd0f40"
-					(reference "C124")
+					(reference "C15")
 					(unit 1)
 				)
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/c5dd3d76-8c7d-4253-bbc0-6b560edbfa92/cc77bec8-d3cc-43bb-b7a5-b3b6cadba114"
-					(reference "C129")
+					(reference "C96")
 					(unit 1)
 				)
 			)
@@ -3562,7 +3616,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5a69a8b-5b9d-4c8e-b6a2-38caaa2eb5de")
-		(property "Reference" "C67"
+		(property "Reference" "C14"
 			(at 209.55 114.2999 0)
 			(effects
 				(font
@@ -3616,27 +3670,27 @@
 		(instances
 			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/c5dd3d76-8c7d-4253-bbc0-6b560edbfa92/13b615a6-6b6e-4376-a5a5-45c5057b142a"
-					(reference "C122")
+					(reference "C77")
 					(unit 1)
 				)
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/c5dd3d76-8c7d-4253-bbc0-6b560edbfa92/3892192a-9e74-4718-aa5a-d4dfa6dc670f"
-					(reference "C68")
+					(reference "C17")
 					(unit 1)
 				)
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/c5dd3d76-8c7d-4253-bbc0-6b560edbfa92/735f3a62-f16a-407d-b596-d90350aa3066"
-					(reference "C120")
+					(reference "C37")
 					(unit 1)
 				)
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/c5dd3d76-8c7d-4253-bbc0-6b560edbfa92/7ffe2115-dd72-444b-89b3-b9005c9fe688"
-					(reference "C121")
+					(reference "C59")
 					(unit 1)
 				)
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/c5dd3d76-8c7d-4253-bbc0-6b560edbfa92/a1b59adb-224c-4a31-865b-1e7950bd0f40"
-					(reference "C67")
+					(reference "C14")
 					(unit 1)
 				)
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/c5dd3d76-8c7d-4253-bbc0-6b560edbfa92/cc77bec8-d3cc-43bb-b7a5-b3b6cadba114"
-					(reference "C123")
+					(reference "C95")
 					(unit 1)
 				)
 			)
@@ -3720,7 +3774,7 @@
 		(instances
 			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/c5dd3d76-8c7d-4253-bbc0-6b560edbfa92/a1b59adb-224c-4a31-865b-1e7950bd0f40"
-					(page "3")
+					(page "5")
 				)
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/c5dd3d76-8c7d-4253-bbc0-6b560edbfa92/3892192a-9e74-4718-aa5a-d4dfa6dc670f"
 					(page "13")
@@ -4406,7 +4460,7 @@
 		(instances
 			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/c5dd3d76-8c7d-4253-bbc0-6b560edbfa92/a1b59adb-224c-4a31-865b-1e7950bd0f40"
-					(page "15")
+					(page "101")
 				)
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/c5dd3d76-8c7d-4253-bbc0-6b560edbfa92/3892192a-9e74-4718-aa5a-d4dfa6dc670f"
 					(page "18")
