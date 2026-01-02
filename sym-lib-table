@@ -6,4 +6,7 @@
   (lib (name "CT100LW-IS6")(type "KiCad")(uri "${KIPRJMOD}/librairies/CT100LW-IS6/CT100LW-IS6.kicad_sym")(options "")(descr ""))
   (lib (name "ADG726BSUZ")(type "KiCad")(uri "${KIPRJMOD}/librairies/ADG726BSUZ/ADG726BSUZ.kicad_sym")(options "")(descr ""))
   (lib (name "LD39100PU33RY")(type "KiCad")(uri "${KIPRJMOD}/librairies/LD39100PU33RY/LD39100PU33RY.kicad_sym")(options "")(descr ""))
+  (lib (name "switches")(type "KiCad")(uri "${KIPRJMOD}/librairies/switches_symbols/switches.kicad_sym")(options "")(descr ""))
+  (lib (name "kicad-keyboard-parts")(type "Legacy")(uri "${KIPRJMOD}/librairies/kicad-keyboard-parts.pretty/Schematic Library/kicad-keyboard-parts.lib")(options "")(descr ""))
+  (lib (name "SN74AHCT1G125DBVR")(type "KiCad")(uri "${KIPRJMOD}/librairies/SN74AHCT1G125DBVR/SN74AHCT1G125DBVR.kicad_sym")(options "")(descr ""))
 )

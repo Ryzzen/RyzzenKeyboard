@@ -1,0 +1,937 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "ed60ff31-a680-4811-8c12-d7704ea75ae2")
+	(paper "A4")
+	(title_block
+		(title "TMR based triple USB Keyboard")
+		(date "2025-12-28")
+		(rev "v1")
+		(company "Ryzzen")
+	)
+	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "kicad-keyboard-parts:SK6812MINI-E"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 5.08 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Value" "SK6812MINI-E"
+				(at 1.27 -5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "kicad-keyboard-parts:MX_SK6812MINI-E"
+				(at 1.27 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+				(at 2.54 -9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Reverse-mount RGB LED with integrated controller"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "RGB LED NeoPixel Mini addressable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SK6812MINI-E_0_0"
+				(text "RGB"
+					(at 2.286 -4.191 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(symbol "SK6812MINI-E_0_1"
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.778 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.556) (xy 1.778 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -3.556) (xy 2.667 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 5.08)
+					(end -5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "SK6812MINI-E_1_1"
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 133.35 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4dc21b97-a27a-429d-a2e3-351f462f1b8c")
+	)
+	(junction
+		(at 133.35 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c03bea5a-05ca-4899-adca-0974dec0405d")
+	)
+	(wire
+		(pts
+			(xy 133.35 82.55) (xy 133.35 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39334aa3-38f0-48b7-b3d3-9a77ea343581")
+	)
+	(wire
+		(pts
+			(xy 119.38 82.55) (xy 119.38 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cf442d6-b387-4a36-ad63-7dc96c3127a4")
+	)
+	(wire
+		(pts
+			(xy 133.35 104.14) (xy 133.35 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f5a18f4-44f3-4dbb-9435-f405dc98d581")
+	)
+	(wire
+		(pts
+			(xy 133.35 102.87) (xy 133.35 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89a13aa6-3063-478e-afe3-517cbe59adf1")
+	)
+	(wire
+		(pts
+			(xy 130.81 82.55) (xy 133.35 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a259756-32ff-4f60-b91d-1a6a2e029898")
+	)
+	(wire
+		(pts
+			(xy 123.19 82.55) (xy 119.38 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac311b39-9032-42b5-b2f0-2689598086ad")
+	)
+	(wire
+		(pts
+			(xy 133.35 73.66) (xy 133.35 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5fb5f9e-7341-409b-9f7a-4ca23f5d7f7b")
+	)
+	(wire
+		(pts
+			(xy 119.38 104.14) (xy 133.35 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6d49835-da03-4292-b176-521ff7225a95")
+	)
+	(hierarchical_label "DOUT"
+		(shape output)
+		(at 140.97 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0b5ee5a2-eaa4-4d93-a3cc-e58897ba3d0b")
+	)
+	(hierarchical_label "VSS"
+		(shape input)
+		(at 133.35 106.68 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1f8581b7-c536-4169-b253-1866d8c07bdd")
+	)
+	(hierarchical_label "VDD"
+		(shape input)
+		(at 133.35 73.66 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cd4d5bd0-ca24-4f30-a49e-5300490b5402")
+	)
+	(hierarchical_label "DIN"
+		(shape input)
+		(at 125.73 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d133868d-4fea-4f5f-90f1-7a997533c485")
+	)
+	(symbol
+		(lib_id "kicad-keyboard-parts:SK6812MINI-E")
+		(at 133.35 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "14f2780a-0dd9-4612-8666-1a4164f91a47")
+		(property "Reference" "D3"
+			(at 141.478 85.852 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 141.478 88.392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kicad-keyboard-parts:MX_SK6812MINI-E"
+			(at 134.62 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+			(at 135.89 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Reverse-mount RGB LED with integrated controller"
+			(at 133.35 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5cecd7ac-cbe0-4e48-a467-d87f63ea5dc9")
+		)
+		(pin "1"
+			(uuid "370043ec-3590-4c9d-b4e9-0a48c3293749")
+		)
+		(pin "3"
+			(uuid "d5a0f4a8-6e35-4a67-a203-a5285daccf38")
+		)
+		(pin "4"
+			(uuid "f0d04b28-b985-4130-bcc1-cb2c2b285617")
+		)
+		(instances
+			(project "RyzzenKeyboard"
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029/0399f5c2-9535-4061-916d-b5ef4d4709ef"
+					(reference "D31")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029/1150627b-b8e0-4222-bb46-910bf944c460"
+					(reference "D24")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029/129c2b3f-4234-4485-9309-c3a009b76647"
+					(reference "D10")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029/23035616-5bf6-4409-a235-197278ce7640"
+					(reference "D8")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029/2450ef32-9076-405c-ad54-6d129acff93d"
+					(reference "D15")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029/29d75898-dcbd-4cda-88aa-9921bb8ce3e1"
+					(reference "D4")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029/2af18925-a967-4b19-b674-45c1df568138"
+					(reference "D36")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029/487bf992-d807-4e8f-b1c4-66d16985b269"
+					(reference "D7")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029/5375842c-1d17-4646-85ff-cf75bba7c088"
+					(reference "D13")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029/561e65f5-29eb-4597-91fb-dbed31f9f730"
+					(reference "D21")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029/6211a26f-2932-4dfd-ad2c-8cd0a7363f29"
+					(reference "D32")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029/658ba86f-492e-41e4-bb2f-11f5138bcbb0"
+					(reference "D11")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029/69e0cf4a-c55f-443a-9370-201bfce90350"
+					(reference "D27")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029/710979c3-dc7f-4c61-ab43-367c4178ec26"
+					(reference "D20")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029/75606fea-3cbb-4b03-a764-82ff74d38ad7"
+					(reference "D9")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029/77898d4f-f711-4ecb-8b9c-12ce90ff3214"
+					(reference "D26")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029/7c8ccf12-18cb-4416-8915-e8832372154a"
+					(reference "D35")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029/7cf169b2-4350-4abb-8594-c9a1d272f05e"
+					(reference "D3")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029/83601bf4-1b82-43df-b94f-0b9cf3368dc1"
+					(reference "D22")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029/91d7ae7e-0b93-4c9f-82d5-9bb18e0876fd"
+					(reference "D34")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029/98bd2091-6bec-4498-8c8b-90ddec18dd83"
+					(reference "D29")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029/99751c4f-8879-48b2-80b8-b17042233be7"
+					(reference "D12")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029/9a4fb7ce-aad0-4de0-8be8-20b04c8cbc1a"
+					(reference "D30")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029/9f0f5370-21c8-45bd-9e77-ce861973c6b6"
+					(reference "D16")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029/a3b2bb4f-dacd-418a-88f2-b44a3b1fcea3"
+					(reference "D28")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029/a6a84da7-6c8f-4f5b-aa2b-5a93f9d2f50a"
+					(reference "D19")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029/a98ee5d5-e1b0-4e3c-9aa3-6c671a342fbf"
+					(reference "D18")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029/af5f19bb-4c6f-45b8-a600-2f0fc0e197e4"
+					(reference "D25")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029/b030d33d-3cf0-42e2-b952-f3acdd16eaf1"
+					(reference "D33")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029/b73c4b0d-59ba-422a-9714-ef49bda83990"
+					(reference "D14")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029/c2e22f46-791a-4bee-bd91-e7045f65945f"
+					(reference "D17")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029/e64fc037-d1fe-4b23-a603-e3319ec165ed"
+					(reference "D23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 127 82.55 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "248c9bc0-72ea-4e45-aefa-c97f57ec34f2")
+		(property "Reference" "C20"
+			(at 125.7299 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 128.2699 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 83.5152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 127 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cea26b69-f279-4ef1-99db-b1ebdd9bbc6f")
+		)
+		(pin "1"
+			(uuid "1a0f0834-29c1-47cc-b596-be5394e77c7d")
+		)
+		(instances
+			(project "RyzzenKeyboard"
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029/0399f5c2-9535-4061-916d-b5ef4d4709ef"
+					(reference "C99")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029/1150627b-b8e0-4222-bb46-910bf944c460"
+					(reference "C92")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029/129c2b3f-4234-4485-9309-c3a009b76647"
+					(reference "C78")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029/23035616-5bf6-4409-a235-197278ce7640"
+					(reference "C76")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029/2450ef32-9076-405c-ad54-6d129acff93d"
+					(reference "C83")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029/29d75898-dcbd-4cda-88aa-9921bb8ce3e1"
+					(reference "C57")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029/2af18925-a967-4b19-b674-45c1df568138"
+					(reference "C104")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029/487bf992-d807-4e8f-b1c4-66d16985b269"
+					(reference "C75")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029/5375842c-1d17-4646-85ff-cf75bba7c088"
+					(reference "C81")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029/561e65f5-29eb-4597-91fb-dbed31f9f730"
+					(reference "C89")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029/6211a26f-2932-4dfd-ad2c-8cd0a7363f29"
+					(reference "C100")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029/658ba86f-492e-41e4-bb2f-11f5138bcbb0"
+					(reference "C79")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029/69e0cf4a-c55f-443a-9370-201bfce90350"
+					(reference "C95")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029/710979c3-dc7f-4c61-ab43-367c4178ec26"
+					(reference "C88")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029/75606fea-3cbb-4b03-a764-82ff74d38ad7"
+					(reference "C77")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029/77898d4f-f711-4ecb-8b9c-12ce90ff3214"
+					(reference "C94")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029/7c8ccf12-18cb-4416-8915-e8832372154a"
+					(reference "C103")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029/7cf169b2-4350-4abb-8594-c9a1d272f05e"
+					(reference "C20")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029/83601bf4-1b82-43df-b94f-0b9cf3368dc1"
+					(reference "C90")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029/91d7ae7e-0b93-4c9f-82d5-9bb18e0876fd"
+					(reference "C102")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029/98bd2091-6bec-4498-8c8b-90ddec18dd83"
+					(reference "C97")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029/99751c4f-8879-48b2-80b8-b17042233be7"
+					(reference "C80")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029/9a4fb7ce-aad0-4de0-8be8-20b04c8cbc1a"
+					(reference "C98")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029/9f0f5370-21c8-45bd-9e77-ce861973c6b6"
+					(reference "C84")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029/a3b2bb4f-dacd-418a-88f2-b44a3b1fcea3"
+					(reference "C96")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029/a6a84da7-6c8f-4f5b-aa2b-5a93f9d2f50a"
+					(reference "C87")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029/a98ee5d5-e1b0-4e3c-9aa3-6c671a342fbf"
+					(reference "C86")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029/af5f19bb-4c6f-45b8-a600-2f0fc0e197e4"
+					(reference "C93")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029/b030d33d-3cf0-42e2-b952-f3acdd16eaf1"
+					(reference "C101")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029/b73c4b0d-59ba-422a-9714-ef49bda83990"
+					(reference "C82")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029/c2e22f46-791a-4bee-bd91-e7045f65945f"
+					(reference "C85")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029/e64fc037-d1fe-4b23-a603-e3319ec165ed"
+					(reference "C91")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

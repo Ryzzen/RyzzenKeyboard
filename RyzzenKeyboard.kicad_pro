@@ -359,12 +359,60 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Name",
+          "name": "Manufacturer_Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Part_Number",
+          "name": "Manufacturer_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Part Number",
+          "name": "Mouser Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Price/Stock",
+          "name": "Mouser Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -422,80 +470,8 @@
       "keys"
     ],
     [
-      "a1b59adb-224c-4a31-865b-1e7950bd0f40",
-      "key_bank"
-    ],
-    [
-      "1f668741-8401-4293-80f3-47e36091ffaa",
-      "TMR_sensor1"
-    ],
-    [
-      "22f52eda-6e0b-4a59-b9b1-9e3a4c9f6f43",
-      "TMR_sensor7"
-    ],
-    [
-      "7dd26003-7b9b-4548-8ad2-9fde5446b991",
-      "TMR_sensor6"
-    ],
-    [
-      "aeb4f7f2-9fa7-440b-8996-fbdbaa1ce2bf",
-      "TMR_sensor5"
-    ],
-    [
-      "71c5096b-4a96-4822-92ab-7b97bd13faa0",
-      "TMR_sensor9"
-    ],
-    [
-      "b033168d-892e-4331-a3a1-f713713e1029",
-      "TMR_sensor8"
-    ],
-    [
-      "8b193de7-127c-42d9-900b-85779c73774f",
-      "TMR_sensor12"
-    ],
-    [
-      "6c1d0efb-e1e8-4c6d-af69-452844031fd1",
-      "TMR_sensor11"
-    ],
-    [
-      "80b1dd4c-7b59-44f7-83f4-85a3537feccf",
-      "TMR_sensor10"
-    ],
-    [
-      "1f668741-8401-4293-80f3-47e36091ffaa",
-      "TMR_sensor1"
-    ],
-    [
-      "7d692c4d-1e42-481b-b7f6-872664c92db2",
-      "TMR_sensor"
-    ],
-    [
-      "2fd9471e-29c5-4e6b-a997-a8e07abf334e",
-      "TMR_sensor3"
-    ],
-    [
-      "2fd9471e-29c5-4e6b-a997-a8e07abf334e",
-      "TMR_sensor3"
-    ],
-    [
-      "720b83aa-4d32-4780-b9a7-4edb2f45e362",
-      "TMR_sensor2"
-    ],
-    [
-      "4b2b8272-e8a9-4162-a1ec-3a31ccd7273c",
-      "TMR_sensor4"
-    ],
-    [
-      "1fc13f92-79bf-4c38-9cb1-75e108271764",
-      "TMR_sensor14"
-    ],
-    [
-      "8d8116d8-82b7-458b-a92c-0ef62bf6d18b",
-      "TMR_sensor15"
-    ],
-    [
-      "a8317dab-46d7-4786-8a28-88bb5b7edb32",
-      "TMR_sensor13"
+      "7cf169b2-4350-4abb-8594-c9a1d272f05e",
+      "LED1"
     ],
     [
       "735f3a62-f16a-407d-b596-d90350aa3066",
@@ -566,22 +542,6 @@
       "TMR_sensor13"
     ],
     [
-      "4b2b8272-e8a9-4162-a1ec-3a31ccd7273c",
-      "TMR_sensor4"
-    ],
-    [
-      "aeb4f7f2-9fa7-440b-8996-fbdbaa1ce2bf",
-      "TMR_sensor5"
-    ],
-    [
-      "7dd26003-7b9b-4548-8ad2-9fde5446b991",
-      "TMR_sensor6"
-    ],
-    [
-      "22f52eda-6e0b-4a59-b9b1-9e3a4c9f6f43",
-      "TMR_sensor7"
-    ],
-    [
       "7ffe2115-dd72-444b-89b3-b9005c9fe688",
       "key_bank3"
     ],
@@ -650,180 +610,8 @@
       "TMR_sensor13"
     ],
     [
-      "13b615a6-6b6e-4376-a5a5-45c5057b142a",
-      "key_bank4"
-    ],
-    [
-      "22f52eda-6e0b-4a59-b9b1-9e3a4c9f6f43",
-      "TMR_sensor7"
-    ],
-    [
-      "7dd26003-7b9b-4548-8ad2-9fde5446b991",
-      "TMR_sensor6"
-    ],
-    [
-      "aeb4f7f2-9fa7-440b-8996-fbdbaa1ce2bf",
-      "TMR_sensor5"
-    ],
-    [
-      "71c5096b-4a96-4822-92ab-7b97bd13faa0",
-      "TMR_sensor9"
-    ],
-    [
-      "b033168d-892e-4331-a3a1-f713713e1029",
-      "TMR_sensor8"
-    ],
-    [
-      "8b193de7-127c-42d9-900b-85779c73774f",
-      "TMR_sensor12"
-    ],
-    [
-      "6c1d0efb-e1e8-4c6d-af69-452844031fd1",
-      "TMR_sensor11"
-    ],
-    [
-      "80b1dd4c-7b59-44f7-83f4-85a3537feccf",
-      "TMR_sensor10"
-    ],
-    [
-      "1f668741-8401-4293-80f3-47e36091ffaa",
-      "TMR_sensor1"
-    ],
-    [
-      "7d692c4d-1e42-481b-b7f6-872664c92db2",
-      "TMR_sensor"
-    ],
-    [
-      "2fd9471e-29c5-4e6b-a997-a8e07abf334e",
-      "TMR_sensor3"
-    ],
-    [
-      "720b83aa-4d32-4780-b9a7-4edb2f45e362",
-      "TMR_sensor2"
-    ],
-    [
-      "4b2b8272-e8a9-4162-a1ec-3a31ccd7273c",
-      "TMR_sensor4"
-    ],
-    [
-      "1fc13f92-79bf-4c38-9cb1-75e108271764",
-      "TMR_sensor14"
-    ],
-    [
-      "8d8116d8-82b7-458b-a92c-0ef62bf6d18b",
-      "TMR_sensor15"
-    ],
-    [
-      "a8317dab-46d7-4786-8a28-88bb5b7edb32",
-      "TMR_sensor13"
-    ],
-    [
-      "cc77bec8-d3cc-43bb-b7a5-b3b6cadba114",
-      "key_bank5"
-    ],
-    [
-      "22f52eda-6e0b-4a59-b9b1-9e3a4c9f6f43",
-      "TMR_sensor7"
-    ],
-    [
-      "7dd26003-7b9b-4548-8ad2-9fde5446b991",
-      "TMR_sensor6"
-    ],
-    [
-      "aeb4f7f2-9fa7-440b-8996-fbdbaa1ce2bf",
-      "TMR_sensor5"
-    ],
-    [
-      "71c5096b-4a96-4822-92ab-7b97bd13faa0",
-      "TMR_sensor9"
-    ],
-    [
-      "b033168d-892e-4331-a3a1-f713713e1029",
-      "TMR_sensor8"
-    ],
-    [
-      "8b193de7-127c-42d9-900b-85779c73774f",
-      "TMR_sensor12"
-    ],
-    [
-      "6c1d0efb-e1e8-4c6d-af69-452844031fd1",
-      "TMR_sensor11"
-    ],
-    [
-      "80b1dd4c-7b59-44f7-83f4-85a3537feccf",
-      "TMR_sensor10"
-    ],
-    [
-      "1f668741-8401-4293-80f3-47e36091ffaa",
-      "TMR_sensor1"
-    ],
-    [
-      "7d692c4d-1e42-481b-b7f6-872664c92db2",
-      "TMR_sensor"
-    ],
-    [
-      "b033168d-892e-4331-a3a1-f713713e1029",
-      "TMR_sensor8"
-    ],
-    [
-      "71c5096b-4a96-4822-92ab-7b97bd13faa0",
-      "TMR_sensor9"
-    ],
-    [
-      "80b1dd4c-7b59-44f7-83f4-85a3537feccf",
-      "TMR_sensor10"
-    ],
-    [
-      "2fd9471e-29c5-4e6b-a997-a8e07abf334e",
-      "TMR_sensor3"
-    ],
-    [
-      "6c1d0efb-e1e8-4c6d-af69-452844031fd1",
-      "TMR_sensor11"
-    ],
-    [
-      "8b193de7-127c-42d9-900b-85779c73774f",
-      "TMR_sensor12"
-    ],
-    [
-      "a8317dab-46d7-4786-8a28-88bb5b7edb32",
-      "TMR_sensor13"
-    ],
-    [
-      "1fc13f92-79bf-4c38-9cb1-75e108271764",
-      "TMR_sensor14"
-    ],
-    [
-      "8d8116d8-82b7-458b-a92c-0ef62bf6d18b",
-      "TMR_sensor15"
-    ],
-    [
-      "720b83aa-4d32-4780-b9a7-4edb2f45e362",
-      "TMR_sensor2"
-    ],
-    [
-      "4b2b8272-e8a9-4162-a1ec-3a31ccd7273c",
-      "TMR_sensor4"
-    ],
-    [
-      "1fc13f92-79bf-4c38-9cb1-75e108271764",
-      "TMR_sensor14"
-    ],
-    [
-      "720b83aa-4d32-4780-b9a7-4edb2f45e362",
-      "TMR_sensor2"
-    ],
-    [
-      "7d692c4d-1e42-481b-b7f6-872664c92db2",
-      "TMR_sensor"
-    ],
-    [
-      "8d8116d8-82b7-458b-a92c-0ef62bf6d18b",
-      "TMR_sensor15"
-    ],
-    [
-      "a8317dab-46d7-4786-8a28-88bb5b7edb32",
-      "TMR_sensor13"
+      "29d75898-dcbd-4cda-88aa-9921bb8ce3e1",
+      "LED2"
     ],
     [
       "9fd53b65-5f61-4bcf-b815-5987103f089e",
@@ -834,8 +622,128 @@
       "HID_SPI_bridge2"
     ],
     [
-      "3892192a-9e74-4718-aa5a-d4dfa6dc670f",
-      "key_bank1"
+      "ddd39123-7c60-4daf-80ad-ae6eff6f8029",
+      "LEDs"
+    ],
+    [
+      "487bf992-d807-4e8f-b1c4-66d16985b269",
+      "LED"
+    ],
+    [
+      "23035616-5bf6-4409-a235-197278ce7640",
+      "LED3"
+    ],
+    [
+      "75606fea-3cbb-4b03-a764-82ff74d38ad7",
+      "LED4"
+    ],
+    [
+      "129c2b3f-4234-4485-9309-c3a009b76647",
+      "LED5"
+    ],
+    [
+      "658ba86f-492e-41e4-bb2f-11f5138bcbb0",
+      "LED6"
+    ],
+    [
+      "99751c4f-8879-48b2-80b8-b17042233be7",
+      "LED7"
+    ],
+    [
+      "5375842c-1d17-4646-85ff-cf75bba7c088",
+      "LED8"
+    ],
+    [
+      "b73c4b0d-59ba-422a-9714-ef49bda83990",
+      "LED9"
+    ],
+    [
+      "2450ef32-9076-405c-ad54-6d129acff93d",
+      "LED10"
+    ],
+    [
+      "9f0f5370-21c8-45bd-9e77-ce861973c6b6",
+      "LED11"
+    ],
+    [
+      "c2e22f46-791a-4bee-bd91-e7045f65945f",
+      "LED12"
+    ],
+    [
+      "a98ee5d5-e1b0-4e3c-9aa3-6c671a342fbf",
+      "LED13"
+    ],
+    [
+      "a6a84da7-6c8f-4f5b-aa2b-5a93f9d2f50a",
+      "LED14"
+    ],
+    [
+      "710979c3-dc7f-4c61-ab43-367c4178ec26",
+      "LED15"
+    ],
+    [
+      "561e65f5-29eb-4597-91fb-dbed31f9f730",
+      "LED16"
+    ],
+    [
+      "83601bf4-1b82-43df-b94f-0b9cf3368dc1",
+      "LED17"
+    ],
+    [
+      "e64fc037-d1fe-4b23-a603-e3319ec165ed",
+      "LED18"
+    ],
+    [
+      "1150627b-b8e0-4222-bb46-910bf944c460",
+      "LED19"
+    ],
+    [
+      "af5f19bb-4c6f-45b8-a600-2f0fc0e197e4",
+      "LED20"
+    ],
+    [
+      "77898d4f-f711-4ecb-8b9c-12ce90ff3214",
+      "LED21"
+    ],
+    [
+      "69e0cf4a-c55f-443a-9370-201bfce90350",
+      "LED22"
+    ],
+    [
+      "a3b2bb4f-dacd-418a-88f2-b44a3b1fcea3",
+      "LED23"
+    ],
+    [
+      "98bd2091-6bec-4498-8c8b-90ddec18dd83",
+      "LED24"
+    ],
+    [
+      "9a4fb7ce-aad0-4de0-8be8-20b04c8cbc1a",
+      "LED25"
+    ],
+    [
+      "0399f5c2-9535-4061-916d-b5ef4d4709ef",
+      "LED26"
+    ],
+    [
+      "6211a26f-2932-4dfd-ad2c-8cd0a7363f29",
+      "LED27"
+    ],
+    [
+      "b030d33d-3cf0-42e2-b952-f3acdd16eaf1",
+      "LED28"
+    ],
+    [
+      "91d7ae7e-0b93-4c9f-82d5-9bb18e0876fd",
+      "LED29"
+    ],
+    [
+      "7c8ccf12-18cb-4416-8915-e8832372154a",
+      "LED30"
+    ],
+    [
+      "2af18925-a967-4b19-b674-45c1df568138",
+      "LED31"
     ]
   ],
   "text_variables": {}

@@ -1,0 +1,5972 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "e08e9bcd-69f0-4de1-b9b2-cd788f0fd31f")
+	(paper "A4")
+	(title_block
+		(title "TMR based triple USB Keyboard")
+		(date "2025-12-28")
+		(rev "v1")
+		(company "Ryzzen")
+	)
+	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SN74AHCT1G125DBVR:SN74AHCT1G125DBVR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 21.59 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "SN74AHCT1G125DBVR"
+				(at 21.59 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SOT95P280X145-5N"
+				(at 21.59 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74ahct1g125.pdf"
+				(at 21.59 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "74AHCT Single Tri-state Bus Buffer SOT23 SN74AHCT1G125DBVR, Bus Buffer, HCT, 8.5 ns@ 50 pF, 8mA 4.5 ??? 5.5 V 5-Pin SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.45"
+				(at 21.59 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "595-SNAHCT1G125DBVR"
+				(at 21.59 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74AHCT1G125DBVR?qs=N6WZOzgtpqVaVW8Lh%252BgevA%3D%3D"
+				(at 21.59 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Texas Instruments"
+				(at 21.59 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "SN74AHCT1G125DBVR"
+				(at 21.59 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "SN74AHCT1G125DBVR_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 20.32 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "~{OE}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 0 180)
+					(length 5.08)
+					(name "Y"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 25.4 -2.54 180)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 36.83 31.75)
+		(end 241.3 147.32)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a094c2b6-1e25-4bf9-a2ce-21cf074110d8)
+	)
+	(rectangle
+		(start 49.53 157.48)
+		(end 111.76 191.77)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f248b627-eee8-42fb-b6ba-8a72f9800f08)
+	)
+	(text "LED matrix"
+		(exclude_from_sim no)
+		(at 44.45 29.718 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+			)
+		)
+		(uuid "3064e93c-c9f2-4405-86a0-3ee0a3fe08a4")
+	)
+	(text "Level shifter"
+		(exclude_from_sim no)
+		(at 58.42 155.448 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+			)
+		)
+		(uuid "c8e61f48-5610-4b1d-b9b7-45663e09cfd6")
+	)
+	(junction
+		(at 86.36 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "043b5a8a-0aad-42ba-8d2c-8cb4fded6595")
+	)
+	(junction
+		(at 104.14 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0bd41b1a-012b-4b89-a3a1-4512669340d5")
+	)
+	(junction
+		(at 226.06 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "107884b2-7415-45b4-8a9c-0de7629f12dc")
+	)
+	(junction
+		(at 226.06 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "17ca0322-0fe9-4287-a5c8-02f094dbd02e")
+	)
+	(junction
+		(at 193.04 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "180de986-7872-4a41-a5cd-63387c676c1d")
+	)
+	(junction
+		(at 104.14 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1bb79e0c-a29a-4bfb-b8f0-4263c7e3d886")
+	)
+	(junction
+		(at 86.36 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f7e242b-918d-4d18-9cb6-297d226639d3")
+	)
+	(junction
+		(at 55.88 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24afe93d-e9c3-43ef-918e-62e6d890c698")
+	)
+	(junction
+		(at 86.36 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ccac40c-e480-4f2a-941f-456eb793102a")
+	)
+	(junction
+		(at 139.7 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d24c709-dbcc-4e56-98b8-81e39febe185")
+	)
+	(junction
+		(at 121.92 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "31252d9b-35ed-4238-9a6b-317bacf4efc3")
+	)
+	(junction
+		(at 139.7 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3885e999-94f0-4363-86ca-c3435f036c16")
+	)
+	(junction
+		(at 214.63 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40a079a1-1877-471e-830c-c4bea59ab29d")
+	)
+	(junction
+		(at 139.7 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41491ea8-d05f-491a-90cc-2961c0d070d4")
+	)
+	(junction
+		(at 193.04 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45735a06-a802-48d0-8de2-9314d0529ed5")
+	)
+	(junction
+		(at 157.48 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4940b561-b75b-4bd0-9c81-c9bd319362dd")
+	)
+	(junction
+		(at 86.36 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b2a21ea-97ac-490c-9d93-70f999434d42")
+	)
+	(junction
+		(at 175.26 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e492d98-0c02-4af7-a8f1-ad28bb017bad")
+	)
+	(junction
+		(at 157.48 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50fc524e-356a-4cb1-8b41-8220d557c697")
+	)
+	(junction
+		(at 104.14 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53e535ad-eb53-4058-9594-b984bd5b134b")
+	)
+	(junction
+		(at 104.14 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63a00532-9e63-40dd-a359-e9c856dd024c")
+	)
+	(junction
+		(at 121.92 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "685c733e-e3c6-402b-a750-e0f1124fc188")
+	)
+	(junction
+		(at 193.04 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69baa4b3-2243-49ce-917b-50dfd7e40039")
+	)
+	(junction
+		(at 86.36 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a6a5e12-9ec5-41f6-872b-c2f6facf0b50")
+	)
+	(junction
+		(at 52.07 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ba44d06-9213-4b4d-aea9-834a4697048d")
+	)
+	(junction
+		(at 175.26 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70b12bfd-39ff-4bfb-92e3-cbb72c010e05")
+	)
+	(junction
+		(at 175.26 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d1cb95f-04a9-4323-9d3f-b0f5f4f8e36e")
+	)
+	(junction
+		(at 193.04 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ef612cc-ca4b-4b3a-b2fd-3c4944045dc6")
+	)
+	(junction
+		(at 104.14 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81d48a21-6417-4d2c-9700-bce25ec68b3f")
+	)
+	(junction
+		(at 139.7 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "850a66af-f030-4eaa-a5ba-8fe68d97aac0")
+	)
+	(junction
+		(at 68.58 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9885e218-24a6-47e3-966c-e1c803370635")
+	)
+	(junction
+		(at 175.26 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98d62ff7-2e2c-4e58-b04d-5c4a19ebb02a")
+	)
+	(junction
+		(at 175.26 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9929eaa4-2398-4784-84de-2226b4d757f2")
+	)
+	(junction
+		(at 86.36 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a031acc7-5142-4acc-90cc-11b274a2dcc3")
+	)
+	(junction
+		(at 104.14 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a28df940-6420-44a9-8468-2d0031898cff")
+	)
+	(junction
+		(at 121.92 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a34edb77-c40b-4414-85cd-b51f08e09fca")
+	)
+	(junction
+		(at 55.88 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b001d1b4-0043-4079-b267-bd17686a8c81")
+	)
+	(junction
+		(at 214.63 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3c9b427-9d3e-401a-9917-bccb3a972887")
+	)
+	(junction
+		(at 157.48 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3a9d6cb-573c-4734-b2e5-78f56aa30293")
+	)
+	(junction
+		(at 121.92 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cbe0391f-1f50-406a-9d26-9201ccfb6479")
+	)
+	(junction
+		(at 157.48 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cfb3eb8f-b7b7-47c7-b484-bc016658dd36")
+	)
+	(junction
+		(at 214.63 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d6653c31-beff-4df3-ab47-af6fc8445a3b")
+	)
+	(junction
+		(at 226.06 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da258dd6-cbd4-499d-9641-b5212738b44b")
+	)
+	(junction
+		(at 121.92 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dfcc9e35-347d-4bf6-a263-f04d02702282")
+	)
+	(junction
+		(at 193.04 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4471396-d541-4cb7-a783-0f46677dd4bf")
+	)
+	(junction
+		(at 157.48 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e68cad80-3fb1-40d9-8855-20199c581c96")
+	)
+	(junction
+		(at 175.26 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6dee56a-89ba-4c47-977f-71158e79ed59")
+	)
+	(junction
+		(at 139.7 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9d3795e-68a7-47b8-bd3c-4ccfc24eb204")
+	)
+	(junction
+		(at 139.7 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ead482c5-56c7-4609-8659-eae1153eec83")
+	)
+	(junction
+		(at 87.63 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee2a5d31-e938-4d8c-a218-b34ab81e079d")
+	)
+	(junction
+		(at 121.92 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f11cb2b6-5b29-4548-9831-c506fe401c56")
+	)
+	(junction
+		(at 193.04 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6396653-a047-4af0-bdba-8fb8cd445da5")
+	)
+	(junction
+		(at 68.58 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f693c7cb-ffa0-46b0-9193-1655bf1a0c7a")
+	)
+	(junction
+		(at 214.63 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb2a85f4-1d37-4eab-adb1-32d160ba9fa1")
+	)
+	(junction
+		(at 157.48 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff0ec6ed-8f1f-451b-af02-707ff84daa46")
+	)
+	(no_connect
+		(at 62.23 118.11)
+		(uuid "1091c1e7-c2b9-4336-a3f9-f7ce25ab506f")
+	)
+	(wire
+		(pts
+			(xy 199.39 80.01) (xy 200.66 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "006d26e1-fbc2-485e-a671-ec8982acbad2")
+	)
+	(wire
+		(pts
+			(xy 60.96 80.01) (xy 60.96 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05d4a2f9-5441-4bdb-b456-6af262b2b199")
+	)
+	(wire
+		(pts
+			(xy 139.7 53.34) (xy 121.92 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08637d41-ce6f-4b3c-976a-5097572be53b")
+	)
+	(wire
+		(pts
+			(xy 104.14 53.34) (xy 86.36 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08a001f9-ba97-4b5a-8b3d-22b863cfa37a")
+	)
+	(wire
+		(pts
+			(xy 157.48 91.44) (xy 139.7 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08fe25af-2fb3-44ce-8c51-eb5d475c4720")
+	)
+	(wire
+		(pts
+			(xy 193.04 124.46) (xy 193.04 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09ede5b0-d831-40ac-8805-869bcd5235c6")
+	)
+	(wire
+		(pts
+			(xy 175.26 88.9) (xy 157.48 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ae8eaec-2254-4606-9820-c712c8b6d8a0")
+	)
+	(wire
+		(pts
+			(xy 175.26 91.44) (xy 157.48 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b56fda0-5fd3-4474-a28d-eaf1084e3a8b")
+	)
+	(wire
+		(pts
+			(xy 193.04 53.34) (xy 193.04 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d5286f9-e9f2-485d-b409-f07ada4627d3")
+	)
+	(wire
+		(pts
+			(xy 193.04 127) (xy 214.63 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d5677eb-4c09-4aff-af68-0c8d3b828f2d")
+	)
+	(wire
+		(pts
+			(xy 214.63 88.9) (xy 226.06 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f5a2631-21d5-4942-b0c9-798cdaed2c38")
+	)
+	(wire
+		(pts
+			(xy 139.7 71.12) (xy 121.92 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1029d433-b2ac-4075-82cc-8963f04b8347")
+	)
+	(wire
+		(pts
+			(xy 181.61 62.23) (xy 186.69 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10323775-3fdc-4608-8ded-c06233069077")
+	)
+	(wire
+		(pts
+			(xy 104.14 91.44) (xy 86.36 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14bfd4cc-ddb6-4ab3-afb9-07944acc9531")
+	)
+	(wire
+		(pts
+			(xy 104.14 88.9) (xy 86.36 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "172c1458-4717-4456-ac80-681dc26e4c10")
+	)
+	(wire
+		(pts
+			(xy 86.36 53.34) (xy 68.58 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "180c19b2-2f57-4b68-a521-24f80fe4f60a")
+	)
+	(wire
+		(pts
+			(xy 139.7 88.9) (xy 121.92 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18d7643a-290f-47e8-91b0-6b6d04ea2b0e")
+	)
+	(wire
+		(pts
+			(xy 55.88 168.91) (xy 55.88 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1af62bc6-0515-42a2-af29-e28b623bcb0c")
+	)
+	(wire
+		(pts
+			(xy 86.36 106.68) (xy 86.36 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b545192-e7b8-44f8-b2af-002e81379836")
+	)
+	(wire
+		(pts
+			(xy 226.06 91.44) (xy 226.06 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bf16353-1a93-4db8-9c32-7353f1cf969a")
+	)
+	(wire
+		(pts
+			(xy 87.63 173.99) (xy 101.6 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c99348c-f745-4f6e-b6d5-18dcccbcb827")
+	)
+	(wire
+		(pts
+			(xy 121.92 109.22) (xy 121.92 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cbd805d-2f68-4d1a-9f01-57883d1c980e")
+	)
+	(wire
+		(pts
+			(xy 139.7 71.12) (xy 139.7 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f71478d-ee7a-427c-a83a-fad9f87ff75c")
+	)
+	(wire
+		(pts
+			(xy 104.14 106.68) (xy 104.14 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20a4dd20-fad3-4a74-996e-506651909f96")
+	)
+	(wire
+		(pts
+			(xy 157.48 86.36) (xy 157.48 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27ff5a84-0ae5-4e0c-a170-2b27d13340fb")
+	)
+	(wire
+		(pts
+			(xy 139.7 91.44) (xy 139.7 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2964fc5b-08f9-4673-bb99-346c31bd970a")
+	)
+	(wire
+		(pts
+			(xy 200.66 118.11) (xy 199.39 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a19d1c1-0052-4d84-b901-65eb4c22d442")
+	)
+	(wire
+		(pts
+			(xy 193.04 91.44) (xy 193.04 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2af8649a-98fe-4d9a-8175-e3b7deff259a")
+	)
+	(wire
+		(pts
+			(xy 139.7 124.46) (xy 139.7 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ddd9d20-24a0-4694-a229-7147bdaabcf9")
+	)
+	(wire
+		(pts
+			(xy 139.7 106.68) (xy 139.7 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f96a3c4-0044-4ad9-8996-35a2a63c0716")
+	)
+	(wire
+		(pts
+			(xy 214.63 127) (xy 214.63 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fbf3301-c81d-491c-b40b-d9bfd495e407")
+	)
+	(wire
+		(pts
+			(xy 60.96 80.01) (xy 62.23 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3098a2c8-966c-4d3b-b553-6cdfce77e4bb")
+	)
+	(wire
+		(pts
+			(xy 193.04 71.12) (xy 193.04 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31472fdc-8566-46dd-add7-137dae6bf162")
+	)
+	(wire
+		(pts
+			(xy 104.14 91.44) (xy 104.14 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "322b2dc3-60b9-4fc4-85dd-d7148a1e2e92")
+	)
+	(wire
+		(pts
+			(xy 100.33 168.91) (xy 97.79 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32ab48b8-1011-4cc6-a4e4-bb8a56a60913")
+	)
+	(wire
+		(pts
+			(xy 175.26 91.44) (xy 175.26 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32bfe096-4eaf-44be-9d2c-9cf3c9686f8d")
+	)
+	(wire
+		(pts
+			(xy 139.7 86.36) (xy 139.7 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34546c15-6bcc-4421-9e32-01b7863fb08f")
+	)
+	(wire
+		(pts
+			(xy 104.14 86.36) (xy 104.14 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35d91b88-7bb9-43e6-8536-1db50b185dce")
+	)
+	(wire
+		(pts
+			(xy 68.58 68.58) (xy 68.58 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b10ee46-57b5-4e14-95b5-d5770297d884")
+	)
+	(wire
+		(pts
+			(xy 193.04 53.34) (xy 175.26 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c463ef7-e741-4b40-bb54-33fd546c4322")
+	)
+	(wire
+		(pts
+			(xy 121.92 127) (xy 104.14 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d6c86cf-5e6e-4292-8ab4-4988bd497552")
+	)
+	(wire
+		(pts
+			(xy 92.71 62.23) (xy 97.79 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e9d124a-12e1-4ede-9753-60c3ee643c89")
+	)
+	(wire
+		(pts
+			(xy 46.99 71.12) (xy 52.07 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "413bff6e-ab8c-4ce1-b954-188ab2818004")
+	)
+	(wire
+		(pts
+			(xy 121.92 86.36) (xy 121.92 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "419a5cd7-701a-4e8d-acd5-06763d8dfbb5")
+	)
+	(wire
+		(pts
+			(xy 104.14 71.12) (xy 86.36 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4316410f-f205-49dd-a9ad-4b35b191b467")
+	)
+	(wire
+		(pts
+			(xy 55.88 181.61) (xy 87.63 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44a2083f-27cb-46c8-be82-9184786066b8")
+	)
+	(wire
+		(pts
+			(xy 86.36 86.36) (xy 86.36 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47295df1-4953-45d1-8d16-7d0d982a8fe9")
+	)
+	(wire
+		(pts
+			(xy 121.92 124.46) (xy 121.92 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47c81171-0ab7-4145-aecc-c2c8c5ef7d8f")
+	)
+	(wire
+		(pts
+			(xy 139.7 53.34) (xy 139.7 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4885429e-d9e2-4abb-ba79-50a953d7fc88")
+	)
+	(wire
+		(pts
+			(xy 55.88 173.99) (xy 55.88 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4aac7a68-d658-4422-8f21-e77cbb0ebea4")
+	)
+	(wire
+		(pts
+			(xy 157.48 127) (xy 139.7 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c43a215-4b58-4e48-95dc-58e97e6a3587")
+	)
+	(wire
+		(pts
+			(xy 128.27 80.01) (xy 133.35 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d23b605-f602-4d65-b7c4-68ebf5f97e38")
+	)
+	(wire
+		(pts
+			(xy 157.48 124.46) (xy 157.48 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e0275f5-9a52-4ed7-a5e8-2ebcf3ea8bfa")
+	)
+	(wire
+		(pts
+			(xy 92.71 80.01) (xy 97.79 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e25a2f5-2e8c-492d-97c0-233f51b439f9")
+	)
+	(wire
+		(pts
+			(xy 121.92 106.68) (xy 121.92 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ee06e6d-ad10-4299-9730-1d1fdae8802a")
+	)
+	(wire
+		(pts
+			(xy 146.05 100.33) (xy 151.13 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ff434d9-0c0d-4e59-9851-b2c31ec5503c")
+	)
+	(wire
+		(pts
+			(xy 175.26 71.12) (xy 157.48 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52664049-90fd-4253-9849-28cde23e7038")
+	)
+	(wire
+		(pts
+			(xy 60.96 100.33) (xy 62.23 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "560c2e4c-1108-46ac-9205-ffe2c4d9b6af")
+	)
+	(wire
+		(pts
+			(xy 175.26 86.36) (xy 175.26 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57870df7-a3c7-4c70-99cd-f84a6f546c7d")
+	)
+	(wire
+		(pts
+			(xy 68.58 109.22) (xy 68.58 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59ecf175-85a6-4151-b917-8c667dabde55")
+	)
+	(wire
+		(pts
+			(xy 86.36 127) (xy 68.58 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ab0efc9-8455-439d-941d-85146c199202")
+	)
+	(wire
+		(pts
+			(xy 121.92 53.34) (xy 121.92 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ac1340b-a476-4fdc-8c9a-7a9d2a62ad12")
+	)
+	(wire
+		(pts
+			(xy 214.63 91.44) (xy 226.06 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d968b44-ae3f-4013-a397-7e45ed0565b6")
+	)
+	(wire
+		(pts
+			(xy 74.93 80.01) (xy 80.01 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f55a565-da6b-4f4c-bec9-030137dbb169")
+	)
+	(wire
+		(pts
+			(xy 104.14 109.22) (xy 104.14 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ff7814c-edc5-4a0e-8bcc-75a773ed48ad")
+	)
+	(wire
+		(pts
+			(xy 128.27 118.11) (xy 133.35 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62080438-1c1d-446f-b401-c16d5e7d61e9")
+	)
+	(wire
+		(pts
+			(xy 157.48 109.22) (xy 139.7 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63a1a31c-a5db-479d-9421-18bde118d792")
+	)
+	(wire
+		(pts
+			(xy 175.26 124.46) (xy 175.26 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64c3d505-2c9c-4588-9dff-fd71ce8eafd3")
+	)
+	(wire
+		(pts
+			(xy 175.26 53.34) (xy 157.48 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64f56ace-ec85-4311-98cf-edda303c7e91")
+	)
+	(wire
+		(pts
+			(xy 121.92 68.58) (xy 121.92 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65dddb8b-6b47-4d17-b319-2407bd467cc3")
+	)
+	(wire
+		(pts
+			(xy 52.07 71.12) (xy 52.07 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66a02ad6-b82c-420f-b459-924817089aba")
+	)
+	(wire
+		(pts
+			(xy 87.63 171.45) (xy 87.63 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a55261c-86c0-4917-ae1f-9c70947da544")
+	)
+	(wire
+		(pts
+			(xy 199.39 62.23) (xy 200.66 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bfbea55-31d5-45f6-8d0b-b43e2472190f")
+	)
+	(wire
+		(pts
+			(xy 55.88 173.99) (xy 62.23 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bfce5bc-01f9-4424-932d-2a380fcec657")
+	)
+	(wire
+		(pts
+			(xy 146.05 118.11) (xy 151.13 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c527505-550f-4131-9956-e1cfbbeee096")
+	)
+	(wire
+		(pts
+			(xy 74.93 100.33) (xy 80.01 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d2102b1-797d-4a88-b148-d45d031c1c26")
+	)
+	(wire
+		(pts
+			(xy 193.04 109.22) (xy 175.26 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dddce48-9f81-4b04-843b-63336965eb0c")
+	)
+	(wire
+		(pts
+			(xy 193.04 86.36) (xy 193.04 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e1ea607-fb4d-45d5-9b40-d2b7b31dbf1c")
+	)
+	(wire
+		(pts
+			(xy 110.49 100.33) (xy 115.57 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e6842b4-332e-4417-9a10-7d15bae825f8")
+	)
+	(wire
+		(pts
+			(xy 214.63 80.01) (xy 214.63 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f4218ce-ff33-4d79-8729-f7960cffac92")
+	)
+	(wire
+		(pts
+			(xy 110.49 62.23) (xy 115.57 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f809107-5213-460a-aeea-4bd7f442ba63")
+	)
+	(wire
+		(pts
+			(xy 157.48 53.34) (xy 139.7 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "712df2a2-b6ab-4526-ba85-19d8e0295c2d")
+	)
+	(wire
+		(pts
+			(xy 157.48 71.12) (xy 139.7 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75bd9b1b-9639-47b7-b3d7-7a268ef2191d")
+	)
+	(wire
+		(pts
+			(xy 193.04 91.44) (xy 214.63 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b8132b7-37d0-453b-98e5-f0bcd925e44b")
+	)
+	(wire
+		(pts
+			(xy 193.04 91.44) (xy 175.26 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c3f975d-211d-473a-97fb-e216b0b1474f")
+	)
+	(wire
+		(pts
+			(xy 157.48 53.34) (xy 157.48 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7eaeb0de-2f09-4e9d-81af-90b3fce127c1")
+	)
+	(wire
+		(pts
+			(xy 104.14 127) (xy 86.36 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fa72c8a-b1fd-49d5-8d2d-0c8d70cb43cb")
+	)
+	(wire
+		(pts
+			(xy 200.66 62.23) (xy 200.66 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "804474c9-6a23-4d9c-9ee7-e730304b8bfa")
+	)
+	(wire
+		(pts
+			(xy 157.48 109.22) (xy 157.48 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "824c807f-0274-4afa-9e65-3b5fb3fb387a")
+	)
+	(wire
+		(pts
+			(xy 175.26 127) (xy 157.48 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "828e61c8-300f-40fc-bdfa-98554438a224")
+	)
+	(wire
+		(pts
+			(xy 139.7 109.22) (xy 139.7 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84804a9e-cdfd-451a-a40e-07cd202b755d")
+	)
+	(wire
+		(pts
+			(xy 68.58 86.36) (xy 68.58 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86da80bc-008a-4850-9a31-118551832998")
+	)
+	(wire
+		(pts
+			(xy 175.26 109.22) (xy 175.26 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "898c3eb6-15ae-4334-a7e5-7fed44148a45")
+	)
+	(wire
+		(pts
+			(xy 139.7 88.9) (xy 139.7 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a85e128-5bc0-4785-b3d4-19ba8eca0df5")
+	)
+	(wire
+		(pts
+			(xy 139.7 91.44) (xy 121.92 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bad361a-b0e6-45ea-a9a2-3a5aa6374dd4")
+	)
+	(wire
+		(pts
+			(xy 87.63 168.91) (xy 90.17 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bb77719-7393-40b3-9b46-1e41958592a8")
+	)
+	(wire
+		(pts
+			(xy 121.92 88.9) (xy 104.14 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bb93270-996a-4f73-8b4d-df27629542b3")
+	)
+	(wire
+		(pts
+			(xy 86.36 71.12) (xy 86.36 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90028998-d204-4e8c-ac4c-f9227f2ff071")
+	)
+	(wire
+		(pts
+			(xy 193.04 88.9) (xy 214.63 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "913e09a0-ecce-481e-9b0f-0d71c5e66a55")
+	)
+	(wire
+		(pts
+			(xy 121.92 53.34) (xy 104.14 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9189b032-c210-4262-8beb-6a6b57131c9f")
+	)
+	(wire
+		(pts
+			(xy 181.61 118.11) (xy 186.69 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "933c6e8e-42a4-4492-b4c7-d0ba5b2ed5f8")
+	)
+	(wire
+		(pts
+			(xy 68.58 124.46) (xy 68.58 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "992ffdb4-4c96-47bb-965b-c2c9d9081a78")
+	)
+	(wire
+		(pts
+			(xy 175.26 109.22) (xy 157.48 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ab7691d-2bea-4a97-a06f-5eafd6f26cfd")
+	)
+	(wire
+		(pts
+			(xy 214.63 100.33) (xy 214.63 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bb52978-1476-4069-a128-51ebe409d153")
+	)
+	(wire
+		(pts
+			(xy 214.63 43.18) (xy 214.63 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9da14c5c-0fb8-442b-a3f9-a4fb351a3b15")
+	)
+	(wire
+		(pts
+			(xy 193.04 109.22) (xy 193.04 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e59fdbc-91a6-4d1e-bbb3-68ee795bb0f2")
+	)
+	(wire
+		(pts
+			(xy 226.06 127) (xy 231.14 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a15a2d36-c0c1-4dcc-a4d0-064cca1193af")
+	)
+	(wire
+		(pts
+			(xy 157.48 91.44) (xy 157.48 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1cb732f-d6f6-45d3-a397-046cd8ffca04")
+	)
+	(wire
+		(pts
+			(xy 68.58 106.68) (xy 68.58 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2c538b9-2452-49c7-82f0-6c8b060b9b9e")
+	)
+	(wire
+		(pts
+			(xy 163.83 100.33) (xy 168.91 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a33ce728-dd0d-478f-8ecb-3db8aeb83f39")
+	)
+	(wire
+		(pts
+			(xy 86.36 91.44) (xy 86.36 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a35ee698-be43-4efb-a0c8-ffed96b5b184")
+	)
+	(wire
+		(pts
+			(xy 175.26 71.12) (xy 175.26 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a600c56f-5cc2-495a-8a5c-74309deec016")
+	)
+	(wire
+		(pts
+			(xy 74.93 118.11) (xy 80.01 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a60ea30a-a15d-4072-a700-5933d35dd780")
+	)
+	(wire
+		(pts
+			(xy 86.36 88.9) (xy 68.58 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a705f6fb-1290-4f81-894d-07704320a22d")
+	)
+	(wire
+		(pts
+			(xy 121.92 91.44) (xy 121.92 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a82c5aae-b9f6-427b-ba11-a98485f68bc7")
+	)
+	(wire
+		(pts
+			(xy 181.61 100.33) (xy 186.69 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9cc34c7-d371-4ed5-b963-4f3599e40ce1")
+	)
+	(wire
+		(pts
+			(xy 55.88 181.61) (xy 55.88 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9dae957-3357-40b8-ac48-cd02dd93129a")
+	)
+	(wire
+		(pts
+			(xy 139.7 68.58) (xy 139.7 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9e78a1a-d3a7-4a68-99f3-feb4c2c25e6c")
+	)
+	(wire
+		(pts
+			(xy 104.14 53.34) (xy 104.14 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa27a65f-04ff-4a39-9346-7304694c133a")
+	)
+	(wire
+		(pts
+			(xy 193.04 71.12) (xy 175.26 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab2fbb44-6b50-4882-bea4-38181d295196")
+	)
+	(wire
+		(pts
+			(xy 128.27 100.33) (xy 133.35 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af7068d0-d20b-4f58-933d-935ddac4ccd8")
+	)
+	(wire
+		(pts
+			(xy 68.58 71.12) (xy 68.58 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0bfc36a-7596-4211-9c50-3734bc61369a")
+	)
+	(wire
+		(pts
+			(xy 193.04 88.9) (xy 175.26 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b33cec9f-9c39-43a1-bac7-b2a09b8ead7b")
+	)
+	(wire
+		(pts
+			(xy 199.39 100.33) (xy 200.66 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3c627e8-16db-4def-b34d-967ed00ab0a2")
+	)
+	(wire
+		(pts
+			(xy 121.92 91.44) (xy 104.14 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6991936-244f-4983-8ce5-749cd4d8212c")
+	)
+	(wire
+		(pts
+			(xy 175.26 68.58) (xy 175.26 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6cf5a78-ea06-4135-ab52-e650436555b1")
+	)
+	(wire
+		(pts
+			(xy 104.14 71.12) (xy 104.14 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b713ac01-3d3b-4f7b-a8fe-729797736015")
+	)
+	(wire
+		(pts
+			(xy 104.14 124.46) (xy 104.14 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b859efac-29eb-4ea5-adf9-1a7ab59a8004")
+	)
+	(wire
+		(pts
+			(xy 110.49 80.01) (xy 115.57 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc7a8831-198a-4e16-99ad-429891483123")
+	)
+	(wire
+		(pts
+			(xy 157.48 106.68) (xy 157.48 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcf8bd22-cf16-4fae-a360-dc8aeff3992c")
+	)
+	(wire
+		(pts
+			(xy 193.04 106.68) (xy 193.04 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf269a10-a5d3-45ad-923f-89d0442d9dec")
+	)
+	(wire
+		(pts
+			(xy 62.23 168.91) (xy 55.88 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c051af32-a539-453b-9c9a-fa26503cb2c1")
+	)
+	(wire
+		(pts
+			(xy 163.83 118.11) (xy 168.91 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c144a428-0da1-46ff-b9de-1c71d17dc68c")
+	)
+	(wire
+		(pts
+			(xy 157.48 88.9) (xy 139.7 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1ae540f-e9ea-4868-b5cb-244771bbf0cb")
+	)
+	(wire
+		(pts
+			(xy 200.66 100.33) (xy 200.66 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3003146-e7dd-49cb-9d38-3999357e3652")
+	)
+	(wire
+		(pts
+			(xy 86.36 71.12) (xy 68.58 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3cdf1fb-8ee8-458a-a379-961f808ce3c9")
+	)
+	(wire
+		(pts
+			(xy 104.14 109.22) (xy 86.36 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c68f252d-d966-454a-a1c7-526dc236ead2")
+	)
+	(wire
+		(pts
+			(xy 163.83 62.23) (xy 168.91 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c782f6b3-3a2a-4fa0-9816-b725454adaf1")
+	)
+	(wire
+		(pts
+			(xy 110.49 118.11) (xy 115.57 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c85ba1c8-f61b-4f84-afdb-4f6e836aa555")
+	)
+	(wire
+		(pts
+			(xy 128.27 62.23) (xy 133.35 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c975e7ec-4a9c-40eb-b86f-db2eff63c876")
+	)
+	(wire
+		(pts
+			(xy 175.26 53.34) (xy 175.26 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0298994-ee00-487f-9cea-4446a29f488f")
+	)
+	(wire
+		(pts
+			(xy 52.07 109.22) (xy 68.58 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1a56030-73c9-45eb-ad58-a5dfefcc7a70")
+	)
+	(wire
+		(pts
+			(xy 214.63 137.16) (xy 214.63 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d41dcc8d-12db-4717-999f-6b3c37e07ffe")
+	)
+	(wire
+		(pts
+			(xy 48.26 62.23) (xy 62.23 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d467e296-24c3-473b-9b0a-36d31af1ab1c")
+	)
+	(wire
+		(pts
+			(xy 86.36 53.34) (xy 86.36 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7e32d30-2b6f-4029-b755-1ed98f55bbf6")
+	)
+	(wire
+		(pts
+			(xy 92.71 118.11) (xy 97.79 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d97cb3c5-a5cd-4b33-bd68-8e5052f26ebc")
+	)
+	(wire
+		(pts
+			(xy 68.58 91.44) (xy 68.58 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dad50605-70bb-4e69-88d1-e1602c18ea26")
+	)
+	(wire
+		(pts
+			(xy 86.36 124.46) (xy 86.36 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc430e1b-e3fa-42e7-a010-d4f971b9ded2")
+	)
+	(wire
+		(pts
+			(xy 214.63 53.34) (xy 226.06 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df4137a2-6234-418b-a489-5a4327bc598b")
+	)
+	(wire
+		(pts
+			(xy 86.36 68.58) (xy 86.36 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e094b911-3373-4349-a760-f9f3c33cf3aa")
+	)
+	(wire
+		(pts
+			(xy 226.06 88.9) (xy 226.06 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e30228cd-f692-4e99-b6be-13046b8f4e12")
+	)
+	(wire
+		(pts
+			(xy 214.63 127) (xy 226.06 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e51a0e59-95ae-4eca-9048-aed4d255dc8e")
+	)
+	(wire
+		(pts
+			(xy 226.06 53.34) (xy 226.06 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e55de614-e01a-4cac-926f-dc2d7da0ceaa")
+	)
+	(wire
+		(pts
+			(xy 86.36 109.22) (xy 68.58 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e67e0236-5118-4ce6-8b2b-22749c98bc6c")
+	)
+	(wire
+		(pts
+			(xy 86.36 109.22) (xy 86.36 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6b64abb-1361-48f3-80d7-003c69386fc2")
+	)
+	(wire
+		(pts
+			(xy 92.71 100.33) (xy 97.79 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6e8bfd0-29f8-4afb-9751-bde3567b8447")
+	)
+	(wire
+		(pts
+			(xy 146.05 80.01) (xy 151.13 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e71299be-0a0a-44ca-9d43-6cafd32470a1")
+	)
+	(wire
+		(pts
+			(xy 214.63 52.07) (xy 214.63 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e73f46cd-3cd1-4bc7-8d8b-5a0d7944e183")
+	)
+	(wire
+		(pts
+			(xy 181.61 80.01) (xy 186.69 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e77e0c7b-f897-4454-9250-ef625bac7a2d")
+	)
+	(wire
+		(pts
+			(xy 139.7 127) (xy 121.92 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee2ac75c-4b3d-47c1-9444-5def499f1147")
+	)
+	(wire
+		(pts
+			(xy 163.83 80.01) (xy 168.91 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee9fdeec-3923-42a9-a7cf-d61f348603fd")
+	)
+	(wire
+		(pts
+			(xy 52.07 71.12) (xy 68.58 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eee88fc3-6bf3-4990-9ecd-b4c677a7976f")
+	)
+	(wire
+		(pts
+			(xy 74.93 62.23) (xy 80.01 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efd9b5da-d00a-44e8-b9e6-aafc5b7e4da5")
+	)
+	(wire
+		(pts
+			(xy 68.58 53.34) (xy 68.58 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f382417d-2b5e-484a-933f-db823fea6d75")
+	)
+	(wire
+		(pts
+			(xy 193.04 53.34) (xy 214.63 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5510802-8aee-4d42-b0f1-24723ebd1282")
+	)
+	(wire
+		(pts
+			(xy 121.92 71.12) (xy 104.14 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5b8f722-dbbf-43d8-944f-d11121bf0460")
+	)
+	(wire
+		(pts
+			(xy 86.36 91.44) (xy 68.58 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f756efbf-a45b-4a6b-a10a-3789e940c993")
+	)
+	(wire
+		(pts
+			(xy 193.04 127) (xy 175.26 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f91946fa-ba09-4ded-b3a8-59f9cd187a25")
+	)
+	(wire
+		(pts
+			(xy 146.05 62.23) (xy 151.13 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9e6983f-7e52-49f2-8d47-a5a37937b81c")
+	)
+	(wire
+		(pts
+			(xy 104.14 68.58) (xy 104.14 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9fd3d88-d542-423a-b62d-c16fe8de5156")
+	)
+	(wire
+		(pts
+			(xy 157.48 68.58) (xy 157.48 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faa49914-2c5f-4998-931f-35d53315bbea")
+	)
+	(wire
+		(pts
+			(xy 175.26 106.68) (xy 175.26 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fafb227c-2220-4457-a226-42682b7ed7e3")
+	)
+	(wire
+		(pts
+			(xy 157.48 71.12) (xy 157.48 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb62f8ac-858e-49ed-8a30-e5f955b7b2ff")
+	)
+	(wire
+		(pts
+			(xy 139.7 109.22) (xy 121.92 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fba088a6-7297-471a-a519-fddb754b4daa")
+	)
+	(wire
+		(pts
+			(xy 193.04 68.58) (xy 193.04 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fda955c0-a404-45d6-a53e-a603d56fd1f5")
+	)
+	(wire
+		(pts
+			(xy 121.92 109.22) (xy 104.14 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe7ef79b-2c1b-446e-a622-338c65dfdf86")
+	)
+	(wire
+		(pts
+			(xy 121.92 71.12) (xy 121.92 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffd19de8-8580-4d2b-825b-a9b1cc98a714")
+	)
+	(label "LED_5V"
+		(at 92.71 173.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "08e8a594-b830-40aa-a1fb-12aa2437bb61")
+	)
+	(label "LED_5V"
+		(at 231.14 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "528f85c1-4db8-40c7-b645-06a7e313c315")
+	)
+	(label "LED_GND"
+		(at 214.63 137.16 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "551b2d8f-e58a-4a11-a41d-44a527872c10")
+	)
+	(label "LED_GND"
+		(at 55.88 185.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "650e870c-b74a-4a3c-8799-be48c1c7f4c5")
+	)
+	(label "LED_GND"
+		(at 214.63 43.18 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "66a99e83-e128-49ad-a690-0e4a7235ee72")
+	)
+	(label "LED_GND"
+		(at 214.63 100.33 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a6035419-8195-4d9a-aad2-4018cbdd6f39")
+	)
+	(label "LED_GND"
+		(at 214.63 80.01 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b04e41f7-b6d3-4bb6-a935-2d4a86379855")
+	)
+	(label "LED_GND"
+		(at 46.99 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d29ba5af-fb14-4a25-8e58-48fe9d2319ae")
+	)
+	(label "LED_Din"
+		(at 48.26 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ee646868-5e90-4e4b-8777-48aedda1375d")
+	)
+	(label "LED_Din"
+		(at 100.33 168.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f3bdaaa7-bd86-4121-9cb3-dc4bf059ccd5")
+	)
+	(hierarchical_label "Din"
+		(shape input)
+		(at 62.23 171.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "20a905fe-0344-4840-a816-f9aaab6f929b")
+	)
+	(hierarchical_label "Vcc"
+		(shape input)
+		(at 101.6 173.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6ab5d066-5082-4430-965b-7bb59a054349")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 55.88 187.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ebd93586-fd25-4640-b47f-4f5ede83f83c")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 93.98 168.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07fd5241-f74f-48ef-81c1-a8723efdac1f")
+		(property "Reference" "R9"
+			(at 93.98 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "500"
+			(at 93.98 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 170.688 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 93.98 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6a708203-7bb0-4edc-a6a1-8e739ec6c84b")
+		)
+		(pin "1"
+			(uuid "5edc83b3-260e-423f-86af-a66c3ba9bb13")
+		)
+		(instances
+			(project "RyzzenKeyboard"
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SN74AHCT1G125DBVR:SN74AHCT1G125DBVR")
+		(at 62.23 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "089874dd-f0e5-402a-a495-8b083f9dd341")
+		(property "Reference" "IC36"
+			(at 74.93 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SN74AHCT1G125DBVR"
+			(at 74.93 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOT95P280X145-5N"
+			(at 83.82 263.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74ahct1g125.pdf"
+			(at 83.82 363.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "74AHCT Single Tri-state Bus Buffer SOT23 SN74AHCT1G125DBVR, Bus Buffer, HCT, 8.5 ns@ 50 pF, 8mA 4.5 ??? 5.5 V 5-Pin SOT-23"
+			(at 62.23 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.45"
+			(at 83.82 563.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-SNAHCT1G125DBVR"
+			(at 83.82 663.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74AHCT1G125DBVR?qs=N6WZOzgtpqVaVW8Lh%252BgevA%3D%3D"
+			(at 83.82 763.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 83.82 863.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SN74AHCT1G125DBVR"
+			(at 83.82 963.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a01f87ee-8c5b-4819-abfa-f22eaa69080b")
+		)
+		(pin "5"
+			(uuid "bae938a8-7083-487b-814c-7aeedfbc7616")
+		)
+		(pin "4"
+			(uuid "bec00ac5-5d66-4387-a781-12f7fc2d9679")
+		)
+		(pin "3"
+			(uuid "d4efb2a1-9581-4dd1-9a01-ac5f98f9904b")
+		)
+		(pin "1"
+			(uuid "087f9abd-29be-49e1-b441-855f2986d473")
+		)
+		(instances
+			(project ""
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029"
+					(reference "IC36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 214.63 95.25 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3365d0e8-ec3d-4739-baa5-2fd538c2ffe0")
+		(property "Reference" "C73"
+			(at 223.266 97.028 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 223.266 94.488 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.6648 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 214.63 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b6a7d6ed-e22b-44a6-b5b0-32d6e8478ee5")
+		)
+		(pin "2"
+			(uuid "2b8b2579-05f3-40d8-bb9d-a89675527956")
+		)
+		(instances
+			(project "RyzzenKeyboard"
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029"
+					(reference "C73")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 214.63 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73958bc7-6f1d-4831-a030-f7ab7ddf7279")
+		(property "Reference" "C72"
+			(at 218.44 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 218.44 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.5952 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 214.63 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dcc1180a-70ff-4882-bc56-1914b20a6273")
+		)
+		(pin "2"
+			(uuid "1b829751-9d5b-456d-8c0a-f03ab4921d6e")
+		)
+		(instances
+			(project "RyzzenKeyboard"
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029"
+					(reference "C72")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 214.63 132.08 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "821a7e92-c007-4d3c-b870-d9e2c359888c")
+		(property "Reference" "C74"
+			(at 210.82 133.3501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 210.82 130.8101 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.6648 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 214.63 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b8fcf91-b6a6-45e4-833d-332fe6234aff")
+		)
+		(pin "2"
+			(uuid "28aeb9a6-d983-4833-b612-37cf80b76705")
+		)
+		(instances
+			(project "RyzzenKeyboard"
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029"
+					(reference "C74")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 214.63 48.26 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99805fce-02eb-43f0-a050-740ff5a82874")
+		(property "Reference" "C71"
+			(at 210.82 49.5301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 210.82 46.9901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.6648 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 214.63 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2171eb5e-7ebe-4e98-a92d-28f5c5ea83dd")
+		)
+		(pin "2"
+			(uuid "ea7361e0-ef1a-4484-a9b2-ded102de7398")
+		)
+		(instances
+			(project "RyzzenKeyboard"
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029"
+					(reference "C71")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 87.63 177.8 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fc3c6354-e966-41d6-be28-46df40dfa153")
+		(property "Reference" "C70"
+			(at 91.44 176.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 91.44 179.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.6648 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 87.63 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d495938b-c28d-4f96-a81d-68803749493b")
+		)
+		(pin "1"
+			(uuid "e5fe3112-0bcc-4d82-b981-1a8fadc05403")
+		)
+		(instances
+			(project "RyzzenKeyboard"
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029"
+					(reference "C70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 151.13 111.76)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0399f5c2-9535-4061-916d-b5ef4d4709ef")
+		(property "Sheetname" "LED26"
+			(at 151.13 111.0484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 151.13 125.0446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "DIN" input
+			(at 163.83 118.11 0)
+			(uuid "bde444fe-144d-44b5-a1fd-5a36febb8496")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VDD" input
+			(at 157.48 124.46 270)
+			(uuid "113f1314-1678-420b-a81f-0a31812a4283")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VSS" input
+			(at 157.48 111.76 90)
+			(uuid "b3bb31e8-df3e-496d-a0d1-8a192c2e423b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DOUT" output
+			(at 151.13 118.11 180)
+			(uuid "202e1138-86d4-4f1d-b5ef-452acbb052e0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "RyzzenKeyboard"
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029"
+					(page "133")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 133.35 73.66)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1150627b-b8e0-4222-bb46-910bf944c460")
+		(property "Sheetname" "LED19"
+			(at 133.35 72.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 133.35 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "DIN" input
+			(at 146.05 80.01 0)
+			(uuid "cf85e231-f5bf-4f56-82b2-b1022759c233")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VDD" input
+			(at 139.7 86.36 270)
+			(uuid "fc2870d9-eb1d-438c-b053-0cc400f6d48a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VSS" input
+			(at 139.7 73.66 90)
+			(uuid "47ec125d-0544-483f-896f-3db02a504b84")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DOUT" output
+			(at 133.35 80.01 180)
+			(uuid "59267d57-924d-4216-8f66-014e43cbc78b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "RyzzenKeyboard"
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029"
+					(page "126")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 151.13 55.88)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "129c2b3f-4234-4485-9309-c3a009b76647")
+		(property "Sheetname" "LED5"
+			(at 151.13 55.1684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 151.13 69.1646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "DIN" input
+			(at 151.13 62.23 180)
+			(uuid "72ea4ac2-0d61-4a1d-9f4b-0892a28d3308")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VDD" input
+			(at 157.48 55.88 90)
+			(uuid "7843b35a-3a87-4505-828e-c2ad073bd511")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VSS" input
+			(at 157.48 68.58 270)
+			(uuid "3f7d645e-be85-49fa-a6dc-f39a8ffef24c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 163.83 62.23 0)
+			(uuid "882f790a-3622-4a14-85c7-731d7caa1fe9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "RyzzenKeyboard"
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029"
+					(page "112")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 115.57 55.88)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "23035616-5bf6-4409-a235-197278ce7640")
+		(property "Sheetname" "LED3"
+			(at 115.57 55.1684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 115.57 69.1646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "DIN" input
+			(at 115.57 62.23 180)
+			(uuid "ae79125f-c24b-4b82-a5d3-88abf4e8febe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VDD" input
+			(at 121.92 55.88 90)
+			(uuid "338075ee-5f2c-411a-afef-b4d11733d11f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VSS" input
+			(at 121.92 68.58 270)
+			(uuid "689bb2dc-a818-48ec-9032-693f2ef914c0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 128.27 62.23 0)
+			(uuid "05994886-bcd5-43be-87dd-96635dd912b2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "RyzzenKeyboard"
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029"
+					(page "110")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 97.79 93.98)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2450ef32-9076-405c-ad54-6d129acff93d")
+		(property "Sheetname" "LED10"
+			(at 97.79 93.2684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 97.79 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "DIN" input
+			(at 97.79 100.33 180)
+			(uuid "6cb74a4f-749e-4f20-a776-a8fd47decec0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VDD" input
+			(at 104.14 93.98 90)
+			(uuid "1954783f-355e-471b-bc67-0efcdc60ede4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VSS" input
+			(at 104.14 106.68 270)
+			(uuid "f6924801-c681-4e99-91c6-9f885b7e4be6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 110.49 100.33 0)
+			(uuid "9e297a1a-0f82-4604-9a77-1f62105e3b16")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "RyzzenKeyboard"
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029"
+					(page "117")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 97.79 55.88)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "29d75898-dcbd-4cda-88aa-9921bb8ce3e1")
+		(property "Sheetname" "LED2"
+			(at 97.79 55.1684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 97.79 69.1646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "DIN" input
+			(at 97.79 62.23 180)
+			(uuid "1632e2b6-07e3-441b-b532-a0435140648a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VDD" input
+			(at 104.14 55.88 90)
+			(uuid "f3312609-8a54-4007-9b40-7a2f22d2428e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VSS" input
+			(at 104.14 68.58 270)
+			(uuid "f1a44f32-fa95-403a-9192-bb8d5593221c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 110.49 62.23 0)
+			(uuid "02de10d6-46ee-44a7-bc09-93b63a412b7a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "RyzzenKeyboard"
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029"
+					(page "105")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 62.23 111.76)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2af18925-a967-4b19-b674-45c1df568138")
+		(property "Sheetname" "LED31"
+			(at 62.23 111.0484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 62.23 125.0446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "DIN" input
+			(at 74.93 118.11 0)
+			(uuid "58138b5a-9570-4970-9d8a-ba3f677a343e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VDD" input
+			(at 68.58 124.46 270)
+			(uuid "8f9bd893-b612-42d5-b608-691ef6da016a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VSS" input
+			(at 68.58 111.76 90)
+			(uuid "73889e11-d448-4945-92b4-516f86c4cebd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DOUT" output
+			(at 62.23 118.11 180)
+			(uuid "ceff6d1c-6c50-4a4e-8014-73aef2eb76de")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "RyzzenKeyboard"
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029"
+					(page "138")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 62.23 55.88)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "487bf992-d807-4e8f-b1c4-66d16985b269")
+		(property "Sheetname" "LED"
+			(at 62.23 55.1684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 62.23 69.1646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "DIN" input
+			(at 62.23 62.23 180)
+			(uuid "ff32d0ce-fe1a-4174-ac61-bb980d5f8880")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VDD" input
+			(at 68.58 55.88 90)
+			(uuid "0066736d-eb89-4dac-b331-789f688dd338")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VSS" input
+			(at 68.58 68.58 270)
+			(uuid "00fd7d03-d9a4-41c6-94c3-46f6e3510119")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 74.93 62.23 0)
+			(uuid "6b3e8d99-54dd-449c-ac94-17802fae636a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "RyzzenKeyboard"
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029"
+					(page "109")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 62.23 93.98)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5375842c-1d17-4646-85ff-cf75bba7c088")
+		(property "Sheetname" "LED8"
+			(at 62.23 93.2684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 62.23 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "DIN" input
+			(at 62.23 100.33 180)
+			(uuid "28d41a81-1763-4033-a883-851d887a4665")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VDD" input
+			(at 68.58 93.98 90)
+			(uuid "82e8ebd1-34d1-4268-a0b1-e31b7e0fcd77")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VSS" input
+			(at 68.58 106.68 270)
+			(uuid "acbd35b9-5b26-4984-b91e-44bff6f3149b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 74.93 100.33 0)
+			(uuid "7a9701a8-f13f-4764-976e-4992fe3a3898")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "RyzzenKeyboard"
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029"
+					(page "115")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 186.69 73.66)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "561e65f5-29eb-4597-91fb-dbed31f9f730")
+		(property "Sheetname" "LED16"
+			(at 186.69 72.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 186.69 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "DIN" input
+			(at 199.39 80.01 0)
+			(uuid "cbb63f8f-9868-478c-84f1-f38c2cf5f9ec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VDD" input
+			(at 193.04 86.36 270)
+			(uuid "6fda844e-b19d-4ed0-aec6-3fe15d3dc548")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VSS" input
+			(at 193.04 73.66 90)
+			(uuid "93f02680-446c-49c8-be61-ecd6a3d22e7e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DOUT" output
+			(at 186.69 80.01 180)
+			(uuid "623e51d9-f8e2-4467-941d-0c82d92a113f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "RyzzenKeyboard"
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029"
+					(page "123")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 133.35 111.76)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6211a26f-2932-4dfd-ad2c-8cd0a7363f29")
+		(property "Sheetname" "LED27"
+			(at 133.35 111.0484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 133.35 125.0446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "DIN" input
+			(at 146.05 118.11 0)
+			(uuid "55b3392c-07eb-4974-bc73-e3d7819c5d69")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VDD" input
+			(at 139.7 124.46 270)
+			(uuid "7b0a8a39-83c3-4b06-881e-3a2a55680f4f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VSS" input
+			(at 139.7 111.76 90)
+			(uuid "22a8fa26-256f-4431-8f28-76e5f40c2870")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DOUT" output
+			(at 133.35 118.11 180)
+			(uuid "0ee562a5-9253-45c6-abd3-22e151e91399")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "RyzzenKeyboard"
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029"
+					(page "134")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 168.91 55.88)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "658ba86f-492e-41e4-bb2f-11f5138bcbb0")
+		(property "Sheetname" "LED6"
+			(at 168.91 55.1684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 168.91 69.1646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "DIN" input
+			(at 168.91 62.23 180)
+			(uuid "f2fb1168-9898-4f49-bd17-2ded91647de0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VDD" input
+			(at 175.26 55.88 90)
+			(uuid "0b5ed61c-4720-4f7e-b15c-d01e7d509e1e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VSS" input
+			(at 175.26 68.58 270)
+			(uuid "ca712a3d-dd1f-4b5f-a71c-256b7efb64d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 181.61 62.23 0)
+			(uuid "66c36cf9-882e-45f8-9b26-c537e40a08b5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "RyzzenKeyboard"
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029"
+					(page "113")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 80.01 73.66)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "69e0cf4a-c55f-443a-9370-201bfce90350")
+		(property "Sheetname" "LED22"
+			(at 80.01 72.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 80.01 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "DIN" input
+			(at 92.71 80.01 0)
+			(uuid "a51283fc-ddc5-4d4d-bc48-a60e4b12e380")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VDD" input
+			(at 86.36 86.36 270)
+			(uuid "9d8c740e-4094-449c-8dbe-fe5efdf877ef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VSS" input
+			(at 86.36 73.66 90)
+			(uuid "e3694eef-2b09-4ec7-8ee8-2df4797af7ed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DOUT" output
+			(at 80.01 80.01 180)
+			(uuid "8208780e-dc3b-496c-af30-4db3220c8da4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "RyzzenKeyboard"
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029"
+					(page "129")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 186.69 93.98)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "710979c3-dc7f-4c61-ab43-367c4178ec26")
+		(property "Sheetname" "LED15"
+			(at 186.69 93.2684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 186.69 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "DIN" input
+			(at 186.69 100.33 180)
+			(uuid "3b9273f5-df02-43ff-ac32-3effc4b7eb98")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VDD" input
+			(at 193.04 93.98 90)
+			(uuid "8fd7b630-50d2-446b-b65f-4e6cefb8cba7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VSS" input
+			(at 193.04 106.68 270)
+			(uuid "05a7e4e0-0f8f-4fd2-8a3b-9bc24a9da918")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 199.39 100.33 0)
+			(uuid "0c48e050-325b-4232-b52f-f100b04a8f8f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "RyzzenKeyboard"
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029"
+					(page "122")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 133.35 55.88)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "75606fea-3cbb-4b03-a764-82ff74d38ad7")
+		(property "Sheetname" "LED4"
+			(at 133.35 55.1684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 133.35 69.1646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "DIN" input
+			(at 133.35 62.23 180)
+			(uuid "68a1fec2-0c04-44ac-a27a-4fc0156189ae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VDD" input
+			(at 139.7 55.88 90)
+			(uuid "3448a88d-b7de-48d0-9249-82660e129e97")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VSS" input
+			(at 139.7 68.58 270)
+			(uuid "da8e17f5-9e2a-404f-9db6-b0e62cb853f6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 146.05 62.23 0)
+			(uuid "39f60dd2-1d88-44dc-93e1-025f1783db38")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "RyzzenKeyboard"
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029"
+					(page "111")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 97.79 73.66)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "77898d4f-f711-4ecb-8b9c-12ce90ff3214")
+		(property "Sheetname" "LED21"
+			(at 97.79 72.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 97.79 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "DIN" input
+			(at 110.49 80.01 0)
+			(uuid "56058691-0fbf-4dfa-96b9-d3c10ce4c9b0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VDD" input
+			(at 104.14 86.36 270)
+			(uuid "ff35575c-3956-438d-b9ea-8292e64666f2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VSS" input
+			(at 104.14 73.66 90)
+			(uuid "d5e3e366-0a14-44d9-9849-3c7fbcb4ba59")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DOUT" output
+			(at 97.79 80.01 180)
+			(uuid "3be83a2a-d400-4c81-8864-adb926c173e1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "RyzzenKeyboard"
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029"
+					(page "128")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 80.01 111.76)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7c8ccf12-18cb-4416-8915-e8832372154a")
+		(property "Sheetname" "LED30"
+			(at 80.01 111.0484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 80.01 125.0446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "DIN" input
+			(at 92.71 118.11 0)
+			(uuid "da8b2e65-3a0b-4198-b2bc-a1bd05d4e5a4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VDD" input
+			(at 86.36 124.46 270)
+			(uuid "ea2fe8bd-3c22-45f0-8827-70ae122d0aae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VSS" input
+			(at 86.36 111.76 90)
+			(uuid "3cae59bf-84fe-4d59-ac59-1a5d0f54d305")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DOUT" output
+			(at 80.01 118.11 180)
+			(uuid "6e703d5c-4b6c-48f7-b2db-0148cd80920b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "RyzzenKeyboard"
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029"
+					(page "137")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 80.01 55.88)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7cf169b2-4350-4abb-8594-c9a1d272f05e")
+		(property "Sheetname" "LED1"
+			(at 80.01 55.1684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 80.01 69.1646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "DIN" input
+			(at 80.01 62.23 180)
+			(uuid "57ab8a25-9c0e-4d8e-9b58-80b68e8dad2f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VDD" input
+			(at 86.36 55.88 90)
+			(uuid "05394e14-4b7e-40c8-a304-119b84625526")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VSS" input
+			(at 86.36 68.58 270)
+			(uuid "4c084376-1186-4882-a1d3-bf7b42c47736")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 92.71 62.23 0)
+			(uuid "b0aca2dc-9062-4807-b035-5873eafcd00c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "RyzzenKeyboard"
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 168.91 73.66)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "83601bf4-1b82-43df-b94f-0b9cf3368dc1")
+		(property "Sheetname" "LED17"
+			(at 168.91 72.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 168.91 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "DIN" input
+			(at 181.61 80.01 0)
+			(uuid "cfa68c2d-2602-41ce-8b07-bc5b179a52dc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VDD" input
+			(at 175.26 86.36 270)
+			(uuid "a8bfd53d-178f-40ab-b4dc-f87061652bea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VSS" input
+			(at 175.26 73.66 90)
+			(uuid "44c24870-2e57-4b52-a951-670d3f1f0c11")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DOUT" output
+			(at 168.91 80.01 180)
+			(uuid "0e8db80f-50e7-4a3c-b348-3433316edc6a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "RyzzenKeyboard"
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029"
+					(page "124")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 97.79 111.76)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "91d7ae7e-0b93-4c9f-82d5-9bb18e0876fd")
+		(property "Sheetname" "LED29"
+			(at 97.79 111.0484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 97.79 125.0446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "DIN" input
+			(at 110.49 118.11 0)
+			(uuid "8b41ac5d-b150-43c0-b106-e18e6e4701df")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VDD" input
+			(at 104.14 124.46 270)
+			(uuid "f1bcc538-c80d-42bb-b24c-cd2b1352b4ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VSS" input
+			(at 104.14 111.76 90)
+			(uuid "b8557729-07e7-41e8-aa0b-6ef3282e59e9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DOUT" output
+			(at 97.79 118.11 180)
+			(uuid "e7c3a44c-4c8e-4a3c-a7b3-f6da2159414c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "RyzzenKeyboard"
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029"
+					(page "136")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 186.69 111.76)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "98bd2091-6bec-4498-8c8b-90ddec18dd83")
+		(property "Sheetname" "LED24"
+			(at 186.69 111.0484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 186.69 125.0446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "DIN" input
+			(at 199.39 118.11 0)
+			(uuid "5d958d98-41bf-45c6-9ba6-8972d993305f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VDD" input
+			(at 193.04 124.46 270)
+			(uuid "772f066f-34bf-4da4-af08-ba17dd5fbcdb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VSS" input
+			(at 193.04 111.76 90)
+			(uuid "88c7b30c-d16a-4372-8b29-6436f4ae1c6e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DOUT" output
+			(at 186.69 118.11 180)
+			(uuid "c57fb362-6601-460e-9fb5-589fe670afe7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "RyzzenKeyboard"
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029"
+					(page "131")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 186.69 55.88)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "99751c4f-8879-48b2-80b8-b17042233be7")
+		(property "Sheetname" "LED7"
+			(at 186.69 55.1684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 186.69 69.1646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "DIN" input
+			(at 186.69 62.23 180)
+			(uuid "7b331ae4-931b-4d56-87b1-ddd47d3f65b3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VDD" input
+			(at 193.04 55.88 90)
+			(uuid "255440fb-a30f-4479-8f6d-7402d0cd9d00")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VSS" input
+			(at 193.04 68.58 270)
+			(uuid "13a75802-5993-4c20-924d-8de06fa98637")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 199.39 62.23 0)
+			(uuid "8e99980e-abfb-4e8f-90f7-213969e974c8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "RyzzenKeyboard"
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029"
+					(page "114")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 168.91 111.76)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9a4fb7ce-aad0-4de0-8be8-20b04c8cbc1a")
+		(property "Sheetname" "LED25"
+			(at 168.91 111.0484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 168.91 125.0446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "DIN" input
+			(at 181.61 118.11 0)
+			(uuid "cf1dd6a4-d15f-438d-a8f0-2b0353344590")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VDD" input
+			(at 175.26 124.46 270)
+			(uuid "a8ae9c90-578a-4bfa-9bcc-bba8c70b98ff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VSS" input
+			(at 175.26 111.76 90)
+			(uuid "c438cc76-3159-4ef1-b0e3-c69affeccf6e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DOUT" output
+			(at 168.91 118.11 180)
+			(uuid "ce26f612-1ef2-443c-acf8-cf12f7357798")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "RyzzenKeyboard"
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029"
+					(page "132")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 115.57 93.98)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9f0f5370-21c8-45bd-9e77-ce861973c6b6")
+		(property "Sheetname" "LED11"
+			(at 115.57 93.2684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 115.57 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "DIN" input
+			(at 115.57 100.33 180)
+			(uuid "7c6f4e94-123e-4181-bd2a-663d270f9cbe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VDD" input
+			(at 121.92 93.98 90)
+			(uuid "051b90d4-6272-4495-b103-afaaf9d0b034")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VSS" input
+			(at 121.92 106.68 270)
+			(uuid "ca083e34-dba2-4530-87ad-db91860e8b9d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 128.27 100.33 0)
+			(uuid "35e11155-5901-4e49-91da-e180d3cc2398")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "RyzzenKeyboard"
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029"
+					(page "118")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 62.23 73.66)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a3b2bb4f-dacd-418a-88f2-b44a3b1fcea3")
+		(property "Sheetname" "LED23"
+			(at 62.23 72.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 62.23 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "DIN" input
+			(at 74.93 80.01 0)
+			(uuid "60910ba5-dd80-480b-b2fd-893f4cf9f168")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VDD" input
+			(at 68.58 86.36 270)
+			(uuid "452d384a-5f8b-48e4-9788-b2bd57dcd1f0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VSS" input
+			(at 68.58 73.66 90)
+			(uuid "4912ecca-36f3-4e10-9b3a-3629f405440c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DOUT" output
+			(at 62.23 80.01 180)
+			(uuid "46680258-9a16-41c3-b238-4df45bd01bd3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "RyzzenKeyboard"
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029"
+					(page "130")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 168.91 93.98)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a6a84da7-6c8f-4f5b-aa2b-5a93f9d2f50a")
+		(property "Sheetname" "LED14"
+			(at 168.91 93.2684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 168.91 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "DIN" input
+			(at 168.91 100.33 180)
+			(uuid "5ff90bb8-1715-4a97-9525-1b6433de9484")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VDD" input
+			(at 175.26 93.98 90)
+			(uuid "14efb11f-1f78-46c4-b70a-385d5fc8b0ec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VSS" input
+			(at 175.26 106.68 270)
+			(uuid "b2a33e87-4e66-424a-a90c-e9669e1f0932")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 181.61 100.33 0)
+			(uuid "e95ee0ad-1567-4876-8b36-265fa99febf9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "RyzzenKeyboard"
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029"
+					(page "121")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 151.13 93.98)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a98ee5d5-e1b0-4e3c-9aa3-6c671a342fbf")
+		(property "Sheetname" "LED13"
+			(at 151.13 93.2684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 151.13 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "DIN" input
+			(at 151.13 100.33 180)
+			(uuid "3ce86a6c-5e7e-4db5-b374-4d83dd1d185f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VDD" input
+			(at 157.48 93.98 90)
+			(uuid "9ea56b77-0818-44a4-92ce-ff9b04773d1e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VSS" input
+			(at 157.48 106.68 270)
+			(uuid "1a9b1c0e-7665-4546-a18c-27145fe9e5be")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 163.83 100.33 0)
+			(uuid "b948be75-6f24-42fd-b7d0-5de72f4a2893")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "RyzzenKeyboard"
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029"
+					(page "120")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 115.57 73.66)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "af5f19bb-4c6f-45b8-a600-2f0fc0e197e4")
+		(property "Sheetname" "LED20"
+			(at 115.57 72.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 115.57 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "DIN" input
+			(at 128.27 80.01 0)
+			(uuid "0e9f0d40-8909-4397-9a2f-d24e84837423")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VDD" input
+			(at 121.92 86.36 270)
+			(uuid "cb2f8a9e-19eb-4bd7-8215-128d3dd6eeed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VSS" input
+			(at 121.92 73.66 90)
+			(uuid "882370b9-39f6-4a30-ba26-ebf33365780d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DOUT" output
+			(at 115.57 80.01 180)
+			(uuid "5d12be55-1ce8-496d-8973-833ae1752369")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "RyzzenKeyboard"
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029"
+					(page "127")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 115.57 111.76)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b030d33d-3cf0-42e2-b952-f3acdd16eaf1")
+		(property "Sheetname" "LED28"
+			(at 115.57 111.0484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 115.57 125.0446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "DIN" input
+			(at 128.27 118.11 0)
+			(uuid "aa7a30cd-34ff-4f3f-9528-7063d68b5f38")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VDD" input
+			(at 121.92 124.46 270)
+			(uuid "329cef09-126b-4645-8f4d-367d01ff5268")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VSS" input
+			(at 121.92 111.76 90)
+			(uuid "d57a81c9-afac-4007-b1a2-9be67f5bccb7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DOUT" output
+			(at 115.57 118.11 180)
+			(uuid "eae1b9c6-b28b-4bd6-91ac-3d42d22f67d3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "RyzzenKeyboard"
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029"
+					(page "135")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 80.01 93.98)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b73c4b0d-59ba-422a-9714-ef49bda83990")
+		(property "Sheetname" "LED9"
+			(at 80.01 93.2684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 80.01 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "DIN" input
+			(at 80.01 100.33 180)
+			(uuid "8efd3461-e5d6-4901-bae7-6e25d811f9ba")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VDD" input
+			(at 86.36 93.98 90)
+			(uuid "258cb2b3-4c20-4600-8819-1231214b79d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VSS" input
+			(at 86.36 106.68 270)
+			(uuid "9a646c24-20d9-4929-9e1c-7006c4580ae6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 92.71 100.33 0)
+			(uuid "ab9baaff-cb12-4762-b9ad-60da484e2199")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "RyzzenKeyboard"
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029"
+					(page "116")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 133.35 93.98)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c2e22f46-791a-4bee-bd91-e7045f65945f")
+		(property "Sheetname" "LED12"
+			(at 133.35 93.2684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 133.35 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "DIN" input
+			(at 133.35 100.33 180)
+			(uuid "17e49cf2-3c7a-4d2d-ad17-71742df8ad64")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VDD" input
+			(at 139.7 93.98 90)
+			(uuid "1ff8f53a-5440-47e9-8776-674752f3d5a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VSS" input
+			(at 139.7 106.68 270)
+			(uuid "ec1618c0-0263-4026-82d5-ce00af753138")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 146.05 100.33 0)
+			(uuid "cfe122e7-e6c1-4d8a-b8ec-054913e25134")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "RyzzenKeyboard"
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029"
+					(page "119")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 151.13 73.66)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e64fc037-d1fe-4b23-a603-e3319ec165ed")
+		(property "Sheetname" "LED18"
+			(at 151.13 72.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 151.13 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "DIN" input
+			(at 163.83 80.01 0)
+			(uuid "0e39f358-34a0-497c-9678-5ce52b07fd71")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VDD" input
+			(at 157.48 86.36 270)
+			(uuid "ba9fe404-f8a5-441c-9f67-c361fa845868")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VSS" input
+			(at 157.48 73.66 90)
+			(uuid "2ef26015-c1e5-4afd-8e1c-de634ac909bd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DOUT" output
+			(at 151.13 80.01 180)
+			(uuid "9dcfb89e-143a-418e-9621-31f18bc7a1fb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "RyzzenKeyboard"
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029"
+					(page "125")
+				)
+			)
+		)
+	)
+)

@@ -11,29 +11,27 @@
 		(company "Ryzzen")
 	)
 	(lib_symbols
-		(symbol "Connector:USB_C_Plug_USB2.0"
+		(symbol "Connector:USB_C_Receptacle_USB2.0_14P"
 			(pin_names
 				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "P"
-				(at -10.16 19.05 0)
+			(property "Reference" "J"
+				(at 0 22.225 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "USB_C_Plug_USB2.0"
-				(at 12.7 19.05 0)
+			(property "Value" "USB_C_Receptacle_USB2.0_14P"
+				(at 0 19.685 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
 				)
 			)
 			(property "Footprint" ""
@@ -54,7 +52,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "USB 2.0-only Type-C Plug connector"
+			(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -72,7 +70,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "USB*C*Plug*"
+			(property "ki_fp_filters" "USB*C*Receptacle*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -81,7 +79,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "USB_C_Plug_USB2.0_0_0"
+			(symbol "USB_C_Receptacle_USB2.0_14P_0_0"
 				(rectangle
 					(start -0.254 -17.78)
 					(end 0.254 -16.764)
@@ -138,6 +136,17 @@
 					)
 				)
 				(rectangle
+					(start 10.16 0.254)
+					(end 9.144 -0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
 					(start 10.16 -2.286)
 					(end 9.144 -2.794)
 					(stroke
@@ -148,8 +157,19 @@
 						(type none)
 					)
 				)
+				(rectangle
+					(start 10.16 -4.826)
+					(end 9.144 -5.334)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
-			(symbol "USB_C_Plug_USB2.0_0_1"
+			(symbol "USB_C_Receptacle_USB2.0_14P_0_1"
 				(rectangle
 					(start -10.16 17.78)
 					(end 10.16 -17.78)
@@ -350,7 +370,7 @@
 					)
 				)
 			)
-			(symbol "USB_C_Plug_USB2.0_1_1"
+			(symbol "USB_C_Receptacle_USB2.0_14P_1_1"
 				(pin passive line
 					(at -7.62 -22.86 90)
 					(length 5.08)
@@ -522,7 +542,7 @@
 				(pin bidirectional line
 					(at 15.24 10.16 180)
 					(length 5.08)
-					(name "CC"
+					(name "CC1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -540,7 +560,7 @@
 				(pin bidirectional line
 					(at 15.24 7.62 180)
 					(length 5.08)
-					(name "VCONN"
+					(name "CC2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -574,6 +594,24 @@
 					)
 				)
 				(pin bidirectional line
+					(at 15.24 0 180)
+					(length 5.08)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
 					(at 15.24 -2.54 180)
 					(length 5.08)
 					(name "D+"
@@ -584,6 +622,24 @@
 						)
 					)
 					(number "A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -5.08 180)
+					(length 5.08)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2490,6 +2546,12 @@
 		(uuid "17f70d89-0f95-423d-8c8f-b9a0fcb1fc53")
 	)
 	(junction
+		(at 199.39 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ce2a8b6-57f3-4d68-9491-257fa7a12750")
+	)
+	(junction
 		(at 85.09 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2526,6 +2588,12 @@
 		(uuid "bb38fe5d-9523-4cba-b785-a2817b2f2cc2")
 	)
 	(junction
+		(at 199.39 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf0dc442-cc74-46b5-b83e-a3c2b54cba88")
+	)
+	(junction
 		(at 110.49 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2544,14 +2612,6 @@
 	(no_connect
 		(at 111.76 92.71)
 		(uuid "00971de0-8372-4615-9886-42a17621cb6a")
-	)
-	(no_connect
-		(at 224.79 80.01)
-		(uuid "0ef3d222-ddae-4ded-8ada-b426159624bc")
-	)
-	(no_connect
-		(at 201.93 110.49)
-		(uuid "20cbb2ce-f377-4d61-8ded-6c01f4763734")
 	)
 	(no_connect
 		(at 111.76 85.09)
@@ -2617,6 +2677,10 @@
 		(at 137.16 85.09)
 		(uuid "efb22dc5-b4cf-411c-93de-8f8b51eb9c97")
 	)
+	(no_connect
+		(at 223.52 77.47)
+		(uuid "fde6ae15-52d2-48f5-a0e2-fa024736e1fa")
+	)
 	(wire
 		(pts
 			(xy 107.95 77.47) (xy 111.76 77.47)
@@ -2649,13 +2713,13 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 113.03) (xy 186.69 113.03)
+			(xy 215.9 76.2) (xy 215.9 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "100ddf4c-9631-4871-a900-c0a750458123")
+		(uuid "1550f74a-afd0-465d-947f-3e03f4a1009c")
 	)
 	(wire
 		(pts
@@ -2679,13 +2743,13 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 107.95) (xy 176.53 100.33)
+			(xy 199.39 110.49) (xy 200.66 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "26d4e563-2b0a-4a67-8afd-33a073a471f4")
+		(uuid "2cde34a5-1367-43e6-a71d-33d88acd23a8")
 	)
 	(wire
 		(pts
@@ -2709,16 +2773,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 118.11) (xy 191.77 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "326b6939-f228-42f1-8314-f16087a8ef08")
-	)
-	(wire
-		(pts
 			(xy 107.95 77.47) (xy 107.95 78.74)
 		)
 		(stroke
@@ -2739,6 +2793,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 115.57) (xy 200.66 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f092e41-f022-4c58-b202-85b2b3eaf1be")
+	)
+	(wire
+		(pts
 			(xy 127 123.19) (xy 127 124.46)
 		)
 		(stroke
@@ -2749,6 +2813,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 95.25) (xy 199.39 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48287da7-0ce1-4833-a87d-eeed91510887")
+	)
+	(wire
+		(pts
 			(xy 121.92 60.96) (xy 121.92 68.58)
 		)
 		(stroke
@@ -2756,6 +2830,16 @@
 			(type default)
 		)
 		(uuid "492f9f8b-37e2-4994-b096-76dca7815e63")
+	)
+	(wire
+		(pts
+			(xy 199.39 100.33) (xy 200.66 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ac5bbf2-3da5-4fa6-8b70-42e377928399")
 	)
 	(wire
 		(pts
@@ -2779,13 +2863,13 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 100.33) (xy 201.93 100.33)
+			(xy 199.39 95.25) (xy 200.66 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "603e96ec-0241-4eb1-935d-5a045de7288c")
+		(uuid "5e4dce5a-984b-4fee-bfdd-0590184991ac")
 	)
 	(wire
 		(pts
@@ -2799,6 +2883,26 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 100.33) (xy 199.39 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c78c9d0-a18f-47f6-b506-38d6f48aba48")
+	)
+	(wire
+		(pts
+			(xy 190.5 110.49) (xy 191.77 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ee5e74c-c662-4b83-a60c-a69753cddd44")
+	)
+	(wire
+		(pts
 			(xy 106.68 77.47) (xy 107.95 77.47)
 		)
 		(stroke
@@ -2809,13 +2913,13 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 107.95) (xy 176.53 107.95)
+			(xy 199.39 102.87) (xy 199.39 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "838710d6-769c-45f4-893f-82cc7b9cd8a3")
+		(uuid "83a4f37a-6fcb-4c81-a25e-f60d898542e4")
 	)
 	(wire
 		(pts
@@ -2839,6 +2943,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 107.95) (xy 191.77 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "993c9a7a-fa7c-46bd-bbec-dadba3a4ed1c")
+	)
+	(wire
+		(pts
 			(xy 121.92 68.58) (xy 121.92 69.85)
 		)
 		(stroke
@@ -2846,6 +2960,16 @@
 			(type default)
 		)
 		(uuid "9a16f8f8-57d1-42e0-83f9-a9bdad0b6210")
+	)
+	(wire
+		(pts
+			(xy 137.16 107.95) (xy 138.43 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b55062e-95cc-47b5-a572-165764808934")
 	)
 	(wire
 		(pts
@@ -2869,6 +2993,26 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 105.41) (xy 137.16 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a37296b6-ef5d-43c9-ae1f-41ab11d3d32b")
+	)
+	(wire
+		(pts
+			(xy 187.96 115.57) (xy 191.77 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b18a71e4-408c-4bd4-84ab-7f38ebb80a01")
+	)
+	(wire
+		(pts
 			(xy 121.92 68.58) (xy 127 68.58)
 		)
 		(stroke
@@ -2889,16 +3033,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 105.41) (xy 201.93 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b878dbd1-050e-495e-92ee-16e303f6c0ff")
-	)
-	(wire
-		(pts
 			(xy 110.49 68.58) (xy 110.49 69.85)
 		)
 		(stroke
@@ -2906,6 +3040,16 @@
 			(type default)
 		)
 		(uuid "c13b6e33-e721-4548-9ea4-a35fcae3a1ab")
+	)
+	(wire
+		(pts
+			(xy 200.66 102.87) (xy 199.39 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c52c55f6-ef58-4262-8282-f7a5e1fcbd8b")
 	)
 	(wire
 		(pts
@@ -2919,33 +3063,23 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 113.03) (xy 201.93 113.03)
+			(xy 199.39 107.95) (xy 200.66 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cbd8478c-5fca-4e48-9528-82b224187063")
+		(uuid "d00c12f6-b93d-49cb-b051-0909f016638b")
 	)
 	(wire
 		(pts
-			(xy 199.39 118.11) (xy 201.93 118.11)
+			(xy 200.66 97.79) (xy 199.39 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ce602329-e679-4679-b13c-0edd1c41d191")
-	)
-	(wire
-		(pts
-			(xy 217.17 77.47) (xy 217.17 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d13530f3-7581-4860-9367-b45416b29c51")
+		(uuid "d17a424b-44e5-458e-af45-014a36891be8")
 	)
 	(wire
 		(pts
@@ -2969,6 +3103,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 97.79) (xy 199.39 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5662fc3-5af9-4a40-a909-e43c9056984f")
+	)
+	(wire
+		(pts
 			(xy 124.46 58.42) (xy 124.46 69.85)
 		)
 		(stroke
@@ -2987,6 +3131,16 @@
 		)
 		(uuid "f7f4c41a-cdd0-4ad6-a0be-aaa84a535594")
 	)
+	(label "USB+"
+		(at 138.43 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "06cf0675-ac2b-4d7b-9767-83c40717c22a")
+	)
 	(label "NRST"
 		(at 106.68 77.47 0)
 		(effects
@@ -2997,35 +3151,35 @@
 		)
 		(uuid "0ba89a88-b149-4e75-8080-6f523157d11c")
 	)
-	(label "USB-"
-		(at 181.61 105.41 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1d203a7a-ce11-4e05-88aa-52d5a3bfae0e")
-	)
-	(label "CC"
-		(at 196.85 113.03 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3e93bd9a-b03c-4286-8958-86ffb387ba12")
-	)
 	(label "USB+"
-		(at 181.61 100.33 0)
+		(at 198.12 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "22593ffc-cb8a-4ebe-96f2-995b57adbda2")
+	)
+	(label "USB-"
+		(at 198.12 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2c015cf7-1187-4ee9-82c0-50c374e0e302")
+	)
+	(label "USB-"
+		(at 138.43 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "54269209-6804-406e-85d9-92c88349359b")
+		(uuid "313f7efd-32ff-49c3-8051-1d8a6b0daddf")
 	)
 	(hierarchical_label "SWCLK"
 		(shape input)
@@ -3105,6 +3259,81 @@
 		(uuid "ee275cd8-7f20-42a9-ac95-e8395343222f")
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 215.9 76.2 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c3901a4-d180-4d21-b2c7-8398079bd451")
+		(property "Reference" "#PWR072"
+			(at 209.55 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 212.09 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 215.9 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "581dec47-cac0-47c2-bc8e-1a66b7dee09e")
+		)
+		(instances
+			(project "RyzzenKeyboard"
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/0036604f-0404-4489-ae96-63f6d5cdfcc2"
+					(reference "#PWR072")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/5ad453cb-3dcf-48d6-b202-ee59077c2cfd"
+					(reference "#PWR080")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/9fd53b65-5f61-4bcf-b815-5987103f089e"
+					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 97.79 64.77 0)
 		(unit 1)
@@ -3114,7 +3343,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f26249f-d27c-4a50-b7b2-3b695ae5dd88")
-		(property "Reference" "C123"
+		(property "Reference" "C15"
 			(at 101.6 63.4999 0)
 			(effects
 				(font
@@ -3168,15 +3397,15 @@
 		(instances
 			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/0036604f-0404-4489-ae96-63f6d5cdfcc2"
-					(reference "C123")
+					(reference "C15")
 					(unit 1)
 				)
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/5ad453cb-3dcf-48d6-b202-ee59077c2cfd"
-					(reference "C135")
+					(reference "C65")
 					(unit 1)
 				)
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/9fd53b65-5f61-4bcf-b815-5987103f089e"
-					(reference "C129")
+					(reference "C59")
 					(unit 1)
 				)
 			)
@@ -3191,7 +3420,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "130e1473-9508-4485-966c-2e979529fbc9")
-		(property "Reference" "C124"
+		(property "Reference" "C16"
 			(at 98.298 72.644 90)
 			(effects
 				(font
@@ -3243,15 +3472,15 @@
 		(instances
 			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/0036604f-0404-4489-ae96-63f6d5cdfcc2"
-					(reference "C124")
+					(reference "C16")
 					(unit 1)
 				)
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/5ad453cb-3dcf-48d6-b202-ee59077c2cfd"
-					(reference "C136")
+					(reference "C66")
 					(unit 1)
 				)
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/9fd53b65-5f61-4bcf-b815-5987103f089e"
-					(reference "C130")
+					(reference "C60")
 					(unit 1)
 				)
 			)
@@ -3340,7 +3569,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a4cc3b5-75c1-4c99-9dcf-fccfb6c76944")
-		(property "Reference" "C125"
+		(property "Reference" "C17"
 			(at 114.3 63.4999 0)
 			(effects
 				(font
@@ -3394,15 +3623,15 @@
 		(instances
 			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/0036604f-0404-4489-ae96-63f6d5cdfcc2"
-					(reference "C125")
+					(reference "C17")
 					(unit 1)
 				)
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/5ad453cb-3dcf-48d6-b202-ee59077c2cfd"
-					(reference "C137")
+					(reference "C67")
 					(unit 1)
 				)
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/9fd53b65-5f61-4bcf-b815-5987103f089e"
-					(reference "C131")
+					(reference "C61")
 					(unit 1)
 				)
 			)
@@ -3556,99 +3785,24 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 182.88 113.03 270)
+		(lib_id "Device:R")
+		(at 195.58 107.95 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "49f29eb5-7654-48ac-ac85-94233b18006b")
-		(property "Reference" "#PWR026"
-			(at 176.53 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 179.07 113.0299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 182.88 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 182.88 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 182.88 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "68f5c628-12db-4070-ad23-d50169d3cdbc")
-		)
-		(instances
-			(project "RyzzenKeyboard"
-				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/0036604f-0404-4489-ae96-63f6d5cdfcc2"
-					(reference "#PWR026")
-					(unit 1)
-				)
-				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/5ad453cb-3dcf-48d6-b202-ee59077c2cfd"
-					(reference "#PWR048")
-					(unit 1)
-				)
-				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/9fd53b65-5f61-4bcf-b815-5987103f089e"
-					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 195.58 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "642ad4cd-4929-4f11-ab1a-69cb6c01f066")
-		(property "Reference" "D2"
-			(at 197.358 121.412 0)
+		(uuid "628a1959-1564-4ff4-a9f4-52f2ffd61df3")
+		(property "Reference" "R12"
+			(at 193.802 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "D_Schottky"
-			(at 197.358 123.952 0)
+		(property "Value" "5.1k"
+			(at 197.866 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3656,7 +3810,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 195.58 118.11 0)
+			(at 195.58 109.728 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3665,7 +3819,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 195.58 118.11 0)
+			(at 195.58 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3673,8 +3827,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Schottky diode"
-			(at 195.58 118.11 0)
+		(property "Description" "Resistor"
+			(at 195.58 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3683,23 +3837,139 @@
 			)
 		)
 		(pin "1"
-			(uuid "a93eb46f-cc2a-4a12-8397-8d53daa24efd")
+			(uuid "7bd5bc0e-fa7e-4b68-8b24-d36b7fec566f")
 		)
 		(pin "2"
-			(uuid "2deaedfb-2f29-4e5a-9675-c03afaa0a968")
+			(uuid "e2df6fb1-7ebb-4eee-92f9-54970ba7a9c7")
 		)
 		(instances
-			(project ""
+			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/0036604f-0404-4489-ae96-63f6d5cdfcc2"
-					(reference "D2")
+					(reference "R12")
 					(unit 1)
 				)
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/5ad453cb-3dcf-48d6-b202-ee59077c2cfd"
-					(reference "D4")
+					(reference "R16")
 					(unit 1)
 				)
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/9fd53b65-5f61-4bcf-b815-5987103f089e"
-					(reference "D3")
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:USB_C_Receptacle_USB2.0_14P")
+		(at 215.9 100.33 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6657bc0a-23eb-41b6-8bbb-1208333d5814")
+		(property "Reference" "J5"
+			(at 227.33 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "USB_C_Receptacle_USB2.0_14P"
+			(at 227.33 101.5999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+			(at 212.09 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
+			(at 215.9 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "B4"
+			(uuid "8bc0d2da-c11e-4846-aeeb-06dbe17b15ac")
+		)
+		(pin "A6"
+			(uuid "ee418a99-4806-4504-bf2a-fef11190625f")
+		)
+		(pin "A7"
+			(uuid "cc4dc3e9-d5aa-4201-83e4-407e9aeb812d")
+		)
+		(pin "A12"
+			(uuid "fdaebb7f-b540-474c-a570-ae693de157fc")
+		)
+		(pin "B1"
+			(uuid "1efe7437-c5fb-4dfb-a744-92a6cbfa38e8")
+		)
+		(pin "B6"
+			(uuid "df40db5a-d426-4b67-adec-e771f189c834")
+		)
+		(pin "B5"
+			(uuid "b6166f2e-1131-444b-b04b-4e53e2ce5126")
+		)
+		(pin "B12"
+			(uuid "53823783-f094-4b9f-9a34-559625542822")
+		)
+		(pin "A9"
+			(uuid "2ee4c07b-6eb0-4b1a-a047-94f0e2c832da")
+		)
+		(pin "A4"
+			(uuid "b5bab046-4bae-4b8e-b89e-7bbc143dfc3c")
+		)
+		(pin "B9"
+			(uuid "ace30dfa-c652-4e60-8056-f6f92bf52aa4")
+		)
+		(pin "S1"
+			(uuid "2941cbbb-2d3d-42a8-bc69-eb86cbdd24c2")
+		)
+		(pin "A5"
+			(uuid "20eaa039-99a1-4bd9-b48d-9862ac862fc2")
+		)
+		(pin "A1"
+			(uuid "a8ff6f6c-57d7-4d2b-84f8-aa9ae3bcff55")
+		)
+		(pin "B7"
+			(uuid "af4b10e4-a02a-48c4-8dbf-5f1890e4ef2b")
+		)
+		(instances
+			(project "RyzzenKeyboard"
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/0036604f-0404-4489-ae96-63f6d5cdfcc2"
+					(reference "J5")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/5ad453cb-3dcf-48d6-b202-ee59077c2cfd"
+					(reference "J7")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/9fd53b65-5f61-4bcf-b815-5987103f089e"
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -3707,16 +3977,16 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 186.69 118.11 180)
+		(at 187.96 115.57 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6c8b9cba-a2c7-4035-b10a-e391628f00e0")
-		(property "Reference" "#PWR027"
-			(at 186.69 114.3 0)
+		(uuid "76fb5cc7-dc47-49e7-915f-8b6cc2b9371a")
+		(property "Reference" "#PWR069"
+			(at 187.96 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3725,7 +3995,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 186.69 123.19 0)
+			(at 187.96 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3733,7 +4003,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 186.69 118.11 0)
+			(at 187.96 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3742,7 +4012,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 118.11 0)
+			(at 187.96 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3751,7 +4021,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 186.69 118.11 0)
+			(at 187.96 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3760,20 +4030,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "67c8e668-6e3d-49fd-9c8a-05b69b0964dd")
+			(uuid "dcf47b11-1e86-4e71-abfa-bfb7b785548b")
 		)
 		(instances
-			(project ""
+			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/0036604f-0404-4489-ae96-63f6d5cdfcc2"
-					(reference "#PWR027")
+					(reference "#PWR069")
 					(unit 1)
 				)
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/5ad453cb-3dcf-48d6-b202-ee59077c2cfd"
-					(reference "#PWR049")
+					(reference "#PWR077")
 					(unit 1)
 				)
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/9fd53b65-5f61-4bcf-b815-5987103f089e"
-					(reference "#PWR038")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -3865,7 +4135,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94bedfa3-61fe-490c-94ec-ae96952b6a33")
-		(property "Reference" "C126"
+		(property "Reference" "C18"
 			(at 134.62 60.9599 0)
 			(effects
 				(font
@@ -3919,90 +4189,15 @@
 		(instances
 			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/0036604f-0404-4489-ae96-63f6d5cdfcc2"
-					(reference "C126")
+					(reference "C18")
 					(unit 1)
 				)
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/5ad453cb-3dcf-48d6-b202-ee59077c2cfd"
-					(reference "C138")
+					(reference "C68")
 					(unit 1)
 				)
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/9fd53b65-5f61-4bcf-b815-5987103f089e"
-					(reference "C132")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 190.5 113.03 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a2249745-adca-497a-a495-2ad15a660f85")
-		(property "Reference" "R10"
-			(at 192.532 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5.1k"
-			(at 192.532 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 114.808 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 190.5 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 190.5 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3b931125-182a-4c4c-bc91-b7115507759a")
-		)
-		(pin "2"
-			(uuid "f2425b0e-72e7-4ff6-ad6c-272d262ae9a2")
-		)
-		(instances
-			(project "RyzzenKeyboard"
-				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/0036604f-0404-4489-ae96-63f6d5cdfcc2"
-					(reference "R10")
-					(unit 1)
-				)
-				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/5ad453cb-3dcf-48d6-b202-ee59077c2cfd"
-					(reference "R12")
-					(unit 1)
-				)
-				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/9fd53b65-5f61-4bcf-b815-5987103f089e"
-					(reference "R11")
+					(reference "C62")
 					(unit 1)
 				)
 			)
@@ -4018,7 +4213,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "acd876a1-1b40-4a28-a0af-f5aca9da7626")
-		(property "Reference" "C122"
+		(property "Reference" "C14"
 			(at 88.9 63.4999 0)
 			(effects
 				(font
@@ -4072,15 +4267,15 @@
 		(instances
 			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/0036604f-0404-4489-ae96-63f6d5cdfcc2"
-					(reference "C122")
+					(reference "C14")
 					(unit 1)
 				)
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/5ad453cb-3dcf-48d6-b202-ee59077c2cfd"
-					(reference "C134")
+					(reference "C64")
 					(unit 1)
 				)
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/9fd53b65-5f61-4bcf-b815-5987103f089e"
-					(reference "C128")
+					(reference "C58")
 					(unit 1)
 				)
 			)
@@ -4245,11 +4440,11 @@
 					(unit 1)
 				)
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/5ad453cb-3dcf-48d6-b202-ee59077c2cfd"
-					(reference "U4")
+					(reference "U36")
 					(unit 1)
 				)
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/9fd53b65-5f61-4bcf-b815-5987103f089e"
-					(reference "U3")
+					(reference "U35")
 					(unit 1)
 				)
 			)
@@ -4265,7 +4460,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c188ab2e-c688-4225-9673-8350fb04105f")
-		(property "Reference" "C127"
+		(property "Reference" "C19"
 			(at 156.21 60.9599 0)
 			(effects
 				(font
@@ -4319,15 +4514,165 @@
 		(instances
 			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/0036604f-0404-4489-ae96-63f6d5cdfcc2"
-					(reference "C127")
+					(reference "C19")
 					(unit 1)
 				)
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/5ad453cb-3dcf-48d6-b202-ee59077c2cfd"
-					(reference "C139")
+					(reference "C69")
 					(unit 1)
 				)
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/9fd53b65-5f61-4bcf-b815-5987103f089e"
-					(reference "C133")
+					(reference "C63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 195.58 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c2c3e2ca-7d0e-47cf-9486-326884f7009b")
+		(property "Reference" "R13"
+			(at 193.548 112.776 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 197.866 112.776 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 112.268 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 195.58 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 195.58 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9d67df2f-ca6c-417a-b431-45292c82cbc4")
+		)
+		(pin "2"
+			(uuid "ab2e661a-4bb9-47c6-b372-d731722e13df")
+		)
+		(instances
+			(project "RyzzenKeyboard"
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/0036604f-0404-4489-ae96-63f6d5cdfcc2"
+					(reference "R13")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/5ad453cb-3dcf-48d6-b202-ee59077c2cfd"
+					(reference "R17")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/9fd53b65-5f61-4bcf-b815-5987103f089e"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 190.5 110.49 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c84c96b8-fe94-4ca4-a6e6-86508627c432")
+		(property "Reference" "#PWR071"
+			(at 184.15 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 186.69 110.4899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 190.5 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "baf14482-625b-467d-8b9f-102e16c9fa5c")
+		)
+		(instances
+			(project "RyzzenKeyboard"
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/0036604f-0404-4489-ae96-63f6d5cdfcc2"
+					(reference "#PWR071")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/5ad453cb-3dcf-48d6-b202-ee59077c2cfd"
+					(reference "#PWR079")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/9fd53b65-5f61-4bcf-b815-5987103f089e"
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -4482,6 +4827,81 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 190.5 107.95 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d0f55525-4bef-473a-b67b-efcb49b04a3d")
+		(property "Reference" "#PWR070"
+			(at 184.15 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 186.69 107.9499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 190.5 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "674ec80f-a864-46e7-a14b-f2cddfeedfcf")
+		)
+		(instances
+			(project "RyzzenKeyboard"
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/0036604f-0404-4489-ae96-63f6d5cdfcc2"
+					(reference "#PWR070")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/5ad453cb-3dcf-48d6-b202-ee59077c2cfd"
+					(reference "#PWR078")
+					(unit 1)
+				)
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/9fd53b65-5f61-4bcf-b815-5987103f089e"
+					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 152.4 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4629,26 +5049,24 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 217.17 77.47 180)
+		(lib_id "Device:D_Schottky")
+		(at 195.58 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e4ae093b-eeb1-4e6e-9a89-b9f9b3702058")
-		(property "Reference" "#PWR028"
-			(at 217.17 71.12 0)
+		(uuid "e52a4593-50af-4139-ad85-e4af4a26c14e")
+		(property "Reference" "D38"
+			(at 197.358 118.872 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 217.17 72.39 0)
+		(property "Value" "D_Schottky"
+			(at 197.358 121.412 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4656,7 +5074,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 217.17 77.47 0)
+			(at 195.58 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4664,8 +5082,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 217.17 77.47 0)
+		(property "Datasheet" "~"
+			(at 195.58 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4673,8 +5091,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 217.17 77.47 0)
+		(property "Description" "Schottky diode"
+			(at 195.58 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4683,131 +5101,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "c81138fe-a757-4f52-a14a-f258c513dd71")
+			(uuid "59a59221-8baf-45d0-9501-01da71aa0424")
+		)
+		(pin "2"
+			(uuid "133c8062-7a3f-4626-802b-78f59e994218")
 		)
 		(instances
 			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/0036604f-0404-4489-ae96-63f6d5cdfcc2"
-					(reference "#PWR028")
+					(reference "D38")
 					(unit 1)
 				)
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/5ad453cb-3dcf-48d6-b202-ee59077c2cfd"
-					(reference "#PWR050")
+					(reference "D40")
 					(unit 1)
 				)
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/9fd53b65-5f61-4bcf-b815-5987103f089e"
-					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:USB_C_Plug_USB2.0")
-		(at 217.17 102.87 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e9c771a4-0f24-49cc-b8bc-14540094e559")
-		(property "Reference" "P1"
-			(at 228.6 101.5999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "USB_C_Plug_USB2.0"
-			(at 228.6 104.1399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 213.36 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 213.36 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "USB 2.0-only Type-C Plug connector"
-			(at 217.17 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A12"
-			(uuid "16d09f13-d6fa-4e43-95c2-85caa892145e")
-		)
-		(pin "A5"
-			(uuid "014eebb9-bfe4-4f63-b8c5-0c1aea38a5c7")
-		)
-		(pin "B5"
-			(uuid "d17eedb5-d85b-495f-8bcb-a42161c243ea")
-		)
-		(pin "A7"
-			(uuid "141ccc15-f70d-4ceb-a3fd-cb045d8d2e01")
-		)
-		(pin "B1"
-			(uuid "f0e68fa7-1029-4808-96f0-1705b2990286")
-		)
-		(pin "B12"
-			(uuid "64bfb313-53fe-4129-a80f-65dc4420a3a0")
-		)
-		(pin "A1"
-			(uuid "2e19eb54-fe0e-4026-9c9f-879347e9ba8e")
-		)
-		(pin "A6"
-			(uuid "886636ef-9976-4362-8dc0-10f41e594442")
-		)
-		(pin "S1"
-			(uuid "fbf924b8-26d5-4d6b-b801-516af77fec46")
-		)
-		(pin "B9"
-			(uuid "a55fbf33-ba9d-402f-8e85-9806156ec24d")
-		)
-		(pin "B4"
-			(uuid "f527e696-fd8f-4b4c-bef2-dbd43b93f25d")
-		)
-		(pin "A9"
-			(uuid "fe8eba21-4a93-406c-8474-cf603cd6be36")
-		)
-		(pin "A4"
-			(uuid "35e00ea7-3c63-4290-b5ef-df4429dc6eb8")
-		)
-		(instances
-			(project "RyzzenKeyboard"
-				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/0036604f-0404-4489-ae96-63f6d5cdfcc2"
-					(reference "P1")
-					(unit 1)
-				)
-				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/5ad453cb-3dcf-48d6-b202-ee59077c2cfd"
-					(reference "P3")
-					(unit 1)
-				)
-				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/9fd53b65-5f61-4bcf-b815-5987103f089e"
-					(reference "P2")
+					(reference "D39")
 					(unit 1)
 				)
 			)
