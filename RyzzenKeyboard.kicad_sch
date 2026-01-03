@@ -6393,7 +6393,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 168.91) (xy 82.55 168.91)
+			(xy 81.28 170.18) (xy 82.55 170.18)
 		)
 		(stroke
 			(width 0)
@@ -6671,7 +6671,7 @@
 		)
 		(uuid "0e5b1dd4-82db-41a2-8735-79c2853234ce")
 	)
-	(label "nCS1"
+	(label "nCS5"
 		(at 154.94 179.07 0)
 		(effects
 			(font
@@ -6901,7 +6901,7 @@
 		)
 		(uuid "4d0276fc-7a2b-40d5-8a23-cf23fed7ae87")
 	)
-	(label "nCS0"
+	(label "nCS2"
 		(at 130.81 176.53 0)
 		(effects
 			(font
@@ -7041,8 +7041,8 @@
 		)
 		(uuid "63f50941-1f1f-4284-9888-17a4ee7e10fe")
 	)
-	(label "Din"
-		(at 95.25 166.37 0)
+	(label "LED_Din"
+		(at 95.25 167.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7111,7 +7111,7 @@
 		)
 		(uuid "6c87ea41-d180-47b9-a5d0-18736d1b2121")
 	)
-	(label "nCS1"
+	(label "nCS3"
 		(at 130.81 179.07 0)
 		(effects
 			(font
@@ -7341,7 +7341,7 @@
 		)
 		(uuid "ae8ff480-739d-4e10-98b4-85dfce7c1ae8")
 	)
-	(label "Din"
+	(label "LED_Din"
 		(at 130.81 191.77 0)
 		(effects
 			(font
@@ -7401,7 +7401,7 @@
 		)
 		(uuid "beca2aa6-62ba-49f8-b0e9-8290dbd6a882")
 	)
-	(label "Din"
+	(label "LED_Din"
 		(at 81.28 104.14 180)
 		(effects
 			(font
@@ -7461,7 +7461,7 @@
 		)
 		(uuid "da07ab66-aadc-4af7-b23f-ffe72a80a235")
 	)
-	(label "Din"
+	(label "LED_Din"
 		(at 154.94 191.77 0)
 		(effects
 			(font
@@ -7471,7 +7471,7 @@
 		)
 		(uuid "dd860fc9-4a14-4b8f-8e99-9b3e1aba2e61")
 	)
-	(label "nCS0"
+	(label "nCS4"
 		(at 154.94 176.53 0)
 		(effects
 			(font
@@ -7561,7 +7561,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02e44e32-702a-4977-9197-a111de83bb95")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR030"
 			(at 151.13 158.75 0)
 			(effects
 				(font
@@ -7612,7 +7612,7 @@
 		(instances
 			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743"
-					(reference "#PWR060")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -7628,7 +7628,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "030c9e2e-6c51-4838-a297-2745297af909")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR021"
 			(at 137.16 194.31 0)
 			(effects
 				(font
@@ -7679,7 +7679,7 @@
 		(instances
 			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743"
-					(reference "#PWR056")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -7695,7 +7695,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05537f12-2957-4048-ad57-02b193cdbb4e")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR019"
 			(at 137.16 163.83 0)
 			(effects
 				(font
@@ -7746,7 +7746,7 @@
 		(instances
 			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743"
-					(reference "#PWR058")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -7827,7 +7827,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0885ad36-16e9-4109-9eff-38bf79ea50f2")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR012"
 			(at 93.98 34.29 0)
 			(effects
 				(font
@@ -7877,7 +7877,7 @@
 		(instances
 			(project ""
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743"
-					(reference "#PWR07")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -7909,7 +7909,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SON95P300X300X90-7N-D"
+		(property "Footprint" "LD39100PU33RY:SON95P300X300X90-7N-D"
 			(at 234.95 145.72 0)
 			(effects
 				(font
@@ -8088,7 +8088,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 81.28 168.91 270)
+		(at 81.28 170.18 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8096,8 +8096,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "161fc295-829d-4584-bdb9-07c070073269")
-		(property "Reference" "#PWR052"
-			(at 74.93 168.91 0)
+		(property "Reference" "#PWR011"
+			(at 74.93 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8106,7 +8106,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 77.47 168.9099 90)
+			(at 77.47 170.1799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8115,7 +8115,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 168.91 0)
+			(at 81.28 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8124,7 +8124,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 168.91 0)
+			(at 81.28 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8133,7 +8133,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 81.28 168.91 0)
+			(at 81.28 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8147,7 +8147,7 @@
 		(instances
 			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743"
-					(reference "#PWR052")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -8163,7 +8163,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17d579f8-7fae-460c-9fe9-cc9bb4ca2649")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR017"
 			(at 127 158.75 0)
 			(effects
 				(font
@@ -8214,7 +8214,7 @@
 		(instances
 			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743"
-					(reference "#PWR054")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -8230,7 +8230,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b11aab5-0aa4-4666-b315-d389be815b10")
-		(property "Reference" "R2"
+		(property "Reference" "R5"
 			(at 223.52 31.75 90)
 			(effects
 				(font
@@ -8282,7 +8282,7 @@
 		(instances
 			(project ""
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743"
-					(reference "R2")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -8298,7 +8298,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e74b858-c151-4668-988f-27b3106f4e21")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR038"
 			(at 259.08 50.8 0)
 			(effects
 				(font
@@ -8349,7 +8349,7 @@
 		(instances
 			(project ""
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743"
-					(reference "#PWR017")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -8505,7 +8505,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25e9e327-122a-4960-9e2a-4ff778fd8bb2")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR036"
 			(at 198.12 53.34 0)
 			(effects
 				(font
@@ -8555,7 +8555,7 @@
 		(instances
 			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743"
-					(reference "#PWR015")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -8571,7 +8571,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "283230d2-a33e-434a-aca1-1dde4238d0d0")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR020"
 			(at 137.16 171.45 0)
 			(effects
 				(font
@@ -8622,7 +8622,7 @@
 		(instances
 			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743"
-					(reference "#PWR057")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -8777,7 +8777,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2fde558d-b4e7-444b-a726-24413c6146f8")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR018"
 			(at 127 161.29 0)
 			(effects
 				(font
@@ -8827,7 +8827,7 @@
 		(instances
 			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743"
-					(reference "#PWR055")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -8905,15 +8905,15 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 143.51 135.89 0)
+		(at 143.51 135.89 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "325ce434-d8df-4e43-8dca-2f08fefc9a1f")
-		(property "Reference" "D37"
-			(at 145.288 139.192 0)
+		(property "Reference" "D1"
+			(at 145.034 141.478 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8921,7 +8921,7 @@
 			)
 		)
 		(property "Value" "D_Schottky"
-			(at 145.288 141.732 0)
+			(at 145.034 138.938 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8964,7 +8964,7 @@
 		(instances
 			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743"
-					(reference "D37")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -8979,7 +8979,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "32602772-a1ef-4b75-bb89-16cbb2089422")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR037"
 			(at 248.92 55.88 0)
 			(effects
 				(font
@@ -9029,7 +9029,7 @@
 		(instances
 			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743"
-					(reference "#PWR016")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -9044,7 +9044,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "36c09e00-8c79-40da-896e-df7f68176afb")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR031"
 			(at 151.13 161.29 0)
 			(effects
 				(font
@@ -9094,7 +9094,7 @@
 		(instances
 			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743"
-					(reference "#PWR061")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -9178,7 +9178,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "38a6c51f-d200-4b58-ba09-ea3d0452420b")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR09"
 			(at 45.72 58.42 0)
 			(effects
 				(font
@@ -9228,7 +9228,7 @@
 		(instances
 			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743"
-					(reference "#PWR04")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -9243,7 +9243,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3b17dd1a-5c0c-4854-9a7e-90291f17c7b4")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR07"
 			(at 40.64 53.34 0)
 			(effects
 				(font
@@ -9294,7 +9294,7 @@
 		(instances
 			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743"
-					(reference "#PWR02")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -9515,7 +9515,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "52a3ecee-a147-4b91-948d-52ab829c349d")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR025"
 			(at 144.78 92.71 0)
 			(effects
 				(font
@@ -9565,7 +9565,7 @@
 		(instances
 			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743"
-					(reference "#PWR011")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -9580,7 +9580,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "53566730-66e9-4f7a-b137-b41159c161e0")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR014"
 			(at 104.14 34.29 0)
 			(effects
 				(font
@@ -9630,7 +9630,7 @@
 		(instances
 			(project ""
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743"
-					(reference "#PWR09")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -9645,7 +9645,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "58a61118-4171-4ce6-ad86-6d17c6155edb")
-		(property "Reference" "R4"
+		(property "Reference" "R1"
 			(at 30.48 130.556 90)
 			(effects
 				(font
@@ -9697,7 +9697,7 @@
 		(instances
 			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743"
-					(reference "R4")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -9713,7 +9713,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ae4430d-6260-4959-9660-24fc7e4844da")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR034"
 			(at 161.29 194.31 0)
 			(effects
 				(font
@@ -9764,7 +9764,7 @@
 		(instances
 			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743"
-					(reference "#PWR064")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -9848,7 +9848,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64f1b74b-ac0f-4891-a80b-fd1eaca4f948")
-		(property "Reference" "R3"
+		(property "Reference" "R6"
 			(at 250.19 72.3899 0)
 			(effects
 				(font
@@ -9902,7 +9902,7 @@
 		(instances
 			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743"
-					(reference "R3")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -9918,7 +9918,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "677cbd8f-0854-47ac-b923-5d677a77e9ee")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR016"
 			(at 137.16 156.21 0)
 			(effects
 				(font
@@ -9969,7 +9969,7 @@
 		(instances
 			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743"
-					(reference "#PWR053")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -10055,7 +10055,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a16a304-d3c5-485d-860c-eabeba25ab2a")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR06"
 			(at 41.91 140.97 0)
 			(effects
 				(font
@@ -10105,7 +10105,7 @@
 		(instances
 			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743"
-					(reference "#PWR027")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -10121,7 +10121,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e1005eb-c16c-4d88-b650-d33ce7e4cd6a")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR02"
 			(at 24.13 43.18 0)
 			(effects
 				(font
@@ -10172,7 +10172,7 @@
 		(instances
 			(project ""
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743"
-					(reference "#PWR01")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -10188,7 +10188,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7261283d-ee78-457f-96c0-8bfeb572ea5b")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR024"
 			(at 132.08 130.81 0)
 			(effects
 				(font
@@ -10239,7 +10239,7 @@
 		(instances
 			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743"
-					(reference "#PWR067")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -10255,7 +10255,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73282699-03e6-4df9-aa3e-f201ee52409b")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR015"
 			(at 123.19 50.8 0)
 			(effects
 				(font
@@ -10305,7 +10305,7 @@
 		(instances
 			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743"
-					(reference "#PWR010")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -10386,7 +10386,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8197060c-a846-4af8-b812-f63b88b8845b")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR029"
 			(at 161.29 156.21 0)
 			(effects
 				(font
@@ -10437,7 +10437,7 @@
 		(instances
 			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743"
-					(reference "#PWR059")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -10453,7 +10453,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83489af2-e676-4f65-af58-72123464801b")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR033"
 			(at 161.29 171.45 0)
 			(effects
 				(font
@@ -10504,7 +10504,7 @@
 		(instances
 			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743"
-					(reference "#PWR063")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -10520,7 +10520,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "849deb47-bc19-4c19-9d00-903ca3f1bd42")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR027"
 			(at 147.32 50.8 0)
 			(effects
 				(font
@@ -10570,7 +10570,7 @@
 		(instances
 			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743"
-					(reference "#PWR013")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -10585,7 +10585,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9d3205b5-fa08-4181-ba11-47e5c08efc5b")
-		(property "Reference" "R10"
+		(property "Reference" "R4"
 			(at 141.478 133.096 90)
 			(effects
 				(font
@@ -10637,7 +10637,7 @@
 		(instances
 			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743"
-					(reference "R10")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -10726,7 +10726,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a41c77fc-ac8c-423e-ae88-f256df42fe00")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR023"
 			(at 132.08 128.27 0)
 			(effects
 				(font
@@ -10777,7 +10777,7 @@
 		(instances
 			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743"
-					(reference "#PWR068")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -10793,7 +10793,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a900ffff-4728-410c-a077-d4313284a3b8")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR035"
 			(at 157.48 96.52 0)
 			(effects
 				(font
@@ -10844,7 +10844,7 @@
 		(instances
 			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743"
-					(reference "#PWR065")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -11070,7 +11070,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8642509-dfbf-4733-8fd7-20f0bcec68b5")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR04"
 			(at 31.75 184.15 0)
 			(effects
 				(font
@@ -11121,7 +11121,7 @@
 		(instances
 			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743"
-					(reference "#PWR06")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -11136,7 +11136,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b93eb84f-3b12-4192-bfb7-9048ebd35536")
-		(property "Reference" "R1"
+		(property "Reference" "R2"
 			(at 67.564 60.96 90)
 			(effects
 				(font
@@ -11188,7 +11188,7 @@
 		(instances
 			(project ""
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743"
-					(reference "R1")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -11311,7 +11311,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "be2797c4-3cd7-4613-825b-cf195a9026eb")
-		(property "Reference" "R11"
+		(property "Reference" "R3"
 			(at 141.732 125.73 90)
 			(effects
 				(font
@@ -11363,7 +11363,7 @@
 		(instances
 			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743"
-					(reference "R11")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -11379,7 +11379,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be854f14-d061-4b2e-8d30-599084876ab0")
-		(property "Reference" "J3"
+		(property "Reference" "J2"
 			(at 150.495 151.13 0)
 			(effects
 				(font
@@ -11473,7 +11473,7 @@
 		(instances
 			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743"
-					(reference "J3")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -11489,7 +11489,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c761d5e6-de2e-40b7-8686-2549b02baaa2")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 103.7433 129.54 0)
 			(effects
 				(font
@@ -11685,7 +11685,7 @@
 		(instances
 			(project ""
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743"
-					(reference "U1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -11701,7 +11701,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9acdfb0-2ffc-40cf-816a-2c2a89f2d133")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR032"
 			(at 161.29 163.83 0)
 			(effects
 				(font
@@ -11752,7 +11752,7 @@
 		(instances
 			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743"
-					(reference "#PWR062")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -11768,7 +11768,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cbcc082c-5e9b-474e-936e-eb6ace106a07")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR013"
 			(at 99.06 140.97 0)
 			(effects
 				(font
@@ -11818,7 +11818,7 @@
 		(instances
 			(project ""
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743"
-					(reference "#PWR08")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -11833,7 +11833,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d0dccf29-72ca-4e5f-835b-3301c7c34be1")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR01"
 			(at 27.94 132.08 0)
 			(effects
 				(font
@@ -11883,7 +11883,7 @@
 		(instances
 			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743"
-					(reference "#PWR028")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -11898,7 +11898,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d1bcc3b0-ec81-4c16-8b14-ae080df02ab1")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR026"
 			(at 147.32 34.29 0)
 			(effects
 				(font
@@ -11948,7 +11948,7 @@
 		(instances
 			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743"
-					(reference "#PWR012")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -11964,7 +11964,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d26ded4a-c830-4bb3-8917-4db19b5a7b33")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR022"
 			(at 135.89 132.08 0)
 			(effects
 				(font
@@ -12014,7 +12014,7 @@
 		(instances
 			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743"
-					(reference "#PWR066")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -12030,7 +12030,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d78ecdf6-bc32-4a6c-b3ac-8cba517c1e01")
-		(property "Reference" "J2"
+		(property "Reference" "J1"
 			(at 126.365 151.13 0)
 			(effects
 				(font
@@ -12124,7 +12124,7 @@
 		(instances
 			(project ""
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743"
-					(reference "J2")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -12140,7 +12140,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dcef1191-8074-4a74-846c-cbc1b6aaa832")
-		(property "Reference" "J1"
+		(property "Reference" "J3"
 			(at 160.02 57.15 0)
 			(effects
 				(font
@@ -12216,7 +12216,7 @@
 		(instances
 			(project ""
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743"
-					(reference "J1")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -12231,7 +12231,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e4604bd2-9f04-4866-a1bb-8ddda4425dd4")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR028"
 			(at 151.13 71.12 0)
 			(effects
 				(font
@@ -12281,7 +12281,7 @@
 		(instances
 			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743"
-					(reference "#PWR014")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -12297,7 +12297,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e56ce109-8ec2-4833-ad1e-8d3f5e344e2b")
-		(property "Reference" "D1"
+		(property "Reference" "D2"
 			(at 251.46 63.8174 90)
 			(effects
 				(font
@@ -12360,7 +12360,7 @@
 		(instances
 			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743"
-					(reference "D1")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -12376,7 +12376,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0426701-94d4-4cae-a701-32fd2b4e7a5c")
-		(property "Reference" "U37"
+		(property "Reference" "U1"
 			(at 53.34 119.3799 0)
 			(effects
 				(font
@@ -12448,7 +12448,7 @@
 		(instances
 			(project ""
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743"
-					(reference "U37")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -12528,7 +12528,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f4e7b152-e9e4-4d31-9508-344b187a7c59")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR03"
 			(at 40.64 165.1 0)
 			(effects
 				(font
@@ -12578,7 +12578,7 @@
 		(instances
 			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743"
-					(reference "#PWR05")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -12594,7 +12594,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6807fc1-f785-4ffb-9ff8-88cce68444c5")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR010"
 			(at 85.09 165.1 0)
 			(effects
 				(font
@@ -12645,7 +12645,7 @@
 		(instances
 			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743"
-					(reference "#PWR051")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -12661,7 +12661,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f70109f6-424d-41b4-84f5-e53b476a28f6")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR08"
 			(at 46.99 99.06 0)
 			(effects
 				(font
@@ -12711,7 +12711,7 @@
 		(instances
 			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743"
-					(reference "#PWR03")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -12726,7 +12726,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f8519b41-ae89-4428-a21e-c851d3d20937")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR05"
 			(at 41.91 110.49 0)
 			(effects
 				(font
@@ -12776,7 +12776,7 @@
 		(instances
 			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743"
-					(reference "#PWR026")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -13276,7 +13276,7 @@
 	)
 	(sheet
 		(at 82.55 163.83)
-		(size 12.7 6.35)
+		(size 12.7 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -13300,7 +13300,7 @@
 			)
 		)
 		(property "Sheetfile" "leds.kicad_sch"
-			(at 82.55 170.7646 0)
+			(at 82.55 172.0346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13309,19 +13309,9 @@
 				(hide yes)
 			)
 		)
-		(pin "Din" input
-			(at 95.25 166.37 0)
-			(uuid "4752850d-7c26-4de7-933e-f52daf074318")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Vcc" input
+		(pin "LED_5V" input
 			(at 82.55 165.1 180)
-			(uuid "e387c3bb-d02e-467c-8967-a7e1ffb171d6")
+			(uuid "38e129ba-8e60-4c10-9591-bedac32cc916")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13329,9 +13319,19 @@
 				(justify left)
 			)
 		)
-		(pin "GND" input
-			(at 82.55 168.91 180)
-			(uuid "390e11ac-43c5-4ba5-820f-798935245e3e")
+		(pin "LED_DATA" input
+			(at 95.25 167.64 0)
+			(uuid "fa48fb50-7594-4d23-aefc-5e8b6a24e926")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LED_GND" input
+			(at 82.55 170.18 180)
+			(uuid "5bbaa450-f419-4898-af20-fe328908ffab")
 			(effects
 				(font
 					(size 1.27 1.27)

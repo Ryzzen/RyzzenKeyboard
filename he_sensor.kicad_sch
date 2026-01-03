@@ -515,7 +515,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT95P280X135-6N"
+		(property "Footprint" "CT100LW-IS6:SOT95P280X135-6N"
 			(at 156.21 190.17 0)
 			(effects
 				(font
