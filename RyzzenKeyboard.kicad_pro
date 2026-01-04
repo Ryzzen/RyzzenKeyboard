@@ -470,12 +470,16 @@
       "keys"
     ],
     [
-      "7cf169b2-4350-4abb-8594-c9a1d272f05e",
-      "LED1"
-    ],
-    [
       "735f3a62-f16a-407d-b596-d90350aa3066",
       "key_bank2"
+    ],
+    [
+      "ddd39123-7c60-4daf-80ad-ae6eff6f8029",
+      "LEDs"
+    ],
+    [
+      "7cf169b2-4350-4abb-8594-c9a1d272f05e",
+      "LED1"
     ],
     [
       "22f52eda-6e0b-4a59-b9b1-9e3a4c9f6f43",
@@ -614,16 +618,8 @@
       "LED2"
     ],
     [
-      "9fd53b65-5f61-4bcf-b815-5987103f089e",
-      "HID_SPI_bridge1"
-    ],
-    [
       "5ad453cb-3dcf-48d6-b202-ee59077c2cfd",
       "HID_SPI_bridge2"
-    ],
-    [
-      "ddd39123-7c60-4daf-80ad-ae6eff6f8029",
-      "LEDs"
     ],
     [
       "487bf992-d807-4e8f-b1c4-66d16985b269",
@@ -672,6 +668,10 @@
     [
       "a98ee5d5-e1b0-4e3c-9aa3-6c671a342fbf",
       "LED13"
+    ],
+    [
+      "9fd53b65-5f61-4bcf-b815-5987103f089e",
+      "HID_SPI_bridge1"
     ],
     [
       "a6a84da7-6c8f-4f5b-aa2b-5a93f9d2f50a",

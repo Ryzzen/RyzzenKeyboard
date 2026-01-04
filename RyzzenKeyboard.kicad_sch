@@ -2500,189 +2500,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:LED"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_0_1"
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -5140,12 +4957,6 @@
 		(uuid "edd78d9d-016d-4b99-8768-c0f4f769c357")
 	)
 	(junction
-		(at 247.65 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0fff7b43-6ee3-430e-81ed-9da60f5eab69")
-	)
-	(junction
 		(at 35.56 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5158,16 +4969,16 @@
 		(uuid "22a2deb5-1064-4d78-ad24-ff14f71bda04")
 	)
 	(junction
+		(at 245.11 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2451b435-7810-4afe-8a8f-e1d809f79550")
+	)
+	(junction
 		(at 44.45 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "25f44db9-c438-4b99-82c9-e41a0c6c952f")
-	)
-	(junction
-		(at 247.65 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2adb2de0-357c-414b-8839-c18e330523bc")
 	)
 	(junction
 		(at 123.19 34.29)
@@ -5254,12 +5065,6 @@
 		(uuid "8df99aff-4983-4f62-a9d5-45780d4b4079")
 	)
 	(junction
-		(at 238.76 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "919063b5-e058-4356-9747-983d32e06f6f")
-	)
-	(junction
 		(at 58.42 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5284,12 +5089,6 @@
 		(uuid "a533c8f6-e1f0-4646-a8e0-15fb00094507")
 	)
 	(junction
-		(at 238.76 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a7a5e81d-63c2-4d89-a20e-750ae1c3415f")
-	)
-	(junction
 		(at 96.52 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5306,6 +5105,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bd76bafa-1aee-401b-be6d-46a95ae15a9b")
+	)
+	(junction
+		(at 245.11 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be9c1a9b-95a2-42f5-b2c4-5019838b75a0")
 	)
 	(junction
 		(at 62.23 76.2)
@@ -5398,14 +5203,6 @@
 	(no_connect
 		(at 81.28 71.12)
 		(uuid "67ce3ff3-95cb-4d6d-b622-45e9e68101a3")
-	)
-	(no_connect
-		(at 116.84 83.82)
-		(uuid "70cba75d-f764-4ffa-8d53-ef2252a6359c")
-	)
-	(no_connect
-		(at 116.84 81.28)
-		(uuid "7f79016c-06e1-4436-88f5-c2e4ee67ef73")
 	)
 	(no_connect
 		(at 166.37 77.47)
@@ -5683,7 +5480,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 80.01) (xy 238.76 80.01)
+			(xy 223.52 80.01) (xy 245.11 80.01)
 		)
 		(stroke
 			(width 0)
@@ -5730,16 +5527,6 @@
 			(type default)
 		)
 		(uuid "38df918e-e258-4561-a1da-81eb63aa63b6")
-	)
-	(wire
-		(pts
-			(xy 247.65 55.88) (xy 252.73 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b9c4a00-86a2-4fca-b124-dc6f73bbc1cb")
 	)
 	(wire
 		(pts
@@ -5793,16 +5580,6 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 80.01) (xy 260.35 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4fce35a4-aed8-4ed6-8756-4671fc2a38a3")
-	)
-	(wire
-		(pts
 			(xy 62.23 76.2) (xy 62.23 83.82)
 		)
 		(stroke
@@ -5850,6 +5627,16 @@
 			(type default)
 		)
 		(uuid "60768c3b-f9d6-456a-aa3e-87a51fc21828")
+	)
+	(wire
+		(pts
+			(xy 245.11 80.01) (xy 260.35 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60ccdbd0-f57a-4580-8708-c94b54418d75")
 	)
 	(wire
 		(pts
@@ -6143,16 +5930,6 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 67.31) (xy 247.65 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c9bf126-60a8-4d65-9ea3-f20466a61d17")
-	)
-	(wire
-		(pts
 			(xy 148.59 123.19) (xy 147.32 123.19)
 		)
 		(stroke
@@ -6160,16 +5937,6 @@
 			(type default)
 		)
 		(uuid "9ea8f6ec-8c4f-42a1-95f7-b054377b102d")
-	)
-	(wire
-		(pts
-			(xy 238.76 80.01) (xy 247.65 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f3829e7-c717-4b59-ac63-f99da4964631")
 	)
 	(wire
 		(pts
@@ -6343,6 +6110,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 55.88) (xy 252.73 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c24d9b59-5118-4878-a055-c09836cd60e6")
+	)
+	(wire
+		(pts
 			(xy 146.05 120.65) (xy 147.32 120.65)
 		)
 		(stroke
@@ -6403,7 +6180,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 68.58) (xy 238.76 55.88)
+			(xy 245.11 68.58) (xy 245.11 55.88)
 		)
 		(stroke
 			(width 0)
@@ -6443,16 +6220,6 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 55.88) (xy 247.65 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da73c6e2-b3df-4818-942d-5e69b7cb873a")
-	)
-	(wire
-		(pts
 			(xy 58.42 91.44) (xy 62.23 91.44)
 		)
 		(stroke
@@ -6483,23 +6250,13 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 55.88) (xy 247.65 55.88)
+			(xy 238.76 55.88) (xy 245.11 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "de61ff8f-4d35-4a69-8f66-946d13281291")
-	)
-	(wire
-		(pts
-			(xy 247.65 77.47) (xy 247.65 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfa03e9f-3d4a-446c-a17a-12d318c942fe")
 	)
 	(wire
 		(pts
@@ -6613,7 +6370,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 76.2) (xy 238.76 80.01)
+			(xy 245.11 76.2) (xy 245.11 80.01)
 		)
 		(stroke
 			(width 0)
@@ -7351,6 +7108,16 @@
 		)
 		(uuid "af7ccd59-ff79-4a30-bfb3-60997d920453")
 	)
+	(label "USB+"
+		(at 116.84 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b49fa616-7d25-4a5c-b597-ccf616f2efa3")
+	)
 	(label "A3"
 		(at 81.28 106.68 180)
 		(effects
@@ -7540,6 +7307,16 @@
 			(justify left bottom)
 		)
 		(uuid "f81f8c4c-8dec-467b-b3fa-449df5090781")
+	)
+	(label "USB-"
+		(at 116.84 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f83d23ad-7096-4290-8f65-9e5bb23b1fe3")
 	)
 	(label "SPI1_MISO"
 		(at 116.84 68.58 0)
@@ -9102,7 +8879,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 238.76 72.39 0)
+		(at 245.11 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9110,7 +8887,7 @@
 		(dnp no)
 		(uuid "3841be6f-6d1f-46d8-a185-5cad664c87f6")
 		(property "Reference" "C12"
-			(at 232.41 70.866 0)
+			(at 238.76 70.866 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9119,7 +8896,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 231.902 73.406 0)
+			(at 238.252 73.406 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9128,7 +8905,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 239.7252 76.2 0)
+			(at 246.0752 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9137,7 +8914,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 238.76 72.39 0)
+			(at 245.11 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9146,7 +8923,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 238.76 72.39 0)
+			(at 245.11 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9833,76 +9610,6 @@
 			(project ""
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743"
 					(reference "FB1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 247.65 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "64f1b74b-ac0f-4891-a80b-fd1eaca4f948")
-		(property "Reference" "R6"
-			(at 250.19 72.3899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k5"
-			(at 250.19 74.9299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 245.872 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 247.65 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 247.65 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "33b449e2-dd9d-4943-9a64-5fcb8f87d271")
-		)
-		(pin "1"
-			(uuid "398a8cff-f359-4874-9b42-9d7fec7c5df1")
-		)
-		(instances
-			(project "RyzzenKeyboard"
-				(path "/5d44d704-6136-40a8-98a4-93f001ea8743"
-					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -12288,85 +11995,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 247.65 63.5 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e56ce109-8ec2-4833-ad1e-8d3f5e344e2b")
-		(property "Reference" "D2"
-			(at 251.46 63.8174 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 251.46 66.3574 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 247.65 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 247.65 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 247.65 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 247.65 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "48814c7d-62ea-4fc1-aa3e-bd2563f9e468")
-		)
-		(pin "1"
-			(uuid "e1c22d18-4535-4354-ba80-8340385ecbfe")
-		)
-		(instances
-			(project "RyzzenKeyboard"
-				(path "/5d44d704-6136-40a8-98a4-93f001ea8743"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Memory_Flash:W25Q32JVSS")
 		(at 41.91 120.65 0)
 		(unit 1)
@@ -13116,7 +12744,7 @@
 		(instances
 			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743"
-					(page "106")
+					(page "120")
 				)
 			)
 		)
@@ -13342,7 +12970,7 @@
 		(instances
 			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743"
-					(page "108")
+					(page "5")
 				)
 			)
 		)
