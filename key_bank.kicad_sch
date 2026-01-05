@@ -3341,7 +3341,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_Mag_1.00u"
 			(at 54.61 30.48 0)
 			(effects
 				(font
@@ -3408,7 +3408,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_Mag_1.00u"
 			(at 54.61 132.08 0)
 			(effects
 				(font
@@ -3475,7 +3475,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_Mag_1.00u"
 			(at 29.21 81.28 0)
 			(effects
 				(font
@@ -3542,7 +3542,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_Mag_1.00u"
 			(at 29.21 106.68 0)
 			(effects
 				(font
@@ -3609,7 +3609,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_Mag_1.00u"
 			(at 29.21 182.88 0)
 			(effects
 				(font
@@ -3676,7 +3676,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_Mag_1.00u"
 			(at 54.61 106.68 0)
 			(effects
 				(font
@@ -4072,7 +4072,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_Mag_1.00u"
 			(at 54.61 55.88 0)
 			(effects
 				(font
@@ -4137,7 +4137,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 241.3 104.648 90)
 			(effects
 				(font
@@ -4210,7 +4210,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_Mag_1.00u"
 			(at 29.21 132.08 0)
 			(effects
 				(font
@@ -4277,7 +4277,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_Mag_1.00u"
 			(at 80.01 55.88 0)
 			(effects
 				(font
@@ -4344,7 +4344,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_Mag_1.00u"
 			(at 29.21 55.88 0)
 			(effects
 				(font
@@ -4411,7 +4411,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_Mag_1.00u"
 			(at 29.21 157.48 0)
 			(effects
 				(font
@@ -4478,7 +4478,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_Mag_1.00u"
 			(at 54.61 81.28 0)
 			(effects
 				(font
@@ -4545,7 +4545,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_Mag_1.00u"
 			(at 54.61 182.88 0)
 			(effects
 				(font
@@ -4613,7 +4613,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 254.9652 118.11 0)
 			(effects
 				(font
@@ -4687,7 +4687,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 242.2652 118.11 0)
 			(effects
 				(font
@@ -4760,7 +4760,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_Mag_1.00u"
 			(at 54.61 157.48 0)
 			(effects
 				(font
@@ -4827,7 +4827,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_Mag_1.00u"
 			(at 80.01 30.48 0)
 			(effects
 				(font
