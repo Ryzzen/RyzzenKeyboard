@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BLM21PG121SN1D
+D BLM21_N1D Series EMI Suppression Filter 120+/-25% at 100MHz 3A @85
+K
+F https://www.murata.com/en-us/products/productdetail?partno=BLM21PG121SN1%23
+$ENDCMP
+#
+#End Doc Library
