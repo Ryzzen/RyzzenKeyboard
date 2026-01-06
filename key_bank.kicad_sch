@@ -3323,7 +3323,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0b8e6baa-f303-44f8-820c-3b7ec87cc870")
-		(property "Reference" "U11"
+		(property "Reference" "ST8"
 			(at 53.848 28.956 0)
 			(effects
 				(font
@@ -3371,11 +3371,11 @@
 		(instances
 			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/c5dd3d76-8c7d-4253-bbc0-6b560edbfa92/735f3a62-f16a-407d-b596-d90350aa3066"
-					(reference "U11")
+					(reference "ST8")
 					(unit 1)
 				)
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/c5dd3d76-8c7d-4253-bbc0-6b560edbfa92/7ffe2115-dd72-444b-89b3-b9005c9fe688"
-					(reference "U27")
+					(reference "ST24")
 					(unit 1)
 				)
 			)
@@ -3390,7 +3390,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0cbbb7bb-b01c-4830-9b11-33ac368b77c1")
-		(property "Reference" "U15"
+		(property "Reference" "ST12"
 			(at 54.102 131.064 0)
 			(effects
 				(font
@@ -3438,11 +3438,11 @@
 		(instances
 			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/c5dd3d76-8c7d-4253-bbc0-6b560edbfa92/735f3a62-f16a-407d-b596-d90350aa3066"
-					(reference "U15")
+					(reference "ST12")
 					(unit 1)
 				)
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/c5dd3d76-8c7d-4253-bbc0-6b560edbfa92/7ffe2115-dd72-444b-89b3-b9005c9fe688"
-					(reference "U31")
+					(reference "ST28")
 					(unit 1)
 				)
 			)
@@ -3457,7 +3457,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "119fc0e3-60ea-4f60-bcd3-ded9e526ec1d")
-		(property "Reference" "U6"
+		(property "Reference" "ST3"
 			(at 27.94 80.01 0)
 			(effects
 				(font
@@ -3505,11 +3505,11 @@
 		(instances
 			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/c5dd3d76-8c7d-4253-bbc0-6b560edbfa92/735f3a62-f16a-407d-b596-d90350aa3066"
-					(reference "U6")
+					(reference "ST3")
 					(unit 1)
 				)
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/c5dd3d76-8c7d-4253-bbc0-6b560edbfa92/7ffe2115-dd72-444b-89b3-b9005c9fe688"
-					(reference "U22")
+					(reference "ST19")
 					(unit 1)
 				)
 			)
@@ -3524,7 +3524,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "149022ac-2dd3-4983-b72d-81297c7e113b")
-		(property "Reference" "U7"
+		(property "Reference" "ST4"
 			(at 28.194 105.156 0)
 			(effects
 				(font
@@ -3572,11 +3572,11 @@
 		(instances
 			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/c5dd3d76-8c7d-4253-bbc0-6b560edbfa92/735f3a62-f16a-407d-b596-d90350aa3066"
-					(reference "U7")
+					(reference "ST4")
 					(unit 1)
 				)
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/c5dd3d76-8c7d-4253-bbc0-6b560edbfa92/7ffe2115-dd72-444b-89b3-b9005c9fe688"
-					(reference "U23")
+					(reference "ST20")
 					(unit 1)
 				)
 			)
@@ -3591,7 +3591,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1c5acbd9-5b89-4b95-b0dc-1bf9ad01fe48")
-		(property "Reference" "U10"
+		(property "Reference" "ST7"
 			(at 27.94 181.356 0)
 			(effects
 				(font
@@ -3639,11 +3639,11 @@
 		(instances
 			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/c5dd3d76-8c7d-4253-bbc0-6b560edbfa92/735f3a62-f16a-407d-b596-d90350aa3066"
-					(reference "U10")
+					(reference "ST7")
 					(unit 1)
 				)
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/c5dd3d76-8c7d-4253-bbc0-6b560edbfa92/7ffe2115-dd72-444b-89b3-b9005c9fe688"
-					(reference "U26")
+					(reference "ST23")
 					(unit 1)
 				)
 			)
@@ -3658,7 +3658,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2aab7b09-4ce3-4f16-a737-051641c21dfb")
-		(property "Reference" "U14"
+		(property "Reference" "ST11"
 			(at 53.848 105.156 0)
 			(effects
 				(font
@@ -3706,11 +3706,11 @@
 		(instances
 			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/c5dd3d76-8c7d-4253-bbc0-6b560edbfa92/735f3a62-f16a-407d-b596-d90350aa3066"
-					(reference "U14")
+					(reference "ST11")
 					(unit 1)
 				)
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/c5dd3d76-8c7d-4253-bbc0-6b560edbfa92/7ffe2115-dd72-444b-89b3-b9005c9fe688"
-					(reference "U30")
+					(reference "ST27")
 					(unit 1)
 				)
 			)
@@ -3972,7 +3972,7 @@
 					(unit 1)
 				)
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/c5dd3d76-8c7d-4253-bbc0-6b560edbfa92/7ffe2115-dd72-444b-89b3-b9005c9fe688"
-					(reference "IC19")
+					(reference "IC20")
 					(unit 1)
 				)
 			)
@@ -3987,7 +3987,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "48d89b3f-4bd1-42f4-9f8e-c4e7fe31d1e6")
-		(property "Reference" "U4"
+		(property "Reference" "ST1"
 			(at 28.448 28.956 0)
 			(effects
 				(font
@@ -4033,13 +4033,13 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/c5dd3d76-8c7d-4253-bbc0-6b560edbfa92/735f3a62-f16a-407d-b596-d90350aa3066"
-					(reference "U4")
+					(reference "ST1")
 					(unit 1)
 				)
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/c5dd3d76-8c7d-4253-bbc0-6b560edbfa92/7ffe2115-dd72-444b-89b3-b9005c9fe688"
-					(reference "U20")
+					(reference "ST17")
 					(unit 1)
 				)
 			)
@@ -4054,7 +4054,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "63eab649-d59e-45e7-af85-7a2527ff488f")
-		(property "Reference" "U12"
+		(property "Reference" "ST9"
 			(at 53.086 54.356 0)
 			(effects
 				(font
@@ -4102,11 +4102,11 @@
 		(instances
 			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/c5dd3d76-8c7d-4253-bbc0-6b560edbfa92/735f3a62-f16a-407d-b596-d90350aa3066"
-					(reference "U12")
+					(reference "ST9")
 					(unit 1)
 				)
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/c5dd3d76-8c7d-4253-bbc0-6b560edbfa92/7ffe2115-dd72-444b-89b3-b9005c9fe688"
-					(reference "U28")
+					(reference "ST25")
 					(unit 1)
 				)
 			)
@@ -4121,7 +4121,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "679669a2-79a9-4aa0-bcc9-cf3bfa2bc208")
-		(property "Reference" "R9"
+		(property "Reference" "R8"
 			(at 241.3 100.584 90)
 			(effects
 				(font
@@ -4173,7 +4173,7 @@
 		(instances
 			(project ""
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/c5dd3d76-8c7d-4253-bbc0-6b560edbfa92/735f3a62-f16a-407d-b596-d90350aa3066"
-					(reference "R9")
+					(reference "R8")
 					(unit 1)
 				)
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/c5dd3d76-8c7d-4253-bbc0-6b560edbfa92/7ffe2115-dd72-444b-89b3-b9005c9fe688"
@@ -4192,7 +4192,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6b50a7cb-0ca4-42cb-8db4-375c5b0afb34")
-		(property "Reference" "U8"
+		(property "Reference" "ST5"
 			(at 27.94 131.064 0)
 			(effects
 				(font
@@ -4240,11 +4240,11 @@
 		(instances
 			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/c5dd3d76-8c7d-4253-bbc0-6b560edbfa92/735f3a62-f16a-407d-b596-d90350aa3066"
-					(reference "U8")
+					(reference "ST5")
 					(unit 1)
 				)
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/c5dd3d76-8c7d-4253-bbc0-6b560edbfa92/7ffe2115-dd72-444b-89b3-b9005c9fe688"
-					(reference "U24")
+					(reference "ST21")
 					(unit 1)
 				)
 			)
@@ -4259,7 +4259,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "76309325-4c0c-4388-9e7a-88e8764bcc29")
-		(property "Reference" "U19"
+		(property "Reference" "ST16"
 			(at 77.978 54.864 0)
 			(effects
 				(font
@@ -4307,11 +4307,11 @@
 		(instances
 			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/c5dd3d76-8c7d-4253-bbc0-6b560edbfa92/735f3a62-f16a-407d-b596-d90350aa3066"
-					(reference "U19")
+					(reference "ST16")
 					(unit 1)
 				)
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/c5dd3d76-8c7d-4253-bbc0-6b560edbfa92/7ffe2115-dd72-444b-89b3-b9005c9fe688"
-					(reference "U35")
+					(reference "ST32")
 					(unit 1)
 				)
 			)
@@ -4326,7 +4326,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a0e4b8e5-d059-4311-abb0-d0c10a44f03c")
-		(property "Reference" "U5"
+		(property "Reference" "ST2"
 			(at 28.194 54.356 0)
 			(effects
 				(font
@@ -4374,11 +4374,11 @@
 		(instances
 			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/c5dd3d76-8c7d-4253-bbc0-6b560edbfa92/735f3a62-f16a-407d-b596-d90350aa3066"
-					(reference "U5")
+					(reference "ST2")
 					(unit 1)
 				)
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/c5dd3d76-8c7d-4253-bbc0-6b560edbfa92/7ffe2115-dd72-444b-89b3-b9005c9fe688"
-					(reference "U21")
+					(reference "ST18")
 					(unit 1)
 				)
 			)
@@ -4393,7 +4393,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a7a7de5a-fc03-4b20-a369-bdce081ba3fa")
-		(property "Reference" "U9"
+		(property "Reference" "ST6"
 			(at 27.94 156.464 0)
 			(effects
 				(font
@@ -4441,11 +4441,11 @@
 		(instances
 			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/c5dd3d76-8c7d-4253-bbc0-6b560edbfa92/735f3a62-f16a-407d-b596-d90350aa3066"
-					(reference "U9")
+					(reference "ST6")
 					(unit 1)
 				)
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/c5dd3d76-8c7d-4253-bbc0-6b560edbfa92/7ffe2115-dd72-444b-89b3-b9005c9fe688"
-					(reference "U25")
+					(reference "ST22")
 					(unit 1)
 				)
 			)
@@ -4460,7 +4460,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a8f6edcd-0a51-4c12-8f00-c8ebfaf8fbd3")
-		(property "Reference" "U13"
+		(property "Reference" "ST10"
 			(at 53.594 80.264 0)
 			(effects
 				(font
@@ -4508,11 +4508,11 @@
 		(instances
 			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/c5dd3d76-8c7d-4253-bbc0-6b560edbfa92/735f3a62-f16a-407d-b596-d90350aa3066"
-					(reference "U13")
+					(reference "ST10")
 					(unit 1)
 				)
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/c5dd3d76-8c7d-4253-bbc0-6b560edbfa92/7ffe2115-dd72-444b-89b3-b9005c9fe688"
-					(reference "U29")
+					(reference "ST26")
 					(unit 1)
 				)
 			)
@@ -4527,7 +4527,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a9ac7a06-01a5-4f0b-b98a-17a68802369d")
-		(property "Reference" "U17"
+		(property "Reference" "ST14"
 			(at 53.34 181.61 0)
 			(effects
 				(font
@@ -4575,11 +4575,11 @@
 		(instances
 			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/c5dd3d76-8c7d-4253-bbc0-6b560edbfa92/735f3a62-f16a-407d-b596-d90350aa3066"
-					(reference "U17")
+					(reference "ST14")
 					(unit 1)
 				)
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/c5dd3d76-8c7d-4253-bbc0-6b560edbfa92/7ffe2115-dd72-444b-89b3-b9005c9fe688"
-					(reference "U33")
+					(reference "ST30")
 					(unit 1)
 				)
 			)
@@ -4595,7 +4595,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d60a6477-5348-459b-a645-3688378392a5")
-		(property "Reference" "C22"
+		(property "Reference" "C21"
 			(at 257.81 113.0299 0)
 			(effects
 				(font
@@ -4649,11 +4649,11 @@
 		(instances
 			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/c5dd3d76-8c7d-4253-bbc0-6b560edbfa92/735f3a62-f16a-407d-b596-d90350aa3066"
-					(reference "C22")
+					(reference "C21")
 					(unit 1)
 				)
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/c5dd3d76-8c7d-4253-bbc0-6b560edbfa92/7ffe2115-dd72-444b-89b3-b9005c9fe688"
-					(reference "C40")
+					(reference "C45")
 					(unit 1)
 				)
 			)
@@ -4669,7 +4669,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5a69a8b-5b9d-4c8e-b6a2-38caaa2eb5de")
-		(property "Reference" "C21"
+		(property "Reference" "C20"
 			(at 245.11 113.0299 0)
 			(effects
 				(font
@@ -4723,11 +4723,11 @@
 		(instances
 			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/c5dd3d76-8c7d-4253-bbc0-6b560edbfa92/735f3a62-f16a-407d-b596-d90350aa3066"
-					(reference "C21")
+					(reference "C20")
 					(unit 1)
 				)
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/c5dd3d76-8c7d-4253-bbc0-6b560edbfa92/7ffe2115-dd72-444b-89b3-b9005c9fe688"
-					(reference "C39")
+					(reference "C44")
 					(unit 1)
 				)
 			)
@@ -4742,7 +4742,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eede4540-114e-48e8-8fc9-31069575dc70")
-		(property "Reference" "U16"
+		(property "Reference" "ST13"
 			(at 53.086 155.956 0)
 			(effects
 				(font
@@ -4790,11 +4790,11 @@
 		(instances
 			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/c5dd3d76-8c7d-4253-bbc0-6b560edbfa92/735f3a62-f16a-407d-b596-d90350aa3066"
-					(reference "U16")
+					(reference "ST13")
 					(unit 1)
 				)
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/c5dd3d76-8c7d-4253-bbc0-6b560edbfa92/7ffe2115-dd72-444b-89b3-b9005c9fe688"
-					(reference "U32")
+					(reference "ST29")
 					(unit 1)
 				)
 			)
@@ -4809,7 +4809,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f5289706-51fd-4324-a16e-9b3cb18ebacf")
-		(property "Reference" "U18"
+		(property "Reference" "ST15"
 			(at 78.994 28.448 0)
 			(effects
 				(font
@@ -4857,11 +4857,11 @@
 		(instances
 			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/c5dd3d76-8c7d-4253-bbc0-6b560edbfa92/735f3a62-f16a-407d-b596-d90350aa3066"
-					(reference "U18")
+					(reference "ST15")
 					(unit 1)
 				)
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/c5dd3d76-8c7d-4253-bbc0-6b560edbfa92/7ffe2115-dd72-444b-89b3-b9005c9fe688"
-					(reference "U34")
+					(reference "ST31")
 					(unit 1)
 				)
 			)
