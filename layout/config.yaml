@@ -1,0 +1,92 @@
+points:
+  mirror:
+    ref: ortho_inner_home
+    distance: 1U
+
+  zones:
+    ortho:
+      anchor:
+        shift: [100, -150]
+      columns:
+        pinky:
+        ring:
+          key.stagger: 14
+        middle:
+          key.stagger: 10
+        index:
+          key.stagger: -7
+        inner:
+          key.stagger: -4
+      rows:
+        bot.padding: 1U
+        home.padding: 1U
+        top.padding: 1U
+
+    thumbs:
+      anchor:
+        ref: ortho_inner_bot
+        shift: [1U, -2U]
+      columns:
+        thumb:
+      rows:
+        bottom.padding: 1U
+
+outlines:
+  keys:
+    - what: rectangle
+      where: true
+      bound: false
+      size: [1U, 1U]
+  board:
+    - what: polygon
+      fillet: 8
+      points:
+        - ref: ortho_pinky_top
+          shift: [-2U, 1U]
+
+        - ref: ortho_inner_top
+          shift: [-1U, 2U]
+
+        - ref: mirror_ortho_inner_top
+          shift: [-1U, 2U]
+
+        - ref: mirror_ortho_pinky_top
+          shift: [-2U, 1U]
+
+        - ref: mirror_ortho_pinky_bot
+          shift: [-1U, -1U]
+
+        - ref: thumbs_thumb_bottom
+          shift: [1U, -1U]
+
+        - ref: mirror_thumbs_thumb_bottom
+          shift: [1U, -1U]
+
+        - ref: ortho_pinky_bot
+          shift: [-1U, -1U]
+  combo:
+    - name: board
+    - operation: subtract
+      name: keys
+
+footprints:
+  key_centers:
+    what: circle
+    where: true
+    params:
+      radius: 0.5
+
+pcbs:
+  main_module:
+    template: kicad8
+    outlines:
+      main:
+        outline: board
+    footprints:
+      tmr_switches:
+        what: tmr_mx_switch
+        where: true
+        params:
+          keycaps: SWITCH
+          from: "{{column_net}}"
+          to: "{{colrow}}"
