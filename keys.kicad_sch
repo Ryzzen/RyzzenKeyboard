@@ -817,6 +817,149 @@
 		(uuid "f69b727e-556a-410d-bac6-a368f681f0e7")
 	)
 	(sheet
+		(at 152.4 92.71)
+		(size 12.7 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3aabb479-c219-4268-aef4-9e1f740b8389")
+		(property "Sheetname" "key_bank3"
+			(at 152.4 91.9984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "key_bank.kicad_sch"
+			(at 152.4 116.1546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "Vdd" input
+			(at 153.67 115.57 270)
+			(uuid "d0f02e9b-d3fc-4ec9-b1ad-36a6f2b73ecb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 156.21 115.57 270)
+			(uuid "75164a01-11ee-436b-90f4-8d244b2bcd3f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "A0" input
+			(at 165.1 107.95 0)
+			(uuid "0fe6f5e7-cbe3-41dd-8c34-8e85516deaec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "A1" input
+			(at 165.1 105.41 0)
+			(uuid "7ff1398e-e878-40e8-96d0-f73ad292d178")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "A2" input
+			(at 165.1 102.87 0)
+			(uuid "5e2d43f4-5b3b-4d93-bc07-4cdeffff3f4d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "A3" input
+			(at 165.1 100.33 0)
+			(uuid "a7bed57e-0b23-43bb-9c91-8976a92590f7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DA+" input
+			(at 153.67 92.71 90)
+			(uuid "9a2a65c0-de88-433b-a728-ed42349e67e8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DA-" input
+			(at 163.83 92.71 90)
+			(uuid "6df10ffb-ac7c-41e2-a804-45350c7bec0f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "nEN" input
+			(at 163.83 115.57 270)
+			(uuid "6fca8b17-2825-43c9-85ea-bae29ac46c79")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "nWR" input
+			(at 161.29 115.57 270)
+			(uuid "30a9cfa9-2ec2-4597-b860-5c884b4a7c38")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "RyzzenKeyboard"
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/c5dd3d76-8c7d-4253-bbc0-6b560edbfa92"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 125.73 92.71)
 		(size 12.7 22.86)
 		(exclude_from_sim no)
@@ -955,149 +1098,6 @@
 			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/c5dd3d76-8c7d-4253-bbc0-6b560edbfa92"
 					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 152.4 92.71)
-		(size 12.7 22.86)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "7ffe2115-dd72-444b-89b3-b9005c9fe688")
-		(property "Sheetname" "key_bank3"
-			(at 152.4 91.9984 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "key_bank.kicad_sch"
-			(at 152.4 116.1546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "Vdd" input
-			(at 153.67 115.57 270)
-			(uuid "aee6c141-af0f-4d6a-b5dd-863f1f6321e4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "GND" input
-			(at 156.21 115.57 270)
-			(uuid "7630a9fa-69ec-4457-b99f-ab8234af89ba")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "A0" input
-			(at 165.1 107.95 0)
-			(uuid "a70baa92-e39b-4a3f-9455-c87655396815")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "A1" input
-			(at 165.1 105.41 0)
-			(uuid "2774c868-839a-4b79-b5fb-b71c81151736")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "A2" input
-			(at 165.1 102.87 0)
-			(uuid "c5c7958c-8f1f-4cb9-8368-0d9416cfbaaa")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "A3" input
-			(at 165.1 100.33 0)
-			(uuid "80c8543b-6f8d-4b75-ab23-ba6ef20e6f79")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "DA+" input
-			(at 153.67 92.71 90)
-			(uuid "4d71f3e8-0c5e-4554-b1df-d2a6dc5ccd25")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "DA-" input
-			(at 163.83 92.71 90)
-			(uuid "e1e0d1a1-a168-4b40-91ec-3c045812c82c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "nEN" input
-			(at 163.83 115.57 270)
-			(uuid "a13bafaa-a794-4104-acee-aa057b9efa38")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "nWR" input
-			(at 161.29 115.57 270)
-			(uuid "ad310d61-b238-41cf-a440-691102b891b5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "RyzzenKeyboard"
-				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/c5dd3d76-8c7d-4253-bbc0-6b560edbfa92"
-					(page "44")
 				)
 			)
 		)

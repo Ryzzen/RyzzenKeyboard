@@ -608,6 +608,90 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Check_prices",
+          "name": "Check_prices",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DESCRIPTION",
+          "name": "DESCRIPTION",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description_1",
+          "name": "Description_1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PACKAGE",
+          "name": "PACKAGE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PRICE",
+          "name": "PRICE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Price",
+          "name": "Price",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Purchase-URL",
+          "name": "Purchase-URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SnapEDA_Link",
+          "name": "SnapEDA_Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "AVAILABILITY",
+          "name": "AVAILABILITY",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MP",
+          "name": "MP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Availability",
+          "name": "Availability",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MF",
+          "name": "MF",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -683,136 +767,136 @@
       "LED1"
     ],
     [
-      "22f52eda-6e0b-4a59-b9b1-9e3a4c9f6f43",
-      "TMR_sensor7"
-    ],
-    [
-      "7dd26003-7b9b-4548-8ad2-9fde5446b991",
-      "TMR_sensor6"
-    ],
-    [
-      "aeb4f7f2-9fa7-440b-8996-fbdbaa1ce2bf",
-      "TMR_sensor5"
-    ],
-    [
-      "71c5096b-4a96-4822-92ab-7b97bd13faa0",
-      "TMR_sensor9"
-    ],
-    [
-      "b033168d-892e-4331-a3a1-f713713e1029",
-      "TMR_sensor8"
-    ],
-    [
-      "8b193de7-127c-42d9-900b-85779c73774f",
-      "TMR_sensor12"
-    ],
-    [
-      "6c1d0efb-e1e8-4c6d-af69-452844031fd1",
-      "TMR_sensor11"
-    ],
-    [
-      "80b1dd4c-7b59-44f7-83f4-85a3537feccf",
-      "TMR_sensor10"
-    ],
-    [
-      "1f668741-8401-4293-80f3-47e36091ffaa",
+      "3389349e-e6ff-488b-a349-91fb0b6f24e3",
       "TMR_sensor1"
     ],
     [
-      "7d692c4d-1e42-481b-b7f6-872664c92db2",
-      "TMR_sensor"
-    ],
-    [
-      "2fd9471e-29c5-4e6b-a997-a8e07abf334e",
-      "TMR_sensor3"
-    ],
-    [
-      "720b83aa-4d32-4780-b9a7-4edb2f45e362",
-      "TMR_sensor2"
-    ],
-    [
-      "4b2b8272-e8a9-4162-a1ec-3a31ccd7273c",
-      "TMR_sensor4"
-    ],
-    [
-      "1fc13f92-79bf-4c38-9cb1-75e108271764",
-      "TMR_sensor14"
-    ],
-    [
-      "8d8116d8-82b7-458b-a92c-0ef62bf6d18b",
-      "TMR_sensor15"
-    ],
-    [
-      "a8317dab-46d7-4786-8a28-88bb5b7edb32",
-      "TMR_sensor13"
-    ],
-    [
-      "7ffe2115-dd72-444b-89b3-b9005c9fe688",
+      "3aabb479-c219-4268-aef4-9e1f740b8389",
       "key_bank3"
     ],
     [
-      "22f52eda-6e0b-4a59-b9b1-9e3a4c9f6f43",
-      "TMR_sensor7"
+      "2afbc02f-9883-4932-956d-eb06c27fefe8",
+      "TMR_sensor2"
     ],
     [
-      "7dd26003-7b9b-4548-8ad2-9fde5446b991",
-      "TMR_sensor6"
+      "e88a917f-131d-4af3-bf95-daede3058f7c",
+      "TMR_sensor3"
     ],
     [
-      "aeb4f7f2-9fa7-440b-8996-fbdbaa1ce2bf",
+      "d8cce714-16cd-4e23-b179-5fb917086039",
       "TMR_sensor5"
     ],
     [
-      "71c5096b-4a96-4822-92ab-7b97bd13faa0",
-      "TMR_sensor9"
+      "e88a917f-131d-4af3-bf95-daede3058f7c",
+      "TMR_sensor3"
     ],
     [
-      "b033168d-892e-4331-a3a1-f713713e1029",
-      "TMR_sensor8"
+      "85994d90-7abf-4a5d-87ae-8bf81c12bf35",
+      "TMR_sensor4"
     ],
     [
-      "8b193de7-127c-42d9-900b-85779c73774f",
-      "TMR_sensor12"
+      "d8cce714-16cd-4e23-b179-5fb917086039",
+      "TMR_sensor5"
     ],
     [
-      "6c1d0efb-e1e8-4c6d-af69-452844031fd1",
-      "TMR_sensor11"
+      "5b1be8dc-d71f-4090-b793-aa24a2be47b6",
+      "TMR_sensor6"
     ],
     [
-      "80b1dd4c-7b59-44f7-83f4-85a3537feccf",
-      "TMR_sensor10"
+      "a06a225a-d1fe-4fb2-ad1f-2405501213a2",
+      "TMR_sensor7"
     ],
     [
-      "1f668741-8401-4293-80f3-47e36091ffaa",
-      "TMR_sensor1"
+      "85994d90-7abf-4a5d-87ae-8bf81c12bf35",
+      "TMR_sensor4"
+    ],
+    [
+      "5b1be8dc-d71f-4090-b793-aa24a2be47b6",
+      "TMR_sensor6"
     ],
     [
       "7d692c4d-1e42-481b-b7f6-872664c92db2",
       "TMR_sensor"
     ],
     [
-      "2fd9471e-29c5-4e6b-a997-a8e07abf334e",
-      "TMR_sensor3"
+      "3389349e-e6ff-488b-a349-91fb0b6f24e3",
+      "TMR_sensor1"
     ],
     [
-      "720b83aa-4d32-4780-b9a7-4edb2f45e362",
-      "TMR_sensor2"
+      "3a4beadf-6007-4239-8235-77700993a055",
+      "TMR_sensor8"
     ],
     [
-      "4b2b8272-e8a9-4162-a1ec-3a31ccd7273c",
-      "TMR_sensor4"
+      "5c2631b3-a763-4d7e-98b2-b58bb94a6409",
+      "TMR_sensor9"
     ],
     [
-      "1fc13f92-79bf-4c38-9cb1-75e108271764",
+      "54424843-491d-4d5f-8fc5-1f5cd2ff513c",
+      "TMR_sensor10"
+    ],
+    [
+      "39af07fb-dde4-44d6-9b81-3d4d368cae56",
+      "TMR_sensor11"
+    ],
+    [
+      "e25312dd-5592-4fc0-bb4e-437bfe37c7f9",
+      "TMR_sensor12"
+    ],
+    [
+      "f232b8b0-4aa6-44bf-bf56-93856f2ec00f",
+      "TMR_sensor13"
+    ],
+    [
+      "482b83a4-d40d-4600-84ac-2b2422b22745",
       "TMR_sensor14"
     ],
     [
-      "8d8116d8-82b7-458b-a92c-0ef62bf6d18b",
+      "7ada9d35-2e69-4cfc-a198-33d927b5d6ad",
       "TMR_sensor15"
     ],
     [
-      "a8317dab-46d7-4786-8a28-88bb5b7edb32",
+      "2afbc02f-9883-4932-956d-eb06c27fefe8",
+      "TMR_sensor2"
+    ],
+    [
+      "5c2631b3-a763-4d7e-98b2-b58bb94a6409",
+      "TMR_sensor9"
+    ],
+    [
+      "a06a225a-d1fe-4fb2-ad1f-2405501213a2",
+      "TMR_sensor7"
+    ],
+    [
+      "3a4beadf-6007-4239-8235-77700993a055",
+      "TMR_sensor8"
+    ],
+    [
+      "7d692c4d-1e42-481b-b7f6-872664c92db2",
+      "TMR_sensor"
+    ],
+    [
+      "54424843-491d-4d5f-8fc5-1f5cd2ff513c",
+      "TMR_sensor10"
+    ],
+    [
+      "39af07fb-dde4-44d6-9b81-3d4d368cae56",
+      "TMR_sensor11"
+    ],
+    [
+      "f232b8b0-4aa6-44bf-bf56-93856f2ec00f",
       "TMR_sensor13"
+    ],
+    [
+      "e25312dd-5592-4fc0-bb4e-437bfe37c7f9",
+      "TMR_sensor12"
+    ],
+    [
+      "482b83a4-d40d-4600-84ac-2b2422b22745",
+      "TMR_sensor14"
+    ],
+    [
+      "7ada9d35-2e69-4cfc-a198-33d927b5d6ad",
+      "TMR_sensor15"
     ],
     [
       "29d75898-dcbd-4cda-88aa-9921bb8ce3e1",

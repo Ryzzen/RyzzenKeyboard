@@ -1306,262 +1306,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Crystal_GND24"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Y"
-				(at 3.175 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Crystal_GND24"
-				(at 3.175 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Four pin crystal, GND on pins 2 and 4"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "quartz ceramic resonator oscillator"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Crystal*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Crystal_GND24_0_1"
-				(polyline
-					(pts
-						(xy -2.54 2.286) (xy -2.54 3.556) (xy 2.54 3.556) (xy 2.54 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -2.032 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -2.286) (xy -2.54 -3.556) (xy 2.54 -3.556) (xy 2.54 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -1.27) (xy -2.032 1.27)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.143 2.54)
-					(end 1.143 -2.54)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.556) (xy 0 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -3.81) (xy 0 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 -1.27) (xy 2.032 1.27)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Crystal_GND24_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 1.27)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:D_Schottky"
 			(pin_numbers
 				(hide yes)
@@ -1978,6 +1722,278 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ECS-250-8-30B-CKM:ECS-250-8-30B-CKM"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Y"
+				(at -12.7079 7.6248 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "ECS-250-8-30B-CKM"
+				(at -12.7326 -7.6396 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "ECS-250-8-30B-CKM:XTAL_ECS-250-8-30B-CKM"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "The ECX-53B is a miniature SMD Crystal with a 3.2 x 5 mm footprint."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MF" "ECS Inc."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PACKAGE" "SMD-4 ECX"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PRICE" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "ECX-53B-30B-4 ECS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/ECS-250-8-30B-CKM/ECS/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/ECS-250-8-30B-CKM/ECS/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "ECS-250-8-30B-CKM"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=2121748&manufacturer=ECS Inc.&part_name=ECS-250-8-30B-CKM&search_term=None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "AVAILABILITY" "Good"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "25 MHz ±10ppm Crystal 8pF 30 Ohms 4-SMD, No Lead"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "ECS-250-8-30B-CKM_0_0"
+				(rectangle
+					(start -12.7 -5.08)
+					(end 12.7 7.62)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 2.54 0)
+					(length 5.08)
+					(name "IN/OUT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 2.54 180)
+					(length 5.08)
+					(name "OUT/IN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 -2.54 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 -2.54 180)
+					(length 5.08)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -4812,12 +4828,6 @@
 		(uuid "7aad16e3-27cb-4d47-98a7-c128651eb27e")
 	)
 	(junction
-		(at 58.42 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7ce93675-45d7-41ec-83af-bfa397fa4860")
-	)
-	(junction
 		(at 69.85 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4834,12 +4844,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8df99aff-4983-4f62-a9d5-45780d4b4079")
-	)
-	(junction
-		(at 58.42 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9522fb9b-f112-41e6-aee7-d1df730e592f")
 	)
 	(junction
 		(at 139.7 134.62)
@@ -4872,6 +4876,12 @@
 		(uuid "a533c8f6-e1f0-4646-a8e0-15fb00094507")
 	)
 	(junction
+		(at 33.02 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a89cb645-9958-45dc-9a8e-2f3b2f267d14")
+	)
+	(junction
 		(at 96.52 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4902,16 +4912,10 @@
 		(uuid "be9c1a9b-95a2-42f5-b2c4-5019838b75a0")
 	)
 	(junction
-		(at 62.23 76.2)
+		(at 69.85 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bfdbd278-d49f-4bbe-955b-5c50fbfaf369")
-	)
-	(junction
-		(at 54.61 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c8d572eb-2a40-498d-af76-bf0753aaadcf")
+		(uuid "d29f8d49-41d6-43b5-b33f-2748ebe59d13")
 	)
 	(junction
 		(at 110.49 34.29)
@@ -5047,16 +5051,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 71.12) (xy 53.34 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05a1d2da-666c-4bdf-b4a8-31d3f0afc385")
-	)
-	(wire
-		(pts
 			(xy 93.98 43.18) (xy 93.98 45.72)
 		)
 		(stroke
@@ -5067,13 +5061,13 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 81.28) (xy 58.42 81.28)
+			(xy 69.85 77.47) (xy 69.85 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0dabf769-435b-4afd-80f7-ffafc906d8ce")
+		(uuid "0880f87a-579f-419c-9524-c937adf3048a")
 	)
 	(wire
 		(pts
@@ -5087,13 +5081,33 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 76.2) (xy 54.61 63.5)
+			(xy 33.02 63.5) (xy 33.02 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0f05b175-ac14-40e2-8ee7-d0983543564a")
+	)
+	(wire
+		(pts
+			(xy 31.75 91.44) (xy 46.99 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10c9b446-1218-4dd0-a57c-64307c357c7b")
+	)
+	(wire
+		(pts
+			(xy 31.75 72.39) (xy 31.75 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "133f6c76-7193-4d87-9767-c7b9a90e64b4")
 	)
 	(wire
 		(pts
@@ -5144,16 +5158,6 @@
 			(type default)
 		)
 		(uuid "1d296c70-0233-4ab8-bbb5-0f2b9706cd6c")
-	)
-	(wire
-		(pts
-			(xy 58.42 71.12) (xy 53.34 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d45a3b7-a770-4527-bc92-f39207c3f841")
 	)
 	(wire
 		(pts
@@ -5247,16 +5251,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 81.28) (xy 58.42 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2bc0aa63-34f2-444d-be32-f0f8469ea8d3")
-	)
-	(wire
-		(pts
 			(xy 69.85 41.91) (xy 69.85 43.18)
 		)
 		(stroke
@@ -5284,6 +5278,16 @@
 			(type default)
 		)
 		(uuid "301d597d-99d8-4dfd-8270-4259c2e294eb")
+	)
+	(wire
+		(pts
+			(xy 33.02 77.47) (xy 34.29 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31b80170-5528-4b26-89e2-4e9e07a62635")
 	)
 	(wire
 		(pts
@@ -5357,6 +5361,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 83.82) (xy 62.23 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3eac24b8-bebf-45f0-bdc3-346799b67f45")
+	)
+	(wire
+		(pts
 			(xy 219.71 38.1) (xy 208.28 38.1)
 		)
 		(stroke
@@ -5424,16 +5438,6 @@
 			(type default)
 		)
 		(uuid "4ca3ac79-f834-40ae-892a-7958c89fe4ff")
-	)
-	(wire
-		(pts
-			(xy 62.23 76.2) (xy 62.23 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5433cb04-8b7b-4f89-8dc7-7f627e617195")
 	)
 	(wire
 		(pts
@@ -5717,7 +5721,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 66.04) (xy 81.28 66.04)
+			(xy 69.85 66.04) (xy 81.28 66.04)
 		)
 		(stroke
 			(width 0)
@@ -5857,7 +5861,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 91.44) (xy 58.42 91.44)
+			(xy 46.99 91.44) (xy 62.23 91.44)
 		)
 		(stroke
 			(width 0)
@@ -5937,6 +5941,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 77.47) (xy 33.02 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be4f8d1d-4877-4a82-a7b1-74441b6df02c")
+	)
+	(wire
+		(pts
 			(xy 168.91 69.85) (xy 168.91 83.82)
 		)
 		(stroke
@@ -5947,7 +5961,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 76.2) (xy 62.23 66.04)
+			(xy 69.85 66.04) (xy 69.85 77.47)
 		)
 		(stroke
 			(width 0)
@@ -6057,7 +6071,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 63.5) (xy 81.28 63.5)
+			(xy 33.02 63.5) (xy 81.28 63.5)
 		)
 		(stroke
 			(width 0)
@@ -6074,16 +6088,6 @@
 			(type default)
 		)
 		(uuid "d9cda612-2f41-4132-b20b-489f7363bdf7")
-	)
-	(wire
-		(pts
-			(xy 58.42 91.44) (xy 62.23 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbe40077-8789-4d67-aeb9-7e3da84f792e")
 	)
 	(wire
 		(pts
@@ -6157,6 +6161,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 72.39) (xy 31.75 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e421b772-f1ea-405d-a73e-8fc17c3a6ea3")
+	)
+	(wire
+		(pts
 			(xy 82.55 41.91) (xy 82.55 43.18)
 		)
 		(stroke
@@ -6207,7 +6221,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 83.82) (xy 46.99 83.82)
+			(xy 33.02 83.82) (xy 46.99 83.82)
 		)
 		(stroke
 			(width 0)
@@ -6224,16 +6238,6 @@
 			(type default)
 		)
 		(uuid "f5e7f512-300c-46ac-9749-494df2997e94")
-	)
-	(wire
-		(pts
-			(xy 54.61 76.2) (xy 54.61 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f79ad441-e6b0-4c2a-80f2-61641e561034")
 	)
 	(wire
 		(pts
@@ -8420,6 +8424,221 @@
 		)
 	)
 	(symbol
+		(lib_id "ECS-250-8-30B-CKM:ECS-250-8-30B-CKM")
+		(at 52.07 74.93 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c9a0942-2c02-45a9-b6ed-4eaebb880701")
+		(property "Reference" "Y1"
+			(at 52.07 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ECS-250-8-30B-CKM"
+			(at 52.07 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ECS-250-8-30B-CKM:XTAL_ECS-250-8-30B-CKM"
+			(at 52.07 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 52.07 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "ECS Inc."
+			(at 52.07 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" "The ECX-53B is a miniature SMD Crystal with a 3.2 x 5 mm footprint."
+			(at 52.07 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "SMD-4 ECX"
+			(at 52.07 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 52.07 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "ECX-53B-30B-4 ECS"
+			(at 52.07 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/ECS-250-8-30B-CKM/ECS/view-part/?ref=eda"
+			(at 52.07 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 52.07 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ECS-250-8-30B-CKM/ECS/view-part/?ref=snap"
+			(at 52.07 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "ECS-250-8-30B-CKM"
+			(at 52.07 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=2121748&manufacturer=ECS Inc.&part_name=ECS-250-8-30B-CKM&search_term=None"
+			(at 52.07 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 52.07 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 52.07 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" "Good"
+			(at 52.07 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "25 MHz ±10ppm Crystal 8pF 30 Ohms 4-SMD, No Lead"
+			(at 52.07 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e1b68ee1-4130-4492-9f1a-aa977e67bb15")
+		)
+		(pin "3"
+			(uuid "f1fcd582-1bef-4c7f-8bae-c5efa6af199f")
+		)
+		(pin "1"
+			(uuid "1f7018ec-7165-4584-9549-9c9010bb0e68")
+		)
+		(pin "4"
+			(uuid "ce10673b-ac97-4a51-b4e3-4375c196a7a5")
+		)
+		(instances
+			(project ""
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743"
+					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 46.99 87.63 0)
 		(unit 1)
@@ -10288,79 +10507,6 @@
 			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743"
 					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Crystal_GND24")
-		(at 58.42 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a024fd7d-6012-4707-9917-dedf1b968fc3")
-		(property "Reference" "Y1"
-			(at 49.784 73.914 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "25MHz"
-			(at 49.784 76.454 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ECS-250-8-30B-CKM:XTAL_ECS-250-8-30B-CKM"
-			(at 58.42 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ecsxtal.com/store/pdf/ecx_53b.pdf"
-			(at 58.42 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Four pin crystal, GND on pins 2 and 4"
-			(at 58.42 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2e46592a-10c5-43d2-bd61-1328be4ebe69")
-		)
-		(pin "4"
-			(uuid "1cddec25-f0db-4d9e-83a8-a6c0903ac0bf")
-		)
-		(pin "1"
-			(uuid "01d7d5fd-c06a-4835-98b6-09c3b1edbb47")
-		)
-		(pin "3"
-			(uuid "b82705ad-41cb-4bc0-9017-3f29cb2c2d3e")
-		)
-		(instances
-			(project ""
-				(path "/5d44d704-6136-40a8-98a4-93f001ea8743"
-					(reference "Y1")
 					(unit 1)
 				)
 			)
