@@ -66,7 +66,10 @@ def rotate_vec(v, angle):
     r = angle_rad(angle)
     c = math.cos(r)
     s = math.sin(r)
-    return pcbnew.VECTOR2I(int(round(x * c - y * s)), int(round(x * s + y * c)))
+    return pcbnew.VECTOR2I(
+        int(round(x * c - y * s)),
+        int(round(x * s + y * c)),
+    )
 
 
 # -------------------------
@@ -76,9 +79,11 @@ def rotate_vec(v, angle):
 
 class PlaceOnSwitchesPlugin(pcbnew.ActionPlugin):
     def defaults(self):
-        self.name = "Move footprints onto switches (by reference)"
+        self.name = "Move footprints onto switches (by page order)"
         self.category = "Modify PCB"
-        self.description = "Move existing footprints (Dn) onto switches (SWn)"
+        self.description = (
+            "Move footprints onto switches; targets ordered by schematic page number"
+        )
 
     def Run(self):
         board = pcbnew.GetBoard()
@@ -94,7 +99,10 @@ class PlaceOnSwitchesPlugin(pcbnew.ActionPlugin):
             return
 
         target_prefix = ask_string(
-            parent, "Move onto switches", "Target footprint prefix (e.g. D):", "D"
+            parent,
+            "Move onto switches",
+            "Target footprint prefix (e.g. D):",
+            "D",
         )
         if target_prefix is None:
             return
@@ -114,41 +122,51 @@ class PlaceOnSwitchesPlugin(pcbnew.ActionPlugin):
             True,
         )
 
-        offset = pcbnew.VECTOR2I(pcbnew.FromMM(offset_x_mm), pcbnew.FromMM(offset_y_mm))
+        offset = pcbnew.VECTOR2I(
+            pcbnew.FromMM(offset_x_mm),
+            pcbnew.FromMM(offset_y_mm),
+        )
 
         switches = {}
-        targets = {}
+        targets_by_page = {}
 
-        # Index switches and targets by number
+        # Scan footprints
         for fp in board.GetFootprints():
             ref = fp.GetReference()
 
+            m = re.search(r"\d+", ref)
+            if not m:
+                continue
+
+            num = int(m.group())
+
             if ref.startswith(switch_prefix):
-                m = re.search(r"\d+", ref)
-                if m:
-                    switches[int(m.group())] = fp
+                switches[num] = fp
 
             elif ref.startswith(target_prefix):
-                m = re.search(r"\d+", ref)
-                if m:
-                    targets[int(m.group())] = fp
+                page = num // 1000
+                targets_by_page.setdefault(page, []).append((num, fp))
 
         if not switches:
             wx.MessageBox("No switches found", "Error", wx.OK | wx.ICON_ERROR)
             return
 
-        if not targets:
+        if not targets_by_page:
             wx.MessageBox("No target footprints found", "Error", wx.OK | wx.ICON_ERROR)
             return
 
+        # Sort switches by reference number
+        sorted_switches = sorted(switches.items())
+
+        # Sort targets by page, then by reference number
+        sorted_targets = []
+        for page in sorted(targets_by_page.keys()):
+            page_targets = sorted(targets_by_page[page], key=lambda x: x[0])
+            sorted_targets.extend(fp for _, fp in page_targets)
+
         moved = 0
 
-        for n, sw in switches.items():
-            if n not in targets:
-                continue  # no matching Dn → skip
-
-            tgt = targets[n]
-
+        for (sw_num, sw), tgt in zip(sorted_switches, sorted_targets):
             if match_rotation:
                 angle = sw.GetOrientation()
                 off_angle = angle

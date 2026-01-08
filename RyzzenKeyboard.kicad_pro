@@ -430,7 +430,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -763,28 +763,16 @@
       "LEDs"
     ],
     [
-      "7cf169b2-4350-4abb-8594-c9a1d272f05e",
-      "LED1"
+      "7d692c4d-1e42-481b-b7f6-872664c92db2",
+      "TMR_sensor"
     ],
     [
       "3389349e-e6ff-488b-a349-91fb0b6f24e3",
       "TMR_sensor1"
     ],
     [
-      "3aabb479-c219-4268-aef4-9e1f740b8389",
-      "key_bank3"
-    ],
-    [
       "2afbc02f-9883-4932-956d-eb06c27fefe8",
       "TMR_sensor2"
-    ],
-    [
-      "e88a917f-131d-4af3-bf95-daede3058f7c",
-      "TMR_sensor3"
-    ],
-    [
-      "d8cce714-16cd-4e23-b179-5fb917086039",
-      "TMR_sensor5"
     ],
     [
       "e88a917f-131d-4af3-bf95-daede3058f7c",
@@ -805,22 +793,6 @@
     [
       "a06a225a-d1fe-4fb2-ad1f-2405501213a2",
       "TMR_sensor7"
-    ],
-    [
-      "85994d90-7abf-4a5d-87ae-8bf81c12bf35",
-      "TMR_sensor4"
-    ],
-    [
-      "5b1be8dc-d71f-4090-b793-aa24a2be47b6",
-      "TMR_sensor6"
-    ],
-    [
-      "7d692c4d-1e42-481b-b7f6-872664c92db2",
-      "TMR_sensor"
-    ],
-    [
-      "3389349e-e6ff-488b-a349-91fb0b6f24e3",
-      "TMR_sensor1"
     ],
     [
       "3a4beadf-6007-4239-8235-77700993a055",
@@ -855,12 +827,32 @@
       "TMR_sensor15"
     ],
     [
+      "7d692c4d-1e42-481b-b7f6-872664c92db2",
+      "TMR_sensor"
+    ],
+    [
+      "3389349e-e6ff-488b-a349-91fb0b6f24e3",
+      "TMR_sensor1"
+    ],
+    [
       "2afbc02f-9883-4932-956d-eb06c27fefe8",
       "TMR_sensor2"
     ],
     [
-      "5c2631b3-a763-4d7e-98b2-b58bb94a6409",
-      "TMR_sensor9"
+      "e88a917f-131d-4af3-bf95-daede3058f7c",
+      "TMR_sensor3"
+    ],
+    [
+      "85994d90-7abf-4a5d-87ae-8bf81c12bf35",
+      "TMR_sensor4"
+    ],
+    [
+      "d8cce714-16cd-4e23-b179-5fb917086039",
+      "TMR_sensor5"
+    ],
+    [
+      "5b1be8dc-d71f-4090-b793-aa24a2be47b6",
+      "TMR_sensor6"
     ],
     [
       "a06a225a-d1fe-4fb2-ad1f-2405501213a2",
@@ -871,8 +863,8 @@
       "TMR_sensor8"
     ],
     [
-      "7d692c4d-1e42-481b-b7f6-872664c92db2",
-      "TMR_sensor"
+      "5c2631b3-a763-4d7e-98b2-b58bb94a6409",
+      "TMR_sensor9"
     ],
     [
       "54424843-491d-4d5f-8fc5-1f5cd2ff513c",
@@ -883,12 +875,12 @@
       "TMR_sensor11"
     ],
     [
-      "f232b8b0-4aa6-44bf-bf56-93856f2ec00f",
-      "TMR_sensor13"
-    ],
-    [
       "e25312dd-5592-4fc0-bb4e-437bfe37c7f9",
       "TMR_sensor12"
+    ],
+    [
+      "f232b8b0-4aa6-44bf-bf56-93856f2ec00f",
+      "TMR_sensor13"
     ],
     [
       "482b83a4-d40d-4600-84ac-2b2422b22745",
@@ -897,18 +889,18 @@
     [
       "7ada9d35-2e69-4cfc-a198-33d927b5d6ad",
       "TMR_sensor15"
-    ],
-    [
-      "29d75898-dcbd-4cda-88aa-9921bb8ce3e1",
-      "LED2"
-    ],
-    [
-      "5ad453cb-3dcf-48d6-b202-ee59077c2cfd",
-      "HID_SPI_bridge2"
     ],
     [
       "487bf992-d807-4e8f-b1c4-66d16985b269",
       "LED"
+    ],
+    [
+      "7cf169b2-4350-4abb-8594-c9a1d272f05e",
+      "LED1"
+    ],
+    [
+      "29d75898-dcbd-4cda-88aa-9921bb8ce3e1",
+      "LED2"
     ],
     [
       "23035616-5bf6-4409-a235-197278ce7640",
@@ -953,10 +945,6 @@
     [
       "a98ee5d5-e1b0-4e3c-9aa3-6c671a342fbf",
       "LED13"
-    ],
-    [
-      "9fd53b65-5f61-4bcf-b815-5987103f089e",
-      "HID_SPI_bridge1"
     ],
     [
       "a6a84da7-6c8f-4f5b-aa2b-5a93f9d2f50a",
@@ -1029,6 +1017,18 @@
     [
       "2af18925-a967-4b19-b674-45c1df568138",
       "LED31"
+    ],
+    [
+      "3aabb479-c219-4268-aef4-9e1f740b8389",
+      "key_bank3"
+    ],
+    [
+      "5ad453cb-3dcf-48d6-b202-ee59077c2cfd",
+      "HID_SPI_bridge2"
+    ],
+    [
+      "9fd53b65-5f61-4bcf-b815-5987103f089e",
+      "HID_SPI_bridge1"
     ]
   ],
   "text_variables": {}
