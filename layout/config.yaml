@@ -36,7 +36,7 @@ outlines:
     - what: rectangle
       where: true
       bound: false
-      size: [1U, 1U]
+      size: [0.99U, 0.99U]
   board:
     - what: polygon
       fillet: 8
@@ -87,6 +87,45 @@ pcbs:
         what: tmr_mx_switch
         where: true
         params:
-          keycaps: SWITCH
-          from: "{{column_net}}"
-          to: "{{colrow}}"
+          designator: SWITCH
+          side: "B"
+      holeTopLeft:
+        what: mountinghole
+        where:
+          ref: [ortho_pinky_top]
+          shift: [-1U, 0.8U]
+      holeTopRight:
+        what: mountinghole
+        where:
+          ref: [mirror_ortho_pinky_top]
+          shift: [-1U, 0.8U]
+      holeTopInnerRight:
+        what: mountinghole
+        where:
+          ref: [mirror_ortho_index_top]
+          shift: [-0.3U, 0.7U]
+      holeTopInnerLeft:
+        what: mountinghole
+        where:
+          ref: [ortho_index_top]
+          shift: [-0.3U, 0.7U]
+      holeBotInnerLeft:
+        what: mountinghole
+        where:
+          ref: [ortho_index_bot]
+          shift: [0.3U, -0.7U]
+      holeBotInnerRight:
+        what: mountinghole
+        where:
+          ref: [mirror_ortho_index_bot]
+          shift: [0.3U, -0.7U]
+      holeBotRight:
+        what: mountinghole
+        where:
+          ref: [mirror_thumbs_thumb_bottom]
+          shift: [3U, 0U]
+      holeBotLeft:
+        what: mountinghole
+        where:
+          ref: [thumbs_thumb_bottom]
+          shift: [3U, 0U]

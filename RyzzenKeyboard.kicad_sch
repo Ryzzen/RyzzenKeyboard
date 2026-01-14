@@ -5004,14 +5004,6 @@
 		(uuid "cf3223dc-42a0-434d-814a-45c98038a638")
 	)
 	(no_connect
-		(at 116.84 63.5)
-		(uuid "dc01f9e9-3f73-4a66-9376-fa1582d7169e")
-	)
-	(no_connect
-		(at 116.84 58.42)
-		(uuid "f26edfc7-1301-4f25-9a76-d9dffa5fc3db")
-	)
-	(no_connect
 		(at 116.84 73.66)
 		(uuid "f85d273f-7092-4859-9a19-2c052504da30")
 	)
@@ -6269,6 +6261,26 @@
 		)
 		(uuid "038f7b12-1c52-46a5-8ee6-397424c05c8d")
 	)
+	(label "D2"
+		(at 154.94 171.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "07e8b1b1-a757-4160-9c33-a16a4a4ead0a")
+	)
+	(label "D1"
+		(at 130.81 171.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "08d5702f-8802-4da5-9be3-1fb4cb8115fe")
+	)
 	(label "SPI1_MOSI"
 		(at 240.03 125.73 90)
 		(effects
@@ -6318,6 +6330,16 @@
 			(justify right bottom)
 		)
 		(uuid "1972b365-ef44-46a0-8b0f-c92ee509311d")
+	)
+	(label "D1"
+		(at 116.84 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1c47e868-9dad-43a5-88be-2b1ba8f1dcb5")
 	)
 	(label "A1"
 		(at 130.81 184.15 0)
@@ -6509,16 +6531,6 @@
 		)
 		(uuid "467a855a-0e85-4e2f-a614-d3a3bffefe02")
 	)
-	(label "nWR"
-		(at 116.84 60.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4ce6594b-24e1-4e86-89a2-2b30ee86222f")
-	)
 	(label "DA+"
 		(at 116.84 53.34 0)
 		(effects
@@ -6538,6 +6550,16 @@
 			(justify left bottom)
 		)
 		(uuid "4e114c74-0f38-4ca7-add8-3c9af691f1dd")
+	)
+	(label "D2"
+		(at 116.84 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4e721183-6f8b-4da8-98d0-f8f7139f987b")
 	)
 	(label "UART_TX"
 		(at 116.84 76.2 0)
@@ -7078,6 +7100,16 @@
 			(justify right bottom)
 		)
 		(uuid "cc786a0c-cd01-4bc6-a268-e5da067174b8")
+	)
+	(label "nWR"
+		(at 116.84 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d015629d-4b59-49aa-9296-f66e8ed6a0b9")
 	)
 	(label "SPI1_MISO"
 		(at 31.75 120.65 180)
@@ -8281,73 +8313,6 @@
 			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743"
 					(reference "#PWR01037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 130.81 171.45 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "283230d2-a33e-434a-aca1-1dde4238d0d0")
-		(property "Reference" "#PWR01021"
-			(at 137.16 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 134.62 171.4499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "81acf055-7780-4b78-95dc-92d41bd92446")
-		)
-		(instances
-			(project "RyzzenKeyboard"
-				(path "/5d44d704-6136-40a8-98a4-93f001ea8743"
-					(reference "#PWR01021")
 					(unit 1)
 				)
 			)
@@ -10374,73 +10339,6 @@
 			(project "RyzzenKeyboard"
 				(path "/5d44d704-6136-40a8-98a4-93f001ea8743"
 					(reference "#PWR01030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 154.94 171.45 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "83489af2-e676-4f65-af58-72123464801b")
-		(property "Reference" "#PWR01034"
-			(at 161.29 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 158.75 171.4499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 154.94 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a4a16be0-7e94-4e70-a19e-66c19c1f50a5")
-		)
-		(instances
-			(project "RyzzenKeyboard"
-				(path "/5d44d704-6136-40a8-98a4-93f001ea8743"
-					(reference "#PWR01034")
 					(unit 1)
 				)
 			)
