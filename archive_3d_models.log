@@ -1,0 +1,1286 @@
+02-01 17:57:18 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 238:Plugin executed on: 'linux'
+02-01 17:57:18 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 239:Plugin executed with python version: '3.13.11 (main, Dec  5 2025, 16:06:33) [GCC 15.2.0]'
+02-01 17:57:18 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 240:KiCad build version: 9.0.7
+02-01 17:57:18 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 241:Plugin version: 1.0.15
+02-01 17:57:18 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 246:Screen sizes: [wx.Size(1920, 1080)]
+02-01 17:57:18 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 253:Dialog size: wx.Size(213, 81)
+02-01 17:57:18 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 255:Char size: 18
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 30:Starting to archive 3D models
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C5001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: R1003
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: FB2001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: BLM21PG121SN1D.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 101:Ambiguous path for the model: BLM21PG121SN1D.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: BLM21PG121SN1D.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: BLM21PG121SN1D.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: R204001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: _5
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: R5001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: J1002
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: GSB1C4621DS1HR.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 101:Ambiguous path for the model: GSB1C4621DS1HR.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: GSB1C4621DS1HR.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: GSB1C4621DS1HR.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: _6
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C1001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: _8
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C1009
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: R2002
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C208004
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C207002
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C204002
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: FB207001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: BLM21PG121SN1D.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 101:Ambiguous path for the model: BLM21PG121SN1D.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: BLM21PG121SN1D.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: BLM21PG121SN1D.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C208005
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: _2
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: IC5001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: SN74AHCT1G125DBVR.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 101:Ambiguous path for the model: SN74AHCT1G125DBVR.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: SN74AHCT1G125DBVR.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: SN74AHCT1G125DBVR.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: J1003
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Connector_JST.3dshapes/JST_XH_S16B-XH-A_1x16_P2.50mm_Horizontal.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Connector_JST.3dshapes/JST_XH_S16B-XH-A_1x16_P2.50mm_Horizontal.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: R2001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C1012
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: R4001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: FB1001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: BLM21PG121SN1D.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 101:Ambiguous path for the model: BLM21PG121SN1D.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: BLM21PG121SN1D.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: BLM21PG121SN1D.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C207004
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C4002
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: U1001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8_5.3x5.3mm_P1.27mm.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8_5.3x5.3mm_P1.27mm.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: _7
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: U2001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Package_QFP.3dshapes/LQFP-32_7x7mm_P0.8mm.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Package_QFP.3dshapes/LQFP-32_7x7mm_P0.8mm.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C1010
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: D207001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: CUHS20S30,H3F.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 101:Ambiguous path for the model: CUHS20S30,H3F.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: CUHS20S30,H3F.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: CUHS20S30,H3F.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: R207002
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C208001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C2001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: J207001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: GSB1C4621DS1HR.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 101:Ambiguous path for the model: GSB1C4621DS1HR.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: GSB1C4621DS1HR.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: GSB1C4621DS1HR.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: U208001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Package_QFP.3dshapes/LQFP-32_7x7mm_P0.8mm.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Package_QFP.3dshapes/LQFP-32_7x7mm_P0.8mm.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Package_QFP.3dshapes/LQFP-32_7x7mm_P0.8mm.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: _3
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: U207001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Package_QFP.3dshapes/LQFP-32_7x7mm_P0.8mm.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Package_QFP.3dshapes/LQFP-32_7x7mm_P0.8mm.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Package_QFP.3dshapes/LQFP-32_7x7mm_P0.8mm.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: J208001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: GSB1C4621DS1HR.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 101:Ambiguous path for the model: GSB1C4621DS1HR.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: GSB1C4621DS1HR.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: GSB1C4621DS1HR.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C207003
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: IC204001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ADG726BSUZ.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 101:Ambiguous path for the model: ADG726BSUZ.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ADG726BSUZ.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ADG726BSUZ.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C208003
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C2006
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C1013
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C1003
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: J2001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: GSB1C4621DS1HR.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 101:Ambiguous path for the model: GSB1C4621DS1HR.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: GSB1C4621DS1HR.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: GSB1C4621DS1HR.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C2003
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: R207001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C1007
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: R1004
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: FB208001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: BLM21PG121SN1D.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 101:Ambiguous path for the model: BLM21PG121SN1D.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: BLM21PG121SN1D.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: BLM21PG121SN1D.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C1002
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C2005
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: D1001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: CUHS20S30,H3F.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 101:Ambiguous path for the model: CUHS20S30,H3F.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: CUHS20S30,H3F.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: CUHS20S30,H3F.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: D208001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: CUHS20S30,H3F.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 101:Ambiguous path for the model: CUHS20S30,H3F.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: CUHS20S30,H3F.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: CUHS20S30,H3F.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: IC1001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: LD39100PU33RY.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 101:Ambiguous path for the model: LD39100PU33RY.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: LD39100PU33RY.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: LD39100PU33RY.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: R1005
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: J1004
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C207006
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: Y1001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: J1001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Connector_JST.3dshapes/JST_XH_S16B-XH-A_1x16_P2.50mm_Horizontal.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Connector_JST.3dshapes/JST_XH_S16B-XH-A_1x16_P2.50mm_Horizontal.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Connector_JST.3dshapes/JST_XH_S16B-XH-A_1x16_P2.50mm_Horizontal.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: IC4001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ADG726BSUZ.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 101:Ambiguous path for the model: ADG726BSUZ.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ADG726BSUZ.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ADG726BSUZ.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: R208001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: R1002
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: R208002
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C1011
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: _1
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C208002
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C1004
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: R1001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C204001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C1005
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C2004
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: D2001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: CUHS20S30,H3F.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 101:Ambiguous path for the model: CUHS20S30,H3F.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: CUHS20S30,H3F.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: CUHS20S30,H3F.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: U1002
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: _4
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C208006
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C207001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C4001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C1008
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C1006
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C2002
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C207005
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: TMR17001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: CT100LW-IS6.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 101:Ambiguous path for the model: CT100LW-IS6.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: CT100LW-IS6.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: CT100LW-IS6.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: SWITCH26
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 78:Can not find model defined with enviroment variable:
+${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: SWITCH28
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 78:Can not find model defined with enviroment variable:
+${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C_TMR36001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C_TMR21001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: LED132001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: TMR30001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: CT100LW-IS6.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 101:Ambiguous path for the model: CT100LW-IS6.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: CT100LW-IS6.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: CT100LW-IS6.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: TMR14001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: CT100LW-IS6.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 101:Ambiguous path for the model: CT100LW-IS6.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: CT100LW-IS6.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: CT100LW-IS6.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C_LED108001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: TMR32001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: CT100LW-IS6.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 101:Ambiguous path for the model: CT100LW-IS6.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: CT100LW-IS6.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: CT100LW-IS6.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: TMR18001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: CT100LW-IS6.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 101:Ambiguous path for the model: CT100LW-IS6.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: CT100LW-IS6.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: CT100LW-IS6.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C_TMR24001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: LED138001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: TMR25001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: CT100LW-IS6.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 101:Ambiguous path for the model: CT100LW-IS6.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: CT100LW-IS6.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: CT100LW-IS6.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C_LED116001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C_TMR23001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: TMR20001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: CT100LW-IS6.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 101:Ambiguous path for the model: CT100LW-IS6.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: CT100LW-IS6.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: CT100LW-IS6.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C_TMR34001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: TMR15001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: CT100LW-IS6.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 101:Ambiguous path for the model: CT100LW-IS6.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: CT100LW-IS6.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: CT100LW-IS6.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: LED112001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: TMR29001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: CT100LW-IS6.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 101:Ambiguous path for the model: CT100LW-IS6.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: CT100LW-IS6.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: CT100LW-IS6.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: LED122001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: SWITCH6
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 78:Can not find model defined with enviroment variable:
+${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C_LED117001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: LED129001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C_LED125001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C_TMR32001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: LED110001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: SWITCH11
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 78:Can not find model defined with enviroment variable:
+${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: TMR23001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: CT100LW-IS6.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 101:Ambiguous path for the model: CT100LW-IS6.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: CT100LW-IS6.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: CT100LW-IS6.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C_TMR28001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: LED133001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C_TMR26001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: SWITCH32
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 78:Can not find model defined with enviroment variable:
+${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: TMR28001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: CT100LW-IS6.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 101:Ambiguous path for the model: CT100LW-IS6.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: CT100LW-IS6.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: CT100LW-IS6.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C_LED130001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: LED111001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: LED130001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C_LED134001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: TMR26001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: CT100LW-IS6.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 101:Ambiguous path for the model: CT100LW-IS6.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: CT100LW-IS6.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: CT100LW-IS6.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C_LED132001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: SWITCH17
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 78:Can not find model defined with enviroment variable:
+${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C_LED131001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C_LED121001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C_TMR27001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C_LED128001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: TMR36001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: CT100LW-IS6.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 101:Ambiguous path for the model: CT100LW-IS6.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: CT100LW-IS6.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: CT100LW-IS6.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: TMR34001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: CT100LW-IS6.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 101:Ambiguous path for the model: CT100LW-IS6.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: CT100LW-IS6.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: CT100LW-IS6.stp
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C_LED113001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C_LED122001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: LED116001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: LED113001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: LED128001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C_TMR15001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: SWITCH9
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 78:Can not find model defined with enviroment variable:
+${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C_TMR10001
+02-01 17:57:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C_LED118001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: LED115001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C_TMR7001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: TMR8001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: CT100LW-IS6.stp
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 101:Ambiguous path for the model: CT100LW-IS6.stp
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: CT100LW-IS6.stp
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: CT100LW-IS6.stp
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: LED131001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: SWITCH2
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 78:Can not find model defined with enviroment variable:
+${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C_TMR13001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: TMR21001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: CT100LW-IS6.stp
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 101:Ambiguous path for the model: CT100LW-IS6.stp
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: CT100LW-IS6.stp
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: CT100LW-IS6.stp
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C_TMR18001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C_LED115001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C_TMR25001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C_TMR8001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C_TMR37001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: LED121001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: SWITCH15
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 78:Can not find model defined with enviroment variable:
+${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: TMR12001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: CT100LW-IS6.stp
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 101:Ambiguous path for the model: CT100LW-IS6.stp
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: CT100LW-IS6.stp
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: CT100LW-IS6.stp
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: LED118001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C_TMR9001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: SWITCH1
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 78:Can not find model defined with enviroment variable:
+${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C_TMR17001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C_LED119001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: TMR37001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: CT100LW-IS6.stp
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 101:Ambiguous path for the model: CT100LW-IS6.stp
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: CT100LW-IS6.stp
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: CT100LW-IS6.stp
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: TMR38001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: CT100LW-IS6.stp
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 101:Ambiguous path for the model: CT100LW-IS6.stp
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: CT100LW-IS6.stp
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: CT100LW-IS6.stp
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C_LED138001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: TMR13001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: CT100LW-IS6.stp
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 101:Ambiguous path for the model: CT100LW-IS6.stp
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: CT100LW-IS6.stp
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: CT100LW-IS6.stp
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C_TMR14001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C_TMR22001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: TMR7001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: CT100LW-IS6.stp
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 101:Ambiguous path for the model: CT100LW-IS6.stp
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: CT100LW-IS6.stp
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: CT100LW-IS6.stp
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: LED108001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C_TMR12001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: LED119001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: TMR9001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: CT100LW-IS6.stp
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 101:Ambiguous path for the model: CT100LW-IS6.stp
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: CT100LW-IS6.stp
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: CT100LW-IS6.stp
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: SWITCH20
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 78:Can not find model defined with enviroment variable:
+${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C_LED109001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C_TMR16001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C_TMR30001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: LED109001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: SWITCH22
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 78:Can not find model defined with enviroment variable:
+${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: TMR19001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: CT100LW-IS6.stp
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 101:Ambiguous path for the model: CT100LW-IS6.stp
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: CT100LW-IS6.stp
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: CT100LW-IS6.stp
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C_LED123001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C_LED114001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C_LED127001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: SWITCH30
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 78:Can not find model defined with enviroment variable:
+${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C_TMR33001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C_TMR38001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: SWITCH4
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 78:Can not find model defined with enviroment variable:
+${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: LED117001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: TMR35001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: CT100LW-IS6.stp
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 101:Ambiguous path for the model: CT100LW-IS6.stp
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: CT100LW-IS6.stp
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: CT100LW-IS6.stp
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: SWITCH5
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 78:Can not find model defined with enviroment variable:
+${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C_LED135001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: SWITCH25
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 78:Can not find model defined with enviroment variable:
+${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C_LED126001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: SWITCH24
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 78:Can not find model defined with enviroment variable:
+${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: TMR33001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: CT100LW-IS6.stp
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 101:Ambiguous path for the model: CT100LW-IS6.stp
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: CT100LW-IS6.stp
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: CT100LW-IS6.stp
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: LED127001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: TMR10001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: CT100LW-IS6.stp
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 101:Ambiguous path for the model: CT100LW-IS6.stp
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: CT100LW-IS6.stp
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: CT100LW-IS6.stp
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: SWITCH18
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 78:Can not find model defined with enviroment variable:
+${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: LED120001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C_LED120001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: LED123001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: SWITCH27
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 78:Can not find model defined with enviroment variable:
+${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C_LED124001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C_LED129001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C_LED112001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C_TMR29001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: TMR16001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: CT100LW-IS6.stp
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 101:Ambiguous path for the model: CT100LW-IS6.stp
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: CT100LW-IS6.stp
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: CT100LW-IS6.stp
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: SWITCH13
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 78:Can not find model defined with enviroment variable:
+${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C_TMR31001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: LED126001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: LED135001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: TMR31001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: CT100LW-IS6.stp
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 101:Ambiguous path for the model: CT100LW-IS6.stp
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: CT100LW-IS6.stp
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: CT100LW-IS6.stp
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: TMR11001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: CT100LW-IS6.stp
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 101:Ambiguous path for the model: CT100LW-IS6.stp
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: CT100LW-IS6.stp
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: CT100LW-IS6.stp
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: LED107001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C_TMR11001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: SWITCH29
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 78:Can not find model defined with enviroment variable:
+${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: TMR22001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: CT100LW-IS6.stp
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 101:Ambiguous path for the model: CT100LW-IS6.stp
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: CT100LW-IS6.stp
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: CT100LW-IS6.stp
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C_LED110001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: SWITCH3
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 78:Can not find model defined with enviroment variable:
+${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C_LED111001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C_LED133001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C_LED136001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: LED114001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: LED137001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: SWITCH23
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 78:Can not find model defined with enviroment variable:
+${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: SWITCH21
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 78:Can not find model defined with enviroment variable:
+${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: TMR24001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: CT100LW-IS6.stp
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 101:Ambiguous path for the model: CT100LW-IS6.stp
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: CT100LW-IS6.stp
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: CT100LW-IS6.stp
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: LED125001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C_LED137001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: SWITCH7
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 78:Can not find model defined with enviroment variable:
+${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C_LED107001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C_TMR20001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: SWITCH8
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 78:Can not find model defined with enviroment variable:
+${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: LED136001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: LED134001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: LED124001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: SWITCH16
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 78:Can not find model defined with enviroment variable:
+${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: SWITCH10
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 78:Can not find model defined with enviroment variable:
+${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C_TMR35001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C_TMR19001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: SWITCH14
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 78:Can not find model defined with enviroment variable:
+${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: SWITCH19
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 78:Can not find model defined with enviroment variable:
+${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: SWITCH12
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 78:Can not find model defined with enviroment variable:
+${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: TMR27001
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: CT100LW-IS6.stp
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 101:Ambiguous path for the model: CT100LW-IS6.stp
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: CT100LW-IS6.stp
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: CT100LW-IS6.stp
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: SWITCH31
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 78:Can not find model defined with enviroment variable:
+${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl
+02-01 17:57:21 com_github_MitjaNemec_Archive3DModels.archive_3d_models 164:Did not succeed to copy 3D models!
+('FB2001', 'BLM21PG121SN1D.stp')
+('R204001', '${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ')
+('R5001', '${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ')
+('J1002', 'GSB1C4621DS1HR.stp')
+('C1001', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('C1009', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('R2002', '${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ')
+('C208004', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('C207002', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('C204002', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('FB207001', 'BLM21PG121SN1D.stp')
+('C208005', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('IC5001', 'SN74AHCT1G125DBVR.stp')
+('R2001', '${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ')
+('C1012', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('R4001', '${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ')
+('FB1001', 'BLM21PG121SN1D.stp')
+('C207004', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('C4002', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('C1010', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('D207001', 'CUHS20S30,H3F.stp')
+('R207002', '${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ')
+('C208001', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('C2001', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('J207001', 'GSB1C4621DS1HR.stp')
+('U208001', '${KICAD9_3DMODEL_DIR}/Package_QFP.3dshapes/LQFP-32_7x7mm_P0.8mm.stpZ')
+('U207001', '${KICAD9_3DMODEL_DIR}/Package_QFP.3dshapes/LQFP-32_7x7mm_P0.8mm.stpZ')
+('J208001', 'GSB1C4621DS1HR.stp')
+('C207003', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('IC204001', 'ADG726BSUZ.stp')
+('C208003', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('C2006', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('C1013', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('C1003', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('J2001', 'GSB1C4621DS1HR.stp')
+('C2003', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('R207001', '${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ')
+('C1007', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('R1004', '${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ')
+('FB208001', 'BLM21PG121SN1D.stp')
+('C1002', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('C2005', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('D1001', 'CUHS20S30,H3F.stp')
+('D208001', 'CUHS20S30,H3F.stp')
+('IC1001', 'LD39100PU33RY.stp')
+('R1005', '${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ')
+('C207006', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('J1001', '${KICAD9_3DMODEL_DIR}/Connector_JST.3dshapes/JST_XH_S16B-XH-A_1x16_P2.50mm_Horizontal.stpZ')
+('IC4001', 'ADG726BSUZ.stp')
+('R208001', '${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ')
+('R1002', '${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ')
+('R208002', '${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ')
+('C1011', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('C208002', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('C1004', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('R1001', '${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ')
+('C204001', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('C1005', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('C2004', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('D2001', 'CUHS20S30,H3F.stp')
+('U1002', '${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm.stpZ')
+('C208006', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('C207001', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('C4001', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('C1008', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('C1006', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('C2002', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('C207005', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('TMR17001', 'CT100LW-IS6.stp')
+('SWITCH26', '${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl')
+('SWITCH28', '${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl')
+('C_TMR36001', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('C_TMR21001', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('LED132001', '${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl')
+('TMR30001', 'CT100LW-IS6.stp')
+('TMR14001', 'CT100LW-IS6.stp')
+('C_LED108001', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('TMR32001', 'CT100LW-IS6.stp')
+('TMR18001', 'CT100LW-IS6.stp')
+('C_TMR24001', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('LED138001', '${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl')
+('TMR25001', 'CT100LW-IS6.stp')
+('C_LED116001', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('C_TMR23001', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('TMR20001', 'CT100LW-IS6.stp')
+('C_TMR34001', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('TMR15001', 'CT100LW-IS6.stp')
+('LED112001', '${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl')
+('TMR29001', 'CT100LW-IS6.stp')
+('LED122001', '${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl')
+('SWITCH6', '${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl')
+('C_LED117001', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('LED129001', '${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl')
+('C_LED125001', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('C_TMR32001', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('LED110001', '${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl')
+('SWITCH11', '${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl')
+('TMR23001', 'CT100LW-IS6.stp')
+('C_TMR28001', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('LED133001', '${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl')
+('C_TMR26001', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('SWITCH32', '${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl')
+('TMR28001', 'CT100LW-IS6.stp')
+('C_LED130001', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('LED111001', '${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl')
+('LED130001', '${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl')
+('C_LED134001', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('TMR26001', 'CT100LW-IS6.stp')
+('C_LED132001', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('SWITCH17', '${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl')
+('C_LED131001', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('C_LED121001', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('C_TMR27001', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('C_LED128001', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('TMR36001', 'CT100LW-IS6.stp')
+('TMR34001', 'CT100LW-IS6.stp')
+('C_LED113001', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('C_LED122001', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('LED116001', '${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl')
+('LED113001', '${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl')
+('LED128001', '${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl')
+('C_TMR15001', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('SWITCH9', '${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl')
+('C_TMR10001', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('C_LED118001', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('LED115001', '${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl')
+('C_TMR7001', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('TMR8001', 'CT100LW-IS6.stp')
+('LED131001', '${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl')
+('SWITCH2', '${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl')
+('C_TMR13001', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('TMR21001', 'CT100LW-IS6.stp')
+('C_TMR18001', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('C_LED115001', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('C_TMR25001', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('C_TMR8001', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('C_TMR37001', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('LED121001', '${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl')
+('SWITCH15', '${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl')
+('TMR12001', 'CT100LW-IS6.stp')
+('LED118001', '${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl')
+('C_TMR9001', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('SWITCH1', '${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl')
+('C_TMR17001', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('C_LED119001', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('TMR37001', 'CT100LW-IS6.stp')
+('TMR38001', 'CT100LW-IS6.stp')
+('C_LED138001', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('TMR13001', 'CT100LW-IS6.stp')
+('C_TMR14001', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('C_TMR22001', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('TMR7001', 'CT100LW-IS6.stp')
+('LED108001', '${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl')
+('C_TMR12001', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('LED119001', '${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl')
+('TMR9001', 'CT100LW-IS6.stp')
+('SWITCH20', '${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl')
+('C_LED109001', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('C_TMR16001', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('C_TMR30001', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('LED109001', '${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl')
+('SWITCH22', '${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl')
+('TMR19001', 'CT100LW-IS6.stp')
+('C_LED123001', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('C_LED114001', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('C_LED127001', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('SWITCH30', '${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl')
+('C_TMR33001', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('C_TMR38001', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('SWITCH4', '${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl')
+('LED117001', '${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl')
+('TMR35001', 'CT100LW-IS6.stp')
+('SWITCH5', '${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl')
+('C_LED135001', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('SWITCH25', '${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl')
+('C_LED126001', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('SWITCH24', '${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl')
+('TMR33001', 'CT100LW-IS6.stp')
+('LED127001', '${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl')
+('TMR10001', 'CT100LW-IS6.stp')
+('SWITCH18', '${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl')
+('LED120001', '${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl')
+('C_LED120001', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('LED123001', '${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl')
+('SWITCH27', '${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl')
+('C_LED124001', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('C_LED129001', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('C_LED112001', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('C_TMR29001', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('TMR16001', 'CT100LW-IS6.stp')
+('SWITCH13', '${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl')
+('C_TMR31001', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('LED126001', '${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl')
+('LED135001', '${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl')
+('TMR31001', 'CT100LW-IS6.stp')
+('TMR11001', 'CT100LW-IS6.stp')
+('LED107001', '${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl')
+('C_TMR11001', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('SWITCH29', '${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl')
+('TMR22001', 'CT100LW-IS6.stp')
+('C_LED110001', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('SWITCH3', '${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl')
+('C_LED111001', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('C_LED133001', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('C_LED136001', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('LED114001', '${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl')
+('LED137001', '${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl')
+('SWITCH23', '${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl')
+('SWITCH21', '${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl')
+('TMR24001', 'CT100LW-IS6.stp')
+('LED125001', '${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl')
+('C_LED137001', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('SWITCH7', '${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl')
+('C_LED107001', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('C_TMR20001', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('SWITCH8', '${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl')
+('LED136001', '${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl')
+('LED134001', '${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl')
+('LED124001', '${KISYS3DMOD}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl')
+('SWITCH16', '${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl')
+('SWITCH10', '${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl')
+('C_TMR35001', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('C_TMR19001', '${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ')
+('SWITCH14', '${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl')
+('SWITCH19', '${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl')
+('SWITCH12', '${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl')
+('TMR27001', 'CT100LW-IS6.stp')
+('SWITCH31', '${KEYSWITCH_LIB_3D}/Switch_Keyboard_Cherry_MX.3dshapes/SW_Cherry_MX_PCB.wrl')

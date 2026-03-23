@@ -2954,7 +2954,7 @@
 		)
 	)
 	(sheet
-		(at 133.35 73.66)
+		(at 115.57 93.98)
 		(size 12.7 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2970,7 +2970,7 @@
 		)
 		(uuid "1150627b-b8e0-4222-bb46-910bf944c460")
 		(property "Sheetname" "LED19"
-			(at 133.35 72.9484 0)
+			(at 115.57 93.2684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2979,7 +2979,7 @@
 			)
 		)
 		(property "Sheetfile" "led.kicad_sch"
-			(at 133.35 86.9446 0)
+			(at 115.57 107.2646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2989,43 +2989,43 @@
 			)
 		)
 		(pin "DIN" input
-			(at 146.05 80.01 0)
+			(at 115.57 100.33 180)
 			(uuid "cf85e231-f5bf-4f56-82b2-b1022759c233")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "VSS" input
-			(at 139.7 73.66 90)
+			(at 121.92 106.68 270)
 			(uuid "47ec125d-0544-483f-896f-3db02a504b84")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "DOUT" output
-			(at 133.35 80.01 180)
+			(at 128.27 100.33 0)
 			(uuid "59267d57-924d-4216-8f66-014e43cbc78b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "VCC" input
-			(at 139.7 86.36 270)
+			(at 121.92 93.98 90)
 			(uuid "4d4aa31a-0227-4cb8-8a56-0ffc4c70b85f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(instances
@@ -3203,7 +3203,7 @@
 		)
 	)
 	(sheet
-		(at 97.79 93.98)
+		(at 151.13 73.66)
 		(size 12.7 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3219,7 +3219,7 @@
 		)
 		(uuid "2450ef32-9076-405c-ad54-6d129acff93d")
 		(property "Sheetname" "LED10"
-			(at 97.79 93.2684 0)
+			(at 151.13 72.9484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3228,7 +3228,7 @@
 			)
 		)
 		(property "Sheetfile" "led.kicad_sch"
-			(at 97.79 107.2646 0)
+			(at 151.13 86.9446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3238,43 +3238,43 @@
 			)
 		)
 		(pin "DIN" input
-			(at 97.79 100.33 180)
+			(at 163.83 80.01 0)
 			(uuid "6cb74a4f-749e-4f20-a776-a8fd47decec0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "VSS" input
-			(at 104.14 106.68 270)
+			(at 157.48 73.66 90)
 			(uuid "f6924801-c681-4e99-91c6-9f885b7e4be6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "DOUT" output
-			(at 110.49 100.33 0)
+			(at 151.13 80.01 180)
 			(uuid "9e297a1a-0f82-4604-9a77-1f62105e3b16")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "VCC" input
-			(at 104.14 93.98 90)
+			(at 157.48 86.36 270)
 			(uuid "16453cb0-aa18-45bb-8df1-fd6a7e424c8d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(instances
@@ -3535,7 +3535,7 @@
 		)
 	)
 	(sheet
-		(at 62.23 93.98)
+		(at 186.69 73.66)
 		(size 12.7 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3551,89 +3551,6 @@
 		)
 		(uuid "5375842c-1d17-4646-85ff-cf75bba7c088")
 		(property "Sheetname" "LED8"
-			(at 62.23 93.2684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "led.kicad_sch"
-			(at 62.23 107.2646 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "DIN" input
-			(at 62.23 100.33 180)
-			(uuid "28d41a81-1763-4033-a883-851d887a4665")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "VSS" input
-			(at 68.58 106.68 270)
-			(uuid "acbd35b9-5b26-4984-b91e-44bff6f3149b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "DOUT" output
-			(at 74.93 100.33 0)
-			(uuid "7a9701a8-f13f-4764-976e-4992fe3a3898")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "VCC" input
-			(at 68.58 93.98 90)
-			(uuid "0a8a6b2a-6007-47f5-a3c9-0826d2b09094")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "RyzzenKeyboard"
-				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029"
-					(page "115")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 186.69 73.66)
-		(size 12.7 12.7)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "561e65f5-29eb-4597-91fb-dbed31f9f730")
-		(property "Sheetname" "LED16"
 			(at 186.69 72.9484 0)
 			(effects
 				(font
@@ -3654,7 +3571,7 @@
 		)
 		(pin "DIN" input
 			(at 199.39 80.01 0)
-			(uuid "cbb63f8f-9868-478c-84f1-f38c2cf5f9ec")
+			(uuid "28d41a81-1763-4033-a883-851d887a4665")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3664,7 +3581,7 @@
 		)
 		(pin "VSS" input
 			(at 193.04 73.66 90)
-			(uuid "93f02680-446c-49c8-be61-ecd6a3d22e7e")
+			(uuid "acbd35b9-5b26-4984-b91e-44bff6f3149b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3674,7 +3591,7 @@
 		)
 		(pin "DOUT" output
 			(at 186.69 80.01 180)
-			(uuid "623e51d9-f8e2-4467-941d-0c82d92a113f")
+			(uuid "7a9701a8-f13f-4764-976e-4992fe3a3898")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3684,12 +3601,95 @@
 		)
 		(pin "VCC" input
 			(at 193.04 86.36 270)
-			(uuid "66fa68a8-9d1e-44a9-8a89-d84dd65844c5")
+			(uuid "0a8a6b2a-6007-47f5-a3c9-0826d2b09094")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(instances
+			(project "RyzzenKeyboard"
+				(path "/5d44d704-6136-40a8-98a4-93f001ea8743/ddd39123-7c60-4daf-80ad-ae6eff6f8029"
+					(page "115")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 62.23 93.98)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "561e65f5-29eb-4597-91fb-dbed31f9f730")
+		(property "Sheetname" "LED16"
+			(at 62.23 93.2684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 62.23 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "DIN" input
+			(at 62.23 100.33 180)
+			(uuid "cbb63f8f-9868-478c-84f1-f38c2cf5f9ec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VSS" input
+			(at 68.58 106.68 270)
+			(uuid "93f02680-446c-49c8-be61-ecd6a3d22e7e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 74.93 100.33 0)
+			(uuid "623e51d9-f8e2-4467-941d-0c82d92a113f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VCC" input
+			(at 68.58 93.98 90)
+			(uuid "66fa68a8-9d1e-44a9-8a89-d84dd65844c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -3867,7 +3867,7 @@
 		)
 	)
 	(sheet
-		(at 80.01 73.66)
+		(at 168.91 93.98)
 		(size 12.7 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3883,7 +3883,7 @@
 		)
 		(uuid "69e0cf4a-c55f-443a-9370-201bfce90350")
 		(property "Sheetname" "LED22"
-			(at 80.01 72.9484 0)
+			(at 168.91 93.2684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3892,7 +3892,7 @@
 			)
 		)
 		(property "Sheetfile" "led.kicad_sch"
-			(at 80.01 86.9446 0)
+			(at 168.91 107.2646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3902,43 +3902,43 @@
 			)
 		)
 		(pin "DIN" input
-			(at 92.71 80.01 0)
+			(at 168.91 100.33 180)
 			(uuid "a51283fc-ddc5-4d4d-bc48-a60e4b12e380")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "VSS" input
-			(at 86.36 73.66 90)
+			(at 175.26 106.68 270)
 			(uuid "e3694eef-2b09-4ec7-8ee8-2df4797af7ed")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "DOUT" output
-			(at 80.01 80.01 180)
+			(at 181.61 100.33 0)
 			(uuid "8208780e-dc3b-496c-af30-4db3220c8da4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "VCC" input
-			(at 86.36 86.36 270)
+			(at 175.26 93.98 90)
 			(uuid "a8fc0345-a73a-4f2f-99b0-e7b6240b71ac")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(instances
@@ -3950,7 +3950,7 @@
 		)
 	)
 	(sheet
-		(at 186.69 93.98)
+		(at 62.23 73.66)
 		(size 12.7 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3966,7 +3966,7 @@
 		)
 		(uuid "710979c3-dc7f-4c61-ab43-367c4178ec26")
 		(property "Sheetname" "LED15"
-			(at 186.69 93.2684 0)
+			(at 62.23 72.9484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3975,7 +3975,7 @@
 			)
 		)
 		(property "Sheetfile" "led.kicad_sch"
-			(at 186.69 107.2646 0)
+			(at 62.23 86.9446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3985,43 +3985,43 @@
 			)
 		)
 		(pin "DIN" input
-			(at 186.69 100.33 180)
+			(at 74.93 80.01 0)
 			(uuid "3b9273f5-df02-43ff-ac32-3effc4b7eb98")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "VSS" input
-			(at 193.04 106.68 270)
+			(at 68.58 73.66 90)
 			(uuid "05a7e4e0-0f8f-4fd2-8a3b-9bc24a9da918")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "DOUT" output
-			(at 199.39 100.33 0)
+			(at 62.23 80.01 180)
 			(uuid "0c48e050-325b-4232-b52f-f100b04a8f8f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "VCC" input
-			(at 193.04 93.98 90)
+			(at 68.58 86.36 270)
 			(uuid "72cf7efd-3369-49a7-8629-ea28fb9fca32")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(instances
@@ -4116,7 +4116,7 @@
 		)
 	)
 	(sheet
-		(at 97.79 73.66)
+		(at 151.13 93.98)
 		(size 12.7 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4132,7 +4132,7 @@
 		)
 		(uuid "77898d4f-f711-4ecb-8b9c-12ce90ff3214")
 		(property "Sheetname" "LED21"
-			(at 97.79 72.9484 0)
+			(at 151.13 93.2684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4141,7 +4141,7 @@
 			)
 		)
 		(property "Sheetfile" "led.kicad_sch"
-			(at 97.79 86.9446 0)
+			(at 151.13 107.2646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4151,43 +4151,43 @@
 			)
 		)
 		(pin "DIN" input
-			(at 110.49 80.01 0)
+			(at 151.13 100.33 180)
 			(uuid "56058691-0fbf-4dfa-96b9-d3c10ce4c9b0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "VSS" input
-			(at 104.14 73.66 90)
+			(at 157.48 106.68 270)
 			(uuid "d5e3e366-0a14-44d9-9849-3c7fbcb4ba59")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "DOUT" output
-			(at 97.79 80.01 180)
+			(at 163.83 100.33 0)
 			(uuid "3be83a2a-d400-4c81-8864-adb926c173e1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "VCC" input
-			(at 104.14 86.36 270)
+			(at 157.48 93.98 90)
 			(uuid "ad7cb996-f4fe-4eab-a7d7-4cb1aff43532")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(instances
@@ -4365,7 +4365,7 @@
 		)
 	)
 	(sheet
-		(at 168.91 73.66)
+		(at 80.01 93.98)
 		(size 12.7 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4381,7 +4381,7 @@
 		)
 		(uuid "83601bf4-1b82-43df-b94f-0b9cf3368dc1")
 		(property "Sheetname" "LED17"
-			(at 168.91 72.9484 0)
+			(at 80.01 93.2684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4390,7 +4390,7 @@
 			)
 		)
 		(property "Sheetfile" "led.kicad_sch"
-			(at 168.91 86.9446 0)
+			(at 80.01 107.2646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4400,43 +4400,43 @@
 			)
 		)
 		(pin "DIN" input
-			(at 181.61 80.01 0)
+			(at 80.01 100.33 180)
 			(uuid "cfa68c2d-2602-41ce-8b07-bc5b179a52dc")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "VSS" input
-			(at 175.26 73.66 90)
+			(at 86.36 106.68 270)
 			(uuid "44c24870-2e57-4b52-a951-670d3f1f0c11")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "DOUT" output
-			(at 168.91 80.01 180)
+			(at 92.71 100.33 0)
 			(uuid "0e8db80f-50e7-4a3c-b348-3433316edc6a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "VCC" input
-			(at 175.26 86.36 270)
+			(at 86.36 93.98 90)
 			(uuid "53be68e7-e0de-4381-8277-bfe79abdb325")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(instances
@@ -4780,7 +4780,7 @@
 		)
 	)
 	(sheet
-		(at 115.57 93.98)
+		(at 133.35 73.66)
 		(size 12.7 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4796,7 +4796,7 @@
 		)
 		(uuid "9f0f5370-21c8-45bd-9e77-ce861973c6b6")
 		(property "Sheetname" "LED11"
-			(at 115.57 93.2684 0)
+			(at 133.35 72.9484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4805,7 +4805,7 @@
 			)
 		)
 		(property "Sheetfile" "led.kicad_sch"
-			(at 115.57 107.2646 0)
+			(at 133.35 86.9446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4815,43 +4815,43 @@
 			)
 		)
 		(pin "DIN" input
-			(at 115.57 100.33 180)
+			(at 146.05 80.01 0)
 			(uuid "7c6f4e94-123e-4181-bd2a-663d270f9cbe")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "VSS" input
-			(at 121.92 106.68 270)
+			(at 139.7 73.66 90)
 			(uuid "ca083e34-dba2-4530-87ad-db91860e8b9d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "DOUT" output
-			(at 128.27 100.33 0)
+			(at 133.35 80.01 180)
 			(uuid "35e11155-5901-4e49-91da-e180d3cc2398")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "VCC" input
-			(at 121.92 93.98 90)
+			(at 139.7 86.36 270)
 			(uuid "f70783d0-eae0-403c-b8af-7eddfb160741")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(instances
@@ -4863,7 +4863,7 @@
 		)
 	)
 	(sheet
-		(at 62.23 73.66)
+		(at 186.69 93.98)
 		(size 12.7 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4879,7 +4879,7 @@
 		)
 		(uuid "a3b2bb4f-dacd-418a-88f2-b44a3b1fcea3")
 		(property "Sheetname" "LED23"
-			(at 62.23 72.9484 0)
+			(at 186.69 93.2684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4888,7 +4888,7 @@
 			)
 		)
 		(property "Sheetfile" "led.kicad_sch"
-			(at 62.23 86.9446 0)
+			(at 186.69 107.2646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4898,43 +4898,43 @@
 			)
 		)
 		(pin "DIN" input
-			(at 74.93 80.01 0)
+			(at 186.69 100.33 180)
 			(uuid "60910ba5-dd80-480b-b2fd-893f4cf9f168")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "VSS" input
-			(at 68.58 73.66 90)
+			(at 193.04 106.68 270)
 			(uuid "4912ecca-36f3-4e10-9b3a-3629f405440c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "DOUT" output
-			(at 62.23 80.01 180)
+			(at 199.39 100.33 0)
 			(uuid "46680258-9a16-41c3-b238-4df45bd01bd3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "VCC" input
-			(at 68.58 86.36 270)
+			(at 193.04 93.98 90)
 			(uuid "e2760745-bb17-4545-87d8-35e843503dc5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(instances
@@ -4946,7 +4946,7 @@
 		)
 	)
 	(sheet
-		(at 168.91 93.98)
+		(at 80.01 73.66)
 		(size 12.7 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4962,7 +4962,7 @@
 		)
 		(uuid "a6a84da7-6c8f-4f5b-aa2b-5a93f9d2f50a")
 		(property "Sheetname" "LED14"
-			(at 168.91 93.2684 0)
+			(at 80.01 72.9484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4971,7 +4971,7 @@
 			)
 		)
 		(property "Sheetfile" "led.kicad_sch"
-			(at 168.91 107.2646 0)
+			(at 80.01 86.9446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4981,43 +4981,43 @@
 			)
 		)
 		(pin "DIN" input
-			(at 168.91 100.33 180)
+			(at 92.71 80.01 0)
 			(uuid "5ff90bb8-1715-4a97-9525-1b6433de9484")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "VSS" input
-			(at 175.26 106.68 270)
+			(at 86.36 73.66 90)
 			(uuid "b2a33e87-4e66-424a-a90c-e9669e1f0932")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "DOUT" output
-			(at 181.61 100.33 0)
+			(at 80.01 80.01 180)
 			(uuid "e95ee0ad-1567-4876-8b36-265fa99febf9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "VCC" input
-			(at 175.26 93.98 90)
+			(at 86.36 86.36 270)
 			(uuid "65b2db68-dba2-42c1-bef2-46419f204535")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(instances
@@ -5029,7 +5029,7 @@
 		)
 	)
 	(sheet
-		(at 151.13 93.98)
+		(at 97.79 73.66)
 		(size 12.7 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5045,7 +5045,7 @@
 		)
 		(uuid "a98ee5d5-e1b0-4e3c-9aa3-6c671a342fbf")
 		(property "Sheetname" "LED13"
-			(at 151.13 93.2684 0)
+			(at 97.79 72.9484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5054,7 +5054,7 @@
 			)
 		)
 		(property "Sheetfile" "led.kicad_sch"
-			(at 151.13 107.2646 0)
+			(at 97.79 86.9446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5064,43 +5064,43 @@
 			)
 		)
 		(pin "DIN" input
-			(at 151.13 100.33 180)
+			(at 110.49 80.01 0)
 			(uuid "3ce86a6c-5e7e-4db5-b374-4d83dd1d185f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "VSS" input
-			(at 157.48 106.68 270)
+			(at 104.14 73.66 90)
 			(uuid "1a9b1c0e-7665-4546-a18c-27145fe9e5be")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "DOUT" output
-			(at 163.83 100.33 0)
+			(at 97.79 80.01 180)
 			(uuid "b948be75-6f24-42fd-b7d0-5de72f4a2893")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "VCC" input
-			(at 157.48 93.98 90)
+			(at 104.14 86.36 270)
 			(uuid "ff15af43-c003-4b32-bdfc-ba63875b31bd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(instances
@@ -5112,7 +5112,7 @@
 		)
 	)
 	(sheet
-		(at 115.57 73.66)
+		(at 133.35 93.98)
 		(size 12.7 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5128,7 +5128,7 @@
 		)
 		(uuid "af5f19bb-4c6f-45b8-a600-2f0fc0e197e4")
 		(property "Sheetname" "LED20"
-			(at 115.57 72.9484 0)
+			(at 133.35 93.2684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5137,7 +5137,7 @@
 			)
 		)
 		(property "Sheetfile" "led.kicad_sch"
-			(at 115.57 86.9446 0)
+			(at 133.35 107.2646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5147,43 +5147,43 @@
 			)
 		)
 		(pin "DIN" input
-			(at 128.27 80.01 0)
+			(at 133.35 100.33 180)
 			(uuid "0e9f0d40-8909-4397-9a2f-d24e84837423")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "VSS" input
-			(at 121.92 73.66 90)
+			(at 139.7 106.68 270)
 			(uuid "882370b9-39f6-4a30-ba26-ebf33365780d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "DOUT" output
-			(at 115.57 80.01 180)
+			(at 146.05 100.33 0)
 			(uuid "5d12be55-1ce8-496d-8973-833ae1752369")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "VCC" input
-			(at 121.92 86.36 270)
+			(at 139.7 93.98 90)
 			(uuid "854cd0aa-fa0f-4b7e-9d8e-cb86d1c1075f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(instances
@@ -5278,7 +5278,7 @@
 		)
 	)
 	(sheet
-		(at 80.01 93.98)
+		(at 168.91 73.66)
 		(size 12.7 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5294,7 +5294,7 @@
 		)
 		(uuid "b73c4b0d-59ba-422a-9714-ef49bda83990")
 		(property "Sheetname" "LED9"
-			(at 80.01 93.2684 0)
+			(at 168.91 72.9484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5303,7 +5303,7 @@
 			)
 		)
 		(property "Sheetfile" "led.kicad_sch"
-			(at 80.01 107.2646 0)
+			(at 168.91 86.9446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5313,43 +5313,43 @@
 			)
 		)
 		(pin "DIN" input
-			(at 80.01 100.33 180)
+			(at 181.61 80.01 0)
 			(uuid "8efd3461-e5d6-4901-bae7-6e25d811f9ba")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "VSS" input
-			(at 86.36 106.68 270)
+			(at 175.26 73.66 90)
 			(uuid "9a646c24-20d9-4929-9e1c-7006c4580ae6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "DOUT" output
-			(at 92.71 100.33 0)
+			(at 168.91 80.01 180)
 			(uuid "ab9baaff-cb12-4762-b9ad-60da484e2199")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "VCC" input
-			(at 86.36 93.98 90)
+			(at 175.26 86.36 270)
 			(uuid "34a989e8-bbcf-441d-b525-b24be469bec6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(instances
@@ -5361,7 +5361,7 @@
 		)
 	)
 	(sheet
-		(at 133.35 93.98)
+		(at 115.57 73.66)
 		(size 12.7 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5377,7 +5377,7 @@
 		)
 		(uuid "c2e22f46-791a-4bee-bd91-e7045f65945f")
 		(property "Sheetname" "LED12"
-			(at 133.35 93.2684 0)
+			(at 115.57 72.9484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5386,7 +5386,7 @@
 			)
 		)
 		(property "Sheetfile" "led.kicad_sch"
-			(at 133.35 107.2646 0)
+			(at 115.57 86.9446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5396,43 +5396,43 @@
 			)
 		)
 		(pin "DIN" input
-			(at 133.35 100.33 180)
+			(at 128.27 80.01 0)
 			(uuid "17e49cf2-3c7a-4d2d-ad17-71742df8ad64")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "VSS" input
-			(at 139.7 106.68 270)
+			(at 121.92 73.66 90)
 			(uuid "ec1618c0-0263-4026-82d5-ce00af753138")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "DOUT" output
-			(at 146.05 100.33 0)
+			(at 115.57 80.01 180)
 			(uuid "cfe122e7-e6c1-4d8a-b8ec-054913e25134")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "VCC" input
-			(at 139.7 93.98 90)
+			(at 121.92 86.36 270)
 			(uuid "27118f95-35d2-49b3-b829-5f9fd18679b1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(instances
@@ -5444,7 +5444,7 @@
 		)
 	)
 	(sheet
-		(at 151.13 73.66)
+		(at 97.79 93.98)
 		(size 12.7 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5460,7 +5460,7 @@
 		)
 		(uuid "e64fc037-d1fe-4b23-a603-e3319ec165ed")
 		(property "Sheetname" "LED18"
-			(at 151.13 72.9484 0)
+			(at 97.79 93.2684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5469,7 +5469,7 @@
 			)
 		)
 		(property "Sheetfile" "led.kicad_sch"
-			(at 151.13 86.9446 0)
+			(at 97.79 107.2646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5479,43 +5479,43 @@
 			)
 		)
 		(pin "DIN" input
-			(at 163.83 80.01 0)
+			(at 97.79 100.33 180)
 			(uuid "0e39f358-34a0-497c-9678-5ce52b07fd71")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "VSS" input
-			(at 157.48 73.66 90)
+			(at 104.14 106.68 270)
 			(uuid "2ef26015-c1e5-4afd-8e1c-de634ac909bd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "DOUT" output
-			(at 151.13 80.01 180)
+			(at 110.49 100.33 0)
 			(uuid "9dcfb89e-143a-418e-9621-31f18bc7a1fb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "VCC" input
-			(at 157.48 86.36 270)
+			(at 104.14 93.98 90)
 			(uuid "b2653ffa-d2cc-4a1a-aa90-16d66c13d6a3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(instances

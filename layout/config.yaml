@@ -25,56 +25,174 @@ points:
     thumbs:
       anchor:
         ref: ortho_inner_bot
-        shift: [1U, -2U]
+        shift: [1U, -1U]
       columns:
         thumb:
       rows:
         bottom.padding: 1U
 
 outlines:
-  keys:
+  switch_cutout_retention:
     - what: rectangle
       where: true
-      bound: false
-      size: [0.99U, 0.99U]
+      size: [14.3, 14.3]
+
+  switch_cutout_clearance:
+    - what: rectangle
+      where: true
+      size: [17, 17]
+
+  m2_through:
+    - what: circle
+      radius: 1.2
+
+  m2_countersink:
+    - what: circle
+      radius: 2.3
+
   board:
     - what: polygon
       fillet: 8
       points:
         - ref: ortho_pinky_top
           shift: [-2U, 1U]
-
         - ref: ortho_inner_top
           shift: [-1U, 2U]
-
         - ref: mirror_ortho_inner_top
           shift: [-1U, 2U]
-
         - ref: mirror_ortho_pinky_top
           shift: [-2U, 1U]
-
         - ref: mirror_ortho_pinky_bot
           shift: [-1U, -1U]
-
         - ref: thumbs_thumb_bottom
-          shift: [1U, -1U]
-
+          shift: [1U, -1.5U]
         - ref: mirror_thumbs_thumb_bottom
-          shift: [1U, -1U]
-
+          shift: [1U, -1.5U]
         - ref: ortho_pinky_bot
           shift: [-1U, -1U]
-  combo:
+
+  plate_holes:
+    - what: outline
+      name: m2_through
+      where:
+        ref: ortho_pinky_top
+        shift: [-1U, 0.8U]
+
+    - what: outline
+      name: m2_through
+      where:
+        ref: mirror_ortho_pinky_top
+        shift: [-1U, 0.8U]
+
+    - what: outline
+      name: m2_through
+      where:
+        ref: ortho_index_top
+        shift: [-0.3U, 0.7U]
+
+    - what: outline
+      name: m2_through
+      where:
+        ref: mirror_ortho_index_top
+        shift: [-0.3U, 0.7U]
+
+    - what: outline
+      name: m2_through
+      where:
+        ref: ortho_index_bot
+        shift: [0.3U, -0.7U]
+
+    - what: outline
+      name: m2_through
+      where:
+        ref: mirror_ortho_index_bot
+        shift: [0.3U, -0.7U]
+
+    - what: outline
+      name: m2_through
+      where:
+        ref: thumbs_thumb_bottom
+        shift: [3U, 0U]
+
+    - what: outline
+      name: m2_through
+      where:
+        ref: mirror_thumbs_thumb_bottom
+        shift: [3U, 0U]
+
+  plate_countersinks:
+    - what: outline
+      name: m2_countersink
+      where:
+        ref: ortho_pinky_top
+        shift: [-1U, 0.8U]
+
+    - what: outline
+      name: m2_countersink
+      where:
+        ref: mirror_ortho_pinky_top
+        shift: [-1U, 0.8U]
+
+    - what: outline
+      name: m2_countersink
+      where:
+        ref: ortho_index_top
+        shift: [-0.3U, 0.7U]
+
+    - what: outline
+      name: m2_countersink
+      where:
+        ref: mirror_ortho_index_top
+        shift: [-0.3U, 0.7U]
+
+    - what: outline
+      name: m2_countersink
+      where:
+        ref: ortho_index_bot
+        shift: [0.3U, -0.7U]
+
+    - what: outline
+      name: m2_countersink
+      where:
+        ref: mirror_ortho_index_bot
+        shift: [0.3U, -0.7U]
+
+    - what: outline
+      name: m2_countersink
+      where:
+        ref: thumbs_thumb_bottom
+        shift: [3U, 0U]
+
+    - what: outline
+      name: m2_countersink
+      where:
+        ref: mirror_thumbs_thumb_bottom
+        shift: [3U, 0U]
+
+  plate_bottom:
     - name: board
     - operation: subtract
-      name: keys
+      name: switch_cutout_retention
+    - operation: subtract
+      name: plate_holes
 
-footprints:
-  key_centers:
-    what: circle
-    where: true
-    params:
-      radius: 0.5
+  plate_top:
+    - name: board
+    - operation: subtract
+      name: switch_cutout_clearance
+    - operation: subtract
+      name: plate_holes
+    - operation: subtract
+      name: plate_countersinks
+
+outputs:
+  plate_bottom_dxf:
+    what: dxf
+    name: plate_bottom
+
+  plate_top_dxf:
+    what: dxf
+    name: plate_top
 
 pcbs:
   main_module:

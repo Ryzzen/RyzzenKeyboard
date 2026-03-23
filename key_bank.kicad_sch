@@ -2379,7 +2379,7 @@
 		)
 		(uuid "fcd5f7fb-3145-4602-8a6b-c2b8cd681c5b")
 	)
-	(label "S13A"
+	(label "S13+"
 		(at 137.16 114.3 180)
 		(effects
 			(font
@@ -2389,7 +2389,7 @@
 		)
 		(uuid "00f62e96-fe27-4d5e-9b46-b8e25d0cc37a")
 	)
-	(label "S4B"
+	(label "S4-"
 		(at 175.26 78.74 90)
 		(effects
 			(font
@@ -2399,7 +2399,7 @@
 		)
 		(uuid "02046261-8e89-4d5c-a669-2179a682c267")
 	)
-	(label "S11B"
+	(label "S11-"
 		(at 77.47 135.89 0)
 		(effects
 			(font
@@ -2409,7 +2409,7 @@
 		)
 		(uuid "052dac43-f075-4f30-95f6-1bc32d5ae872")
 	)
-	(label "S14B"
+	(label "S14-"
 		(at 77.47 166.37 0)
 		(effects
 			(font
@@ -2419,7 +2419,7 @@
 		)
 		(uuid "18cfc626-c139-4fd1-97d4-f5b8a641bd88")
 	)
-	(label "S5A"
+	(label "S5+"
 		(at 77.47 72.39 0)
 		(effects
 			(font
@@ -2429,7 +2429,7 @@
 		)
 		(uuid "1dfa463e-45d2-4e67-a361-7ab0800ebdbb")
 	)
-	(label "S8B"
+	(label "S8-"
 		(at 165.1 78.74 90)
 		(effects
 			(font
@@ -2439,7 +2439,7 @@
 		)
 		(uuid "21055436-fede-473f-9ff9-29ade882a798")
 	)
-	(label "S3B"
+	(label "S3-"
 		(at 77.47 54.61 0)
 		(effects
 			(font
@@ -2449,7 +2449,7 @@
 		)
 		(uuid "23c589d3-1f65-43b5-b2e7-122af83d1023")
 	)
-	(label "S14A"
+	(label "S14+"
 		(at 137.16 111.76 180)
 		(effects
 			(font
@@ -2459,7 +2459,7 @@
 		)
 		(uuid "25f5e573-f18d-4f37-9262-2e8550e6658c")
 	)
-	(label "S8A"
+	(label "S8+"
 		(at 77.47 102.87 0)
 		(effects
 			(font
@@ -2469,7 +2469,7 @@
 		)
 		(uuid "2b0087a2-e138-410f-b9ed-49b861fbc4d0")
 	)
-	(label "S15B"
+	(label "S15-"
 		(at 137.16 91.44 180)
 		(effects
 			(font
@@ -2479,7 +2479,7 @@
 		)
 		(uuid "2bf537d1-4a6b-433d-a140-333ef4e16ca1")
 	)
-	(label "S12B"
+	(label "S12-"
 		(at 154.94 78.74 90)
 		(effects
 			(font
@@ -2489,7 +2489,7 @@
 		)
 		(uuid "2fbab477-f007-419d-8ace-e690d80e464c")
 	)
-	(label "S2A"
+	(label "S2+"
 		(at 77.47 41.91 0)
 		(effects
 			(font
@@ -2499,7 +2499,7 @@
 		)
 		(uuid "307769c0-9e01-45d6-b28a-17955b066ac6")
 	)
-	(label "S9B"
+	(label "S9-"
 		(at 77.47 115.57 0)
 		(effects
 			(font
@@ -2509,7 +2509,7 @@
 		)
 		(uuid "32797644-ffe9-46c8-867c-ebdfcedd07ff")
 	)
-	(label "S1A"
+	(label "S1+"
 		(at 77.47 31.75 0)
 		(effects
 			(font
@@ -2519,7 +2519,7 @@
 		)
 		(uuid "34bcfba8-c2b2-46a7-be5e-d3d46c40c4bc")
 	)
-	(label "S12A"
+	(label "S12+"
 		(at 154.94 121.92 270)
 		(effects
 			(font
@@ -2529,7 +2529,7 @@
 		)
 		(uuid "37900d20-fc2f-47a6-9108-800f626cb392")
 	)
-	(label "S11A"
+	(label "S11+"
 		(at 157.48 121.92 270)
 		(effects
 			(font
@@ -2539,7 +2539,7 @@
 		)
 		(uuid "442a17ab-83ac-458c-bc6e-e86eda06e245")
 	)
-	(label "S16A"
+	(label "S16+"
 		(at 137.16 106.68 180)
 		(effects
 			(font
@@ -2549,7 +2549,7 @@
 		)
 		(uuid "44988e7d-ac83-498b-8992-c2b4dc5619aa")
 	)
-	(label "S14B"
+	(label "S14-"
 		(at 137.16 88.9 180)
 		(effects
 			(font
@@ -2559,7 +2559,7 @@
 		)
 		(uuid "4836d590-6b5f-4108-a32e-2560102efe27")
 	)
-	(label "S6B"
+	(label "S6-"
 		(at 77.47 85.09 0)
 		(effects
 			(font
@@ -2569,7 +2569,7 @@
 		)
 		(uuid "4ac7934f-0324-437a-ad36-bf94f2010a0a")
 	)
-	(label "S13B"
+	(label "S13-"
 		(at 137.16 86.36 180)
 		(effects
 			(font
@@ -2579,7 +2579,7 @@
 		)
 		(uuid "5a8a52cd-bd22-4b2e-8791-1aef67ecf9fd")
 	)
-	(label "S13A"
+	(label "S13+"
 		(at 77.47 153.67 0)
 		(effects
 			(font
@@ -2589,7 +2589,7 @@
 		)
 		(uuid "5c2b4df3-c2c8-4d83-bb38-cec1eedc4369")
 	)
-	(label "S4A"
+	(label "S4+"
 		(at 175.26 121.92 270)
 		(effects
 			(font
@@ -2599,7 +2599,7 @@
 		)
 		(uuid "6a81a589-ecfb-4338-ac6e-e47bdf8edbd0")
 	)
-	(label "S9A"
+	(label "S9+"
 		(at 77.47 113.03 0)
 		(effects
 			(font
@@ -2609,7 +2609,7 @@
 		)
 		(uuid "6f18ad6c-d7c1-49f1-9d5f-2742985092ce")
 	)
-	(label "S6A"
+	(label "S6+"
 		(at 170.18 121.92 270)
 		(effects
 			(font
@@ -2619,7 +2619,7 @@
 		)
 		(uuid "6f8300fe-3da8-41f2-97f8-a5cdbfb1c500")
 	)
-	(label "S13B"
+	(label "S13-"
 		(at 77.47 156.21 0)
 		(effects
 			(font
@@ -2629,7 +2629,7 @@
 		)
 		(uuid "71e5c10f-6e23-4efa-9677-50e57849b259")
 	)
-	(label "S10B"
+	(label "S10-"
 		(at 160.02 78.74 90)
 		(effects
 			(font
@@ -2639,7 +2639,7 @@
 		)
 		(uuid "72242ed1-82d3-49a6-92b6-3adad53f0299")
 	)
-	(label "S9B"
+	(label "S9-"
 		(at 162.56 78.74 90)
 		(effects
 			(font
@@ -2649,7 +2649,7 @@
 		)
 		(uuid "79d3338e-11f4-44d8-b503-7c2b9ad1a028")
 	)
-	(label "S5B"
+	(label "S5-"
 		(at 172.72 78.74 90)
 		(effects
 			(font
@@ -2659,7 +2659,7 @@
 		)
 		(uuid "7a5cf578-b559-4c5c-97ad-5a339608910d")
 	)
-	(label "S2A"
+	(label "S2+"
 		(at 180.34 121.92 270)
 		(effects
 			(font
@@ -2669,7 +2669,7 @@
 		)
 		(uuid "7a6e3f0c-f4ca-41cc-9f8b-49911230d9ea")
 	)
-	(label "S10A"
+	(label "S10+"
 		(at 160.02 121.92 270)
 		(effects
 			(font
@@ -2679,7 +2679,7 @@
 		)
 		(uuid "7f51eec9-3a15-4962-8a2c-3a03318b243f")
 	)
-	(label "S4B"
+	(label "S4-"
 		(at 77.47 64.77 0)
 		(effects
 			(font
@@ -2689,7 +2689,7 @@
 		)
 		(uuid "8926dbd3-42d9-4942-9e42-9813270a5e78")
 	)
-	(label "S15A"
+	(label "S15+"
 		(at 77.47 173.99 0)
 		(effects
 			(font
@@ -2699,7 +2699,7 @@
 		)
 		(uuid "8c64753c-7eac-420f-8236-bb4c5a713884")
 	)
-	(label "S7A"
+	(label "S7+"
 		(at 77.47 92.71 0)
 		(effects
 			(font
@@ -2709,7 +2709,7 @@
 		)
 		(uuid "8f4e4c07-96a2-4327-804e-e34bf3d0c8fd")
 	)
-	(label "S3A"
+	(label "S3+"
 		(at 77.47 52.07 0)
 		(effects
 			(font
@@ -2719,7 +2719,7 @@
 		)
 		(uuid "92802e32-2da7-4d4b-9d75-e85fce9d02fb")
 	)
-	(label "S7B"
+	(label "S7-"
 		(at 77.47 95.25 0)
 		(effects
 			(font
@@ -2729,7 +2729,7 @@
 		)
 		(uuid "93e3c18e-07ef-49b0-8b1d-e7a12c9c5f25")
 	)
-	(label "S5A"
+	(label "S5+"
 		(at 172.72 121.92 270)
 		(effects
 			(font
@@ -2739,7 +2739,7 @@
 		)
 		(uuid "9e22a47e-e9f3-46e1-8c73-f34706a873c7")
 	)
-	(label "S16A"
+	(label "S16+"
 		(at 77.47 184.15 0)
 		(effects
 			(font
@@ -2749,7 +2749,7 @@
 		)
 		(uuid "a4d56ca8-c321-4305-961f-7f6c10859745")
 	)
-	(label "S7A"
+	(label "S7+"
 		(at 167.64 121.92 270)
 		(effects
 			(font
@@ -2759,7 +2759,7 @@
 		)
 		(uuid "ab9c7018-8f4c-4ebd-84f6-d8a5329c1a39")
 	)
-	(label "S10B"
+	(label "S10-"
 		(at 77.47 125.73 0)
 		(effects
 			(font
@@ -2769,7 +2769,7 @@
 		)
 		(uuid "afdd300b-0fa3-470f-a576-514ce76d112c")
 	)
-	(label "S2B"
+	(label "S2-"
 		(at 77.47 44.45 0)
 		(effects
 			(font
@@ -2779,7 +2779,7 @@
 		)
 		(uuid "b0618ded-37fd-4b01-8e6f-8a073b8e4374")
 	)
-	(label "S16B"
+	(label "S16-"
 		(at 77.47 186.69 0)
 		(effects
 			(font
@@ -2789,7 +2789,7 @@
 		)
 		(uuid "b293a705-1775-4902-b085-72fd3eafe233")
 	)
-	(label "S14A"
+	(label "S14+"
 		(at 77.47 163.83 0)
 		(effects
 			(font
@@ -2799,7 +2799,7 @@
 		)
 		(uuid "b59c4996-3aa6-4f1d-9cf7-01ab8c17b100")
 	)
-	(label "S6B"
+	(label "S6-"
 		(at 170.18 78.74 90)
 		(effects
 			(font
@@ -2809,7 +2809,7 @@
 		)
 		(uuid "b9512a57-30c6-46a7-bd10-81c4883f5397")
 	)
-	(label "S11B"
+	(label "S11-"
 		(at 157.48 78.74 90)
 		(effects
 			(font
@@ -2819,7 +2819,7 @@
 		)
 		(uuid "ba2461eb-0e5f-45be-82de-12e37de3115f")
 	)
-	(label "S16B"
+	(label "S16-"
 		(at 137.16 93.98 180)
 		(effects
 			(font
@@ -2829,7 +2829,7 @@
 		)
 		(uuid "bca7ba3a-0ea1-4ce6-b2b5-10c6b6024dfc")
 	)
-	(label "S12B"
+	(label "S12-"
 		(at 77.47 146.05 0)
 		(effects
 			(font
@@ -2839,7 +2839,7 @@
 		)
 		(uuid "bfba941d-f7c1-4998-af99-c2a4a68ba792")
 	)
-	(label "S8A"
+	(label "S8+"
 		(at 165.1 121.92 270)
 		(effects
 			(font
@@ -2849,7 +2849,7 @@
 		)
 		(uuid "c06ba7c3-e76f-42f0-8dd2-c173859e5a10")
 	)
-	(label "S5B"
+	(label "S5-"
 		(at 77.47 74.93 0)
 		(effects
 			(font
@@ -2859,7 +2859,7 @@
 		)
 		(uuid "c31bb113-4e7a-482b-9211-0663272eeaeb")
 	)
-	(label "S3B"
+	(label "S3-"
 		(at 177.8 78.74 90)
 		(effects
 			(font
@@ -2869,7 +2869,7 @@
 		)
 		(uuid "cced2396-c4bb-4bd3-b485-3fd349e4f6d0")
 	)
-	(label "S6A"
+	(label "S6+"
 		(at 77.47 82.55 0)
 		(effects
 			(font
@@ -2879,7 +2879,7 @@
 		)
 		(uuid "d3074473-af6c-4966-a034-9375a138274c")
 	)
-	(label "S10A"
+	(label "S10+"
 		(at 77.47 123.19 0)
 		(effects
 			(font
@@ -2889,7 +2889,7 @@
 		)
 		(uuid "d53d12ac-7075-4b53-996a-17e1b87fab13")
 	)
-	(label "S15A"
+	(label "S15+"
 		(at 137.16 109.22 180)
 		(effects
 			(font
@@ -2899,7 +2899,7 @@
 		)
 		(uuid "db59c1e3-b823-4d5d-9f58-0b994140ed61")
 	)
-	(label "S11A"
+	(label "S11+"
 		(at 77.47 133.35 0)
 		(effects
 			(font
@@ -2909,7 +2909,7 @@
 		)
 		(uuid "dd095c62-28f3-41cd-af5c-1b0ea6302ee4")
 	)
-	(label "S1A"
+	(label "S1+"
 		(at 182.88 121.92 270)
 		(effects
 			(font
@@ -2919,7 +2919,7 @@
 		)
 		(uuid "e142d471-db0b-4d64-8572-d19646e73979")
 	)
-	(label "S15B"
+	(label "S15-"
 		(at 77.47 176.53 0)
 		(effects
 			(font
@@ -2929,7 +2929,7 @@
 		)
 		(uuid "e3469ff2-dd58-41ae-952e-6492e241eec5")
 	)
-	(label "S2B"
+	(label "S2-"
 		(at 180.34 78.74 90)
 		(effects
 			(font
@@ -2939,7 +2939,7 @@
 		)
 		(uuid "e5362542-e70e-40bd-8024-dccc7fa4a279")
 	)
-	(label "S4A"
+	(label "S4+"
 		(at 77.47 62.23 0)
 		(effects
 			(font
@@ -2949,7 +2949,7 @@
 		)
 		(uuid "e816f1a8-63d8-4426-a537-20c9a9edb5ae")
 	)
-	(label "S3A"
+	(label "S3+"
 		(at 177.8 121.92 270)
 		(effects
 			(font
@@ -2959,7 +2959,7 @@
 		)
 		(uuid "efb363cc-ab96-4b01-9df3-750c1cc90ee0")
 	)
-	(label "S1B"
+	(label "S1-"
 		(at 77.47 34.29 0)
 		(effects
 			(font
@@ -2969,7 +2969,7 @@
 		)
 		(uuid "efd7394b-d1b6-417f-93b9-884ac77b360c")
 	)
-	(label "S12A"
+	(label "S12+"
 		(at 77.47 143.51 0)
 		(effects
 			(font
@@ -2979,7 +2979,7 @@
 		)
 		(uuid "f0578ee9-bfc7-4673-9330-0f3a354d37fc")
 	)
-	(label "S7B"
+	(label "S7-"
 		(at 167.64 78.74 90)
 		(effects
 			(font
@@ -2989,7 +2989,7 @@
 		)
 		(uuid "f26df68a-cddc-441a-a59e-87e387a43809")
 	)
-	(label "S1B"
+	(label "S1-"
 		(at 182.88 78.74 90)
 		(effects
 			(font
@@ -2999,7 +2999,7 @@
 		)
 		(uuid "f5085670-9eee-4f22-bc53-8d6c7c2acf75")
 	)
-	(label "S9A"
+	(label "S9+"
 		(at 162.56 121.92 270)
 		(effects
 			(font
@@ -3009,7 +3009,7 @@
 		)
 		(uuid "f779e32b-131a-471a-8a2e-38ada3d17863")
 	)
-	(label "S8B"
+	(label "S8-"
 		(at 77.47 105.41 0)
 		(effects
 			(font

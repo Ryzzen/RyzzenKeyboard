@@ -61,6 +61,14 @@ def add_180(angle):
     return angle + 1800
 
 
+def add_degrees(angle, degrees):
+    """Add degrees to an angle, handling both new and legacy angle formats."""
+    if hasattr(angle, "AsDegrees"):
+        return pcbnew.EDA_ANGLE(angle.AsDegrees() + degrees, pcbnew.DEGREES_T)
+    # Legacy format: tenths of a degree
+    return angle + int(degrees * 10)
+
+
 def rotate_vec(v, angle):
     x, y = vec_xy(v)
     r = angle_rad(angle)
@@ -122,6 +130,16 @@ class PlaceOnSwitchesPlugin(pcbnew.ActionPlugin):
             True,
         )
 
+        # Ask for additional rotation offset
+        extra_rotation = ask_float(
+            parent,
+            "Move onto switches",
+            "Additional rotation offset (degrees, applied after matching):",
+            0,
+        )
+        if extra_rotation is None:
+            return
+
         offset = pcbnew.VECTOR2I(
             pcbnew.FromMM(offset_x_mm),
             pcbnew.FromMM(offset_y_mm),
@@ -176,6 +194,10 @@ class PlaceOnSwitchesPlugin(pcbnew.ActionPlugin):
                     tgt.SetLayer(pcbnew.B_Cu)
                 else:
                     tgt.SetLayer(pcbnew.F_Cu)
+
+                # Apply the extra rotation offset after matching
+                if extra_rotation != 0:
+                    angle = add_degrees(angle, extra_rotation)
 
                 tgt.SetOrientation(angle)
 
